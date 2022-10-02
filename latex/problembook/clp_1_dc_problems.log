@@ -1,0 +1,4015 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.7.19)  2 OCT 2022 17:47
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/killian/math/calc/CLP1/latex/problembook/clp_1_dc_problems.tex
+(/home/killian/math/calc/CLP1/latex/problembook/clp_1_dc_problems.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2020-01-22 v2.0d non-zero parskip adjustments
+ (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count176
+)) (/home/killian/math/calc/CLP1/latex/problembook/clp_notes_header.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen137
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen138
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count177
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count178
+\leftroot@=\count179
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count180
+\DOTSCASE@=\count181
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen139
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count182
+\c@MaxMatrixCols=\count183
+\dotsspace@=\muskip16
+\c@parentequation=\count184
+\dspbrk@lvl=\count185
+\tag@help=\toks16
+\row@=\count186
+\column@=\count187
+\maxfields@=\count188
+\andhelp@=\toks17
+\eqnshift@=\dimen140
+\alignsep@=\dimen141
+\tagshift@=\dimen142
+\tagwidth@=\dimen143
+\totwidth@=\dimen144
+\lineht@=\dimen145
+\@envbody=\toks18
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks25
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count189
+\calc@Bcount=\count190
+\calc@Adimen=\dimen146
+\calc@Bdimen=\dimen147
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count191
+\calc@Cskip=\skip57
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count192
+\l_MT_multwidth_dim=\dimen148
+\origjot=\skip58
+\l_MT_shortvdotswithinadjustabove_dim=\dimen149
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen150
+\l_MT_above_intertext_sep=\dimen151
+\l_MT_below_intertext_sep=\dimen152
+\l_MT_above_shortintertext_sep=\dimen153
+\l_MT_below_shortintertext_sep=\dimen154
+) (/usr/share/texlive/texmf-dist/tex/generic/mathabx/mathabx.sty
+Package: mathabx 2003/07/29 v0.0 Non-standard LaTeX package mathabx
+\symmatha=\mathgroup6
+\symmathb=\mathgroup7
+\symmathx=\mathgroup8
+ (/usr/share/texlive/texmf-dist/tex/generic/mathabx/mathabx.dcl
+LaTeX Font Info:    Redeclaring math symbol \cdotp on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \times on input line 33.
+LaTeX Font Info:    Redeclaring math symbol \div on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \cdot on input line 35.
+LaTeX Font Info:    Redeclaring math symbol \circ on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \ast on input line 38.
+LaTeX Font Info:    Redeclaring math symbol \pm on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \mp on input line 42.
+LaTeX Font Info:    Redeclaring math symbol \ltimes on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \rtimes on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \diamond on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \bullet on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \star on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \amalg on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \dotplus on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 63.
+LaTeX Font Info:    Redeclaring math symbol \divideontimes on input line 71.
+LaTeX Font Info:    Redeclaring math symbol \bigstar on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \equiv on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \sim on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \approx on input line 85.
+LaTeX Font Info:    Redeclaring math symbol \simeq on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \asymp on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \nsim on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \ncong on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \risingdotseq on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \fallingdotseq on input line 119.
+LaTeX Font Info:    Redeclaring math symbol \circeq on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \eqcirc on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \triangleq on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \neg on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \ll on input line 136.
+LaTeX Font Info:    Redeclaring math symbol \gg on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \vdash on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \dashv on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \nvdash on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 143.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Vdash on input line 147.
+LaTeX Font Info:    Redeclaring math symbol \nVdash on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \flat on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \natural on input line 159.
+LaTeX Font Info:    Redeclaring math symbol \sharp on input line 160.
+LaTeX Font Info:    Redeclaring math symbol \infty on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \propto on input line 162.
+LaTeX Font Info:    Redeclaring math symbol \dagger on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \ddagger on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \between on input line 170.
+LaTeX Font Info:    Redeclaring math symbol \smile on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \frown on input line 172.
+LaTeX Font Info:    Redeclaring math symbol \leftthreetimes on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \rightthreetimes on input line 175.
+LaTeX Font Info:    Redeclaring math symbol \pitchfork on input line 176.
+LaTeX Font Info:    Redeclaring math symbol \nVDash on input line 182.
+LaTeX Font Info:    Redeclaring math symbol \Vvdash on input line 184.
+LaTeX Font Info:    Redeclaring math symbol \therefore on input line 189.
+LaTeX Font Info:    Redeclaring math symbol \because on input line 190.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 193.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \measuredangle on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \sphericalangle on input line 203.
+LaTeX Font Info:    Redeclaring math symbol \setminus on input line 218.
+LaTeX Font Info:    Redeclaring math symbol \mid on input line 222.
+LaTeX Font Info:    Redeclaring math symbol \forall on input line 279.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 280.
+LaTeX Font Info:    Redeclaring math symbol \partial on input line 281.
+LaTeX Font Info:    Redeclaring math symbol \exists on input line 284.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 285.
+LaTeX Font Info:    Redeclaring math symbol \Finv on input line 286.
+LaTeX Font Info:    Redeclaring math symbol \Game on input line 287.
+LaTeX Font Info:    Redeclaring math symbol \emptyset on input line 288.
+LaTeX Font Info:    Redeclaring math symbol \top on input line 290.
+LaTeX Font Info:    Redeclaring math symbol \bot on input line 291.
+LaTeX Font Info:    Redeclaring math symbol \perp on input line 292.
+LaTeX Font Info:    Redeclaring math symbol \curlywedge on input line 296.
+LaTeX Font Info:    Redeclaring math symbol \curlyvee on input line 297.
+LaTeX Font Info:    Redeclaring math symbol \in on input line 299.
+LaTeX Font Info:    Redeclaring math symbol \owns on input line 300.
+LaTeX Font Info:    Redeclaring math symbol \cap on input line 312.
+LaTeX Font Info:    Redeclaring math symbol \cup on input line 313.
+LaTeX Font Info:    Redeclaring math symbol \uplus on input line 314.
+LaTeX Font Info:    Redeclaring math symbol \sqcap on input line 315.
+LaTeX Font Info:    Redeclaring math symbol \sqcup on input line 316.
+LaTeX Font Info:    Redeclaring math symbol \wedge on input line 318.
+LaTeX Font Info:    Redeclaring math symbol \vee on input line 320.
+LaTeX Font Info:    Redeclaring math symbol \barwedge on input line 327.
+LaTeX Font Info:    Redeclaring math symbol \veebar on input line 328.
+LaTeX Font Info:    Redeclaring math symbol \doublebarwedge on input line 329.
+LaTeX Font Info:    Redeclaring math symbol \doublecap on input line 331.
+LaTeX Font Info:    Redeclaring math symbol \doublecup on input line 333.
+LaTeX Font Info:    Redeclaring math symbol \subset on input line 344.
+LaTeX Font Info:    Redeclaring math symbol \supset on input line 345.
+LaTeX Font Info:    Redeclaring math symbol \subseteq on input line 348.
+LaTeX Font Info:    Redeclaring math symbol \supseteq on input line 349.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteq on input line 350.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteq on input line 351.
+LaTeX Font Info:    Redeclaring math symbol \subsetneq on input line 352.
+LaTeX Font Info:    Redeclaring math symbol \supsetneq on input line 353.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 354.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneq on input line 355.
+LaTeX Font Info:    Redeclaring math symbol \subseteqq on input line 357.
+LaTeX Font Info:    Redeclaring math symbol \supseteqq on input line 358.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteqq on input line 359.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteqq on input line 360.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 361.
+LaTeX Font Info:    Redeclaring math symbol \supsetneqq on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneqq on input line 363.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneqq on input line 364.
+LaTeX Font Info:    Redeclaring math symbol \Subset on input line 366.
+LaTeX Font Info:    Redeclaring math symbol \Supset on input line 367.
+LaTeX Font Info:    Redeclaring math symbol \sqsubseteq on input line 380.
+LaTeX Font Info:    Redeclaring math symbol \sqsupseteq on input line 381.
+LaTeX Font Info:    Redeclaring math symbol \triangleleft on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \vartriangleleft on input line 408.
+LaTeX Font Info:    Redeclaring math symbol \triangleright on input line 409.
+LaTeX Font Info:    Redeclaring math symbol \vartriangleright on input line 410.
+LaTeX Font Info:    Redeclaring math symbol \ntriangleleft on input line 411.
+LaTeX Font Info:    Redeclaring math symbol \ntriangleright on input line 412.
+LaTeX Font Info:    Redeclaring math symbol \trianglelefteq on input line 413.
+LaTeX Font Info:    Redeclaring math symbol \trianglerighteq on input line 414.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglelefteq on input line 415.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 416.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 427.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 428.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 429.
+LaTeX Font Info:    Redeclaring math symbol \nless on input line 437.
+LaTeX Font Info:    Redeclaring math symbol \ngtr on input line 438.
+LaTeX Font Info:    Redeclaring math symbol \leq on input line 439.
+LaTeX Font Info:    Redeclaring math symbol \geq on input line 441.
+LaTeX Font Info:    Redeclaring math symbol \nleq on input line 443.
+LaTeX Font Info:    Redeclaring math symbol \ngeq on input line 445.
+LaTeX Font Info:    Redeclaring math symbol \lneq on input line 451.
+LaTeX Font Info:    Redeclaring math symbol \gneq on input line 452.
+LaTeX Font Info:    Redeclaring math symbol \leqq on input line 453.
+LaTeX Font Info:    Redeclaring math symbol \geqq on input line 454.
+LaTeX Font Info:    Redeclaring math symbol \nleqq on input line 455.
+LaTeX Font Info:    Redeclaring math symbol \ngeqq on input line 456.
+LaTeX Font Info:    Redeclaring math symbol \lneqq on input line 457.
+LaTeX Font Info:    Redeclaring math symbol \gneqq on input line 458.
+LaTeX Font Info:    Redeclaring math symbol \lvertneqq on input line 459.
+LaTeX Font Info:    Redeclaring math symbol \gvertneqq on input line 460.
+LaTeX Font Info:    Redeclaring math symbol \eqslantless on input line 461.
+LaTeX Font Info:    Redeclaring math symbol \eqslantgtr on input line 462.
+LaTeX Font Info:    Redeclaring math symbol \lessgtr on input line 465.
+LaTeX Font Info:    Redeclaring math symbol \gtrless on input line 466.
+LaTeX Font Info:    Redeclaring math symbol \lesseqgtr on input line 467.
+LaTeX Font Info:    Redeclaring math symbol \gtreqless on input line 468.
+LaTeX Font Info:    Redeclaring math symbol \lesseqqgtr on input line 469.
+LaTeX Font Info:    Redeclaring math symbol \gtreqqless on input line 470.
+LaTeX Font Info:    Redeclaring math symbol \lesssim on input line 472.
+LaTeX Font Info:    Redeclaring math symbol \gtrsim on input line 473.
+LaTeX Font Info:    Redeclaring math symbol \lnsim on input line 476.
+LaTeX Font Info:    Redeclaring math symbol \gnsim on input line 477.
+LaTeX Font Info:    Redeclaring math symbol \lessapprox on input line 478.
+LaTeX Font Info:    Redeclaring math symbol \gtrapprox on input line 479.
+LaTeX Font Info:    Redeclaring math symbol \lnapprox on input line 482.
+LaTeX Font Info:    Redeclaring math symbol \gnapprox on input line 483.
+LaTeX Font Info:    Redeclaring math symbol \lessdot on input line 485.
+LaTeX Font Info:    Redeclaring math symbol \gtrdot on input line 486.
+LaTeX Font Info:    Redeclaring math symbol \lll on input line 488.
+LaTeX Font Info:    Redeclaring math symbol \ggg on input line 489.
+LaTeX Font Info:    Redeclaring math symbol \prec on input line 498.
+LaTeX Font Info:    Redeclaring math symbol \succ on input line 499.
+LaTeX Font Info:    Redeclaring math symbol \nprec on input line 500.
+LaTeX Font Info:    Redeclaring math symbol \nsucc on input line 501.
+LaTeX Font Info:    Redeclaring math symbol \preccurlyeq on input line 502.
+LaTeX Font Info:    Redeclaring math symbol \succcurlyeq on input line 503.
+LaTeX Font Info:    Redeclaring math symbol \preceq on input line 506.
+LaTeX Font Info:    Redeclaring math symbol \succeq on input line 507.
+LaTeX Font Info:    Redeclaring math symbol \npreceq on input line 508.
+LaTeX Font Info:    Redeclaring math symbol \nsucceq on input line 509.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqprec on input line 512.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqsucc on input line 513.
+LaTeX Font Info:    Redeclaring math symbol \precsim on input line 517.
+LaTeX Font Info:    Redeclaring math symbol \succsim on input line 518.
+LaTeX Font Info:    Redeclaring math symbol \precnsim on input line 521.
+LaTeX Font Info:    Redeclaring math symbol \succnsim on input line 522.
+LaTeX Font Info:    Redeclaring math symbol \precapprox on input line 523.
+LaTeX Font Info:    Redeclaring math symbol \succapprox on input line 524.
+LaTeX Font Info:    Redeclaring math symbol \precnapprox on input line 527.
+LaTeX Font Info:    Redeclaring math symbol \succnapprox on input line 528.
+LaTeX Font Info:    Redeclaring math symbol \leftarrow on input line 540.
+LaTeX Font Info:    Redeclaring math symbol \rightarrow on input line 542.
+LaTeX Font Info:    Redeclaring math symbol \nwarrow on input line 546.
+LaTeX Font Info:    Redeclaring math symbol \nearrow on input line 547.
+LaTeX Font Info:    Redeclaring math symbol \swarrow on input line 548.
+LaTeX Font Info:    Redeclaring math symbol \searrow on input line 549.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrow on input line 550.
+LaTeX Font Info:    Redeclaring math symbol \nleftarrow on input line 552.
+LaTeX Font Info:    Redeclaring math symbol \nrightarrow on input line 553.
+LaTeX Font Info:    Redeclaring math symbol \nleftrightarrow on input line 554.
+LaTeX Font Info:    Redeclaring math symbol \mapstochar on input line 557.
+LaTeX Font Info:    Redeclaring math symbol \leftharpoonup on input line 560.
+LaTeX Font Info:    Redeclaring math symbol \rightharpoonup on input line 561.
+LaTeX Font Info:    Redeclaring math symbol \leftharpoondown on input line 562.
+LaTeX Font Info:    Redeclaring math symbol \rightharpoondown on input line 563.
+LaTeX Font Info:    Redeclaring math symbol \upharpoonleft on input line 564.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonleft on input line 565.
+LaTeX Font Info:    Redeclaring math symbol \upharpoonright on input line 566.
+LaTeX Font Info:    Redeclaring math symbol \restriction on input line 567.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonright on input line 568.
+LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 569.
+LaTeX Font Info:    Redeclaring math symbol \Leftarrow on input line 575.
+LaTeX Font Info:    Redeclaring math symbol \Rightarrow on input line 576.
+LaTeX Font Info:    Redeclaring math symbol \Leftrightarrow on input line 579.
+LaTeX Font Info:    Redeclaring math symbol \nLeftarrow on input line 581.
+LaTeX Font Info:    Redeclaring math symbol \nRightarrow on input line 582.
+LaTeX Font Info:    Redeclaring math symbol \nLeftrightarrow on input line 583.
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 593.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 594.
+LaTeX Font Info:    Redeclaring math symbol \upuparrows on input line 595.
+LaTeX Font Info:    Redeclaring math symbol \downdownarrows on input line 596.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrows on input line 597.
+LaTeX Font Info:    Redeclaring math symbol \rightleftarrows on input line 598.
+LaTeX Font Info:    Redeclaring math symbol \rhook on input line 612.
+LaTeX Font Info:    Redeclaring math symbol \lhook on input line 613.
+LaTeX Font Info:    Redeclaring math symbol \diagup on input line 614.
+LaTeX Font Info:    Redeclaring math symbol \diagdown on input line 615.
+LaTeX Font Info:    Redeclaring math symbol \Lsh on input line 617.
+LaTeX Font Info:    Redeclaring math symbol \Rsh on input line 619.
+LaTeX Font Info:    Redeclaring math symbol \looparrowleft on input line 624.
+LaTeX Font Info:    Redeclaring math symbol \looparrowright on input line 626.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 631.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 633.
+LaTeX Font Info:    Redeclaring math symbol \circlearrowleft on input line 641.
+LaTeX Font Info:    Redeclaring math symbol \circlearrowright on input line 642.
+LaTeX Font Info:    Redeclaring math symbol \rightsquigarrow on input line 645.
+LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 646.
+LaTeX Font Info:    Redeclaring math symbol \oplus on input line 658.
+LaTeX Font Info:    Redeclaring math symbol \ominus on input line 659.
+LaTeX Font Info:    Redeclaring math symbol \otimes on input line 661.
+LaTeX Font Info:    Redeclaring math symbol \odot on input line 663.
+LaTeX Font Info:    Redeclaring math symbol \oslash on input line 675.
+LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 683.
+LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 684.
+LaTeX Font Info:    Redeclaring math symbol \boxtimes on input line 686.
+LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 688.
+\mayacnter=\count193
+\mayacnta=\count194
+\mayacntb=\count195
+\mayacntc=\count196
+\mayawidth=\dimen155
+LaTeX Font Info:    Redeclaring math symbol \intop on input line 753.
+LaTeX Font Info:    Redeclaring math symbol \ointop on input line 760.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 842.
+LaTeX Info: Redefining \{ on input line 846.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 848.
+LaTeX Info: Redefining \} on input line 852.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 858.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 859.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 863.
+LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 865.
+LaTeX Font Info:    Redeclaring math delimiter \uparrow on input line 868.
+LaTeX Font Info:    Redeclaring math delimiter \downarrow on input line 869.
+LaTeX Font Info:    Redeclaring math delimiter \updownarrow on input line 870.
+LaTeX Font Info:    Redeclaring math delimiter \Uparrow on input line 871.
+LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 872.
+LaTeX Font Info:    Redeclaring math delimiter \Updownarrow on input line 873.
+LaTeX Font Info:    Redeclaring math delimiter \lgroup on input line 880.
+LaTeX Font Info:    Redeclaring math delimiter \rgroup on input line 881.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 882.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 883.
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 884.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 885.
+LaTeX Font Info:    Redeclaring math symbol \braceld on input line 903.
+LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 905.
+LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 907.
+LaTeX Font Info:    Redeclaring math symbol \braceru on input line 909.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 944.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 946.
+)) (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup9
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+\Gm@cnth=\count197
+\Gm@cntv=\count198
+\c@Gm@tempcnt=\count199
+\Gm@bindingoffset=\dimen156
+\Gm@wd@mp=\dimen157
+\Gm@odd@mp=\dimen158
+\Gm@even@mp=\dimen159
+\Gm@layoutwidth=\dimen160
+\Gm@layoutheight=\dimen161
+\Gm@layouthoffset=\dimen162
+\Gm@layoutvoffset=\dimen163
+\Gm@dimlist=\toks26
+) (/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip59
+\L@UnitsRaiseTextstyle=\skip60
+\L@UnitsRaiseScriptstyle=\skip61
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)) (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks27
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen164
+\ar@mcellbox=\box47
+\extrarowheight=\dimen165
+\NC@list=\toks28
+\extratabsurround=\skip62
+\backup@length=\skip63
+\ar@cellbox=\box48
+) (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+ Excluding comment 'comment') (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+ (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+ (/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen166
+\AM@pageheight=\dimen167
+ (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box49
+\AM@global@opts=\toks29
+\AM@pagecnt=\count266
+\AM@toc@title=\toks30
+\c@AM@survey=\count267
+\AM@templatesizebox=\box50
+) (/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/palatino.sty
+Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup10
+) (/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+ (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2020/01/30 v3.06
+ (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks31
+\XKV@tempa@toks=\toks32
+)
+\XKV@depth=\count268
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+ (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count269
+))
+\c@padzeroesN=\count270
+\fc@tmpcatcode=\count271
+\@DT@modctr=\count272
+\@ordinalctr=\count273
+\@orgargctr=\count274
+\@strctr=\count275
+\@tmpstrctr=\count276
+\@DT@loopN=\count277
+\@DT@X=\count278
+) (/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count279
+\@month=\count280
+\@year=\count281
+\c@HOUR=\count282
+\c@HOURXII=\count283
+\c@MINUTE=\count284
+\c@TOHOUR=\count285
+\c@TOMINUTE=\count286
+\c@SECOND=\count287
+\currenthour=\count288
+\currentminute=\count289
+\currentsecond=\count290
+Package datetime Info: No datetime.cfg file found, using default settings on input line 308.
+\@dtctr=\count291
+\dayofyear=\count292
+\dayofweek=\count293
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks33
+\dt@b=\toks34
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+\f@nch@headwidth=\skip64
+\f@nch@O@elh=\skip65
+\f@nch@O@erh=\skip66
+\f@nch@O@olh=\skip67
+\f@nch@O@orh=\skip68
+\f@nch@O@elf=\skip69
+\f@nch@O@erf=\skip70
+\f@nch@O@olf=\skip71
+\f@nch@O@orf=\skip72
+) (/home/killian/math/calc/CLP1/latex/problembook/clp_macros.sty
+\issuesD=\count294
+\issuesND=\count295
+) (/home/killian/math/calc/CLP1/latex/problembook/clp_boxes_theorems.sty (/usr/share/texlive/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks35
+\pgfutil@tempdima=\dimen168
+\pgfutil@tempdimb=\dimen169
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box51
+ (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks36
+\pgfkeys@temptoks=\toks37
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks38
+))
+\pgf@x=\dimen170
+\pgf@y=\dimen171
+\pgf@xa=\dimen172
+\pgf@ya=\dimen173
+\pgf@xb=\dimen174
+\pgf@yb=\dimen175
+\pgf@xc=\dimen176
+\pgf@yc=\dimen177
+\pgf@xd=\dimen178
+\pgf@yd=\dimen179
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count296
+\c@pgf@countb=\count297
+\c@pgf@countc=\count298
+\c@pgf@countd=\count299
+\t@pgf@toka=\toks39
+\t@pgf@tokb=\toks40
+\t@pgf@tokc=\toks41
+\pgf@sys@id@count=\count300
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count301
+\pgfsyssoftpath@bigbuffer@items=\count302
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen180
+\pgfmath@count=\count303
+\pgfmath@box=\box52
+\pgfmath@toks=\toks42
+\pgfmath@stack@operand=\toks43
+\pgfmath@stack@operation=\toks44
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count304
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen181
+\pgf@picmaxx=\dimen182
+\pgf@picminy=\dimen183
+\pgf@picmaxy=\dimen184
+\pgf@pathminx=\dimen185
+\pgf@pathmaxx=\dimen186
+\pgf@pathminy=\dimen187
+\pgf@pathmaxy=\dimen188
+\pgf@xx=\dimen189
+\pgf@xy=\dimen190
+\pgf@yx=\dimen191
+\pgf@yy=\dimen192
+\pgf@zx=\dimen193
+\pgf@zy=\dimen194
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen195
+\pgf@path@lasty=\dimen196
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen197
+\pgf@shorten@start@additional=\dimen198
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box53
+\pgf@hbox=\box54
+\pgf@layerbox@main=\box55
+\pgf@picture@serial@count=\count305
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen199
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen256
+\pgf@pt@y=\dimen257
+\pgf@pt@temp=\dimen258
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen259
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen260
+\pgf@sys@shading@range@num=\count306
+\pgf@shadingcount=\count307
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box56
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box57
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen261
+\pgf@nodesepend=\dimen262
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen263
+\pgffor@skip=\dimen264
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count308
+\pgfplotmarksize=\dimen265
+)
+\tikz@lastx=\dimen266
+\tikz@lasty=\dimen267
+\tikz@lastxsaved=\dimen268
+\tikz@lastysaved=\dimen269
+\tikz@lastmovetox=\dimen270
+\tikz@lastmovetoy=\dimen271
+\tikzleveldistance=\dimen272
+\tikzsiblingdistance=\dimen273
+\tikz@figbox=\box58
+\tikz@figbox@bg=\box59
+\tikz@tempbox=\box60
+\tikz@tempbox@bg=\box61
+\tikztreelevel=\count309
+\tikznumberofchildren=\count310
+\tikznumberofcurrentchild=\count311
+\tikz@fig@count=\count312
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count313
+\pgfmatrixcurrentcolumn=\count314
+\pgf@matrix@numberofcolumns=\count315
+)
+\tikz@expandcount=\count316
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texlive/texmf-dist/tex/latex/mdwtools/footnote.sty
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box62
+\fn@width=\dimen274
+)
+\boiboite=\box63
+\c@theorem=\count317
+\c@fig=\count318
+\c@exercise=\count319
+\efigbox=\box64
+\wfigbox=\box65
+\nfigbox=\box66
+) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks47
+\t@pgfplots@tokb=\toks48
+\t@pgfplots@tokc=\toks49
+\pgfplots@tmpa=\dimen275
+\c@pgfplots@coordindex=\count320
+\c@pgfplots@scanlineindex=\count321
+ (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count322
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count323
+\t@pgfplotstable@a=\toks50
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count324
+ (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen276
+\pgfdecoratedremainingdistance=\dimen277
+\pgfdecoratedinputsegmentcompleteddistance=\dimen278
+\pgfdecoratedinputsegmentremainingdistance=\dimen279
+\pgf@decorate@distancetomove=\dimen280
+\pgf@decorate@repeatstate=\count325
+\pgfdecorationsegmentamplitude=\dimen281
+\pgfdecorationsegmentlength=\dimen282
+)
+\tikz@lib@dec@box=\box67
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count326
+\pgfplots@xmin@reg=\dimen283
+\pgfplots@xmax@reg=\dimen284
+\pgfplots@ymin@reg=\dimen285
+\pgfplots@ymax@reg=\dimen286
+\pgfplots@zmin@reg=\dimen287
+\pgfplots@zmax@reg=\dimen288
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\arrowsize=\dimen289
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodepartlowerbox=\box68
+\pgfnodeparttwobox=\box69
+\pgfnodepartthreebox=\box70
+\pgfnodepartfourbox=\box71
+\pgfnodeparttwentybox=\box72
+\pgfnodepartnineteenbox=\box73
+\pgfnodeparteighteenbox=\box74
+\pgfnodepartseventeenbox=\box75
+\pgfnodepartsixteenbox=\box76
+\pgfnodepartfifteenbox=\box77
+\pgfnodepartfourteenbox=\box78
+\pgfnodepartthirteenbox=\box79
+\pgfnodeparttwelvebox=\box80
+\pgfnodepartelevenbox=\box81
+\pgfnodeparttenbox=\box82
+\pgfnodepartninebox=\box83
+\pgfnodeparteightbox=\box84
+\pgfnodepartsevenbox=\box85
+\pgfnodepartsixbox=\box86
+\pgfnodepartfivebox=\box87
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarysnakes.code.tex
+File: tikzlibrarysnakes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+
+Package pgf Warning: Snakes have been superseded by decorations. Please use the decoration libraries instead of the snakes library on input line 14.
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.shapes.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.shapes.code.tex))) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box88
+\beforetitleunit=\skip73
+\aftertitleunit=\skip74
+\ttl@plus=\dimen290
+\ttl@minus=\dimen291
+\ttl@toksa=\toks51
+\titlewidth=\dimen292
+\titlewidthlast=\dimen293
+\titlewidthfirst=\dimen294
+)
+\c@ttlp@side=\count327
+\ttlp@side=\count328
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen295
+\Hy@linkcounter=\count329
+\Hy@pagecounter=\count330
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count331
+\pdfmajorversion=\count332
+Package hyperref Info: Option `colorlinks' set `true' on input line 4421.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count333
+ (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen296
+ (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count334
+\Field@Width=\dimen297
+\Fld@charsize=\dimen298
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring ON on input line 6448.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+\Hy@abspage=\count335
+\c@Item=\count336
+\c@Hfootnote=\count337
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count338
+\c@bookmark@seq@number=\count339
+ (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip75
+)) (/home/killian/math/calc/CLP1/latex/problembook/qhas.sty
+\c@GlobalQCounter=\count340
+\c@QCounter=\count341
+ (/usr/share/texlive/texmf-dist/tex/latex/newfile/newfile.sty
+Package: newfile 2009/09/03 v1.0c Output and input files
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks52
+\verbatim@line=\toks53
+\verbatim@in@stream=\read3
+)
+\c@streamvline=\count342
+)
+\thehintsoutstre@m=\write5
+\theanswersoutstre@m=\write6
+\thesolutionsoutstre@m=\write7
+\openout5 = `hints.foo'.
+
+\openout6 = `answers.foo'.
+
+\openout7 = `solutions.foo'.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2019/11/15 version 4.22 text color boxes
+\tcb@titlebox=\box89
+\tcb@upperbox=\box90
+\tcb@lowerbox=\box91
+\tcb@phantombox=\box92
+\c@tcbbreakpart=\count343
+\c@tcblayer=\count344
+\tcolorbox@number=\count345
+\tcb@temp=\box93
+\tcb@temp=\box94
+\tcb@temp=\box95
+\tcb@temp=\box96
+\tcb@out=\write8
+\tcb@record@out=\write9
+)) (/usr/share/texlive/texmf-dist/tex/latex/tools/xr.sty
+Package: xr 2019/07/22 v5.05 eXternal References (DPC)
+)
+Package xr Info: IMPORTING LABELS FROM ../textbook/clp_1_dc_text.aux on input line 16.
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count346
+\l__pdf_internal_box=\box97
+) (/home/killian/math/calc/CLP1/latex/problembook/clp_1_dc_problems.aux)
+\openout1 = `clp_1_dc_problems.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 22.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count347
+\scratchdimen=\dimen299
+\scratchbox=\box98
+\nofMPsegments=\count348
+\nofMParguments=\count349
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count350
+\MPscratchDim=\dimen300
+\MPnumerator=\count351
+\makeMPintoPDFobject=\count352
+\everyMPtoPDFconversion=\toks55
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=681.15898pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-47.23828pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box99
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+) (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2016/01/12
+) ABD: EveryShipout initializing macros
+Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.16} (current compat level: 1.9).
+
+Package hyperref Info: Link coloring ON on input line 22.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+ (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count353
+)
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
+ (/home/killian/math/calc/CLP1/latex/problembook/clp_1_dc_problems.out) (/home/killian/math/calc/CLP1/latex/problembook/clp_1_dc_problems.out)
+\@outlinefile=\write10
+\openout10 = `clp_1_dc_problems.out'.
+
+<./figures/clp1-exercises-cover.pdf, id=798, 614.295pt x 794.97pt>
+File: ./figures/clp1-exercises-cover.pdf Graphic file (type pdf)
+<use ./figures/clp1-exercises-cover.pdf>
+Package pdftex.def Info: ./figures/clp1-exercises-cover.pdf  used on input line 24.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./figures/clp1-exercises-cover.pdf Graphic file (type pdf)
+<use ./figures/clp1-exercises-cover.pdf>
+Package pdftex.def Info: ./figures/clp1-exercises-cover.pdf  used on input line 24.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<./figures/clp1-exercises-cover.pdf, id=801, page=1, 614.295pt x 794.97pt>
+File: ./figures/clp1-exercises-cover.pdf Graphic file (type pdf)
+<use ./figures/clp1-exercises-cover.pdf, page 1>
+Package pdftex.def Info: ./figures/clp1-exercises-cover.pdf , page1 used on input line 24.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./figures/clp1-exercises-cover.pdf Graphic file (type pdf)
+<use ./figures/clp1-exercises-cover.pdf, page 1>
+Package pdftex.def Info: ./figures/clp1-exercises-cover.pdf , page1 used on input line 24.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./figures/clp1-exercises-cover.pdf Graphic file (type pdf)
+<use ./figures/clp1-exercises-cover.pdf, page 1>
+Package pdftex.def Info: ./figures/clp1-exercises-cover.pdf , page1 used on input line 24.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./figures/clp1-exercises-cover.pdf Graphic file (type pdf)
+<use ./figures/clp1-exercises-cover.pdf, page 1>
+Package pdftex.def Info: ./figures/clp1-exercises-cover.pdf , page1 used on input line 24.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ./figures/clp1-exercises-cover.pdf Graphic file (type pdf)
+<use ./figures/clp1-exercises-cover.pdf, page 1>
+Package pdftex.def Info: ./figures/clp1-exercises-cover.pdf , page1 used on input line 24.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [0
+
+ <./figures/clp1-exercises-cover.pdf>]
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 37.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 37.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 37.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 37.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 37.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 37.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 37.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 37.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 37.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 37.
+ (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 37.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 52.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 52.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 52.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 52.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 52.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 52.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 54.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+)
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 59.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+<./figures/by-nc-sa.pdf, id=816, 96.36pt x 33.726pt>
+File: ./figures/by-nc-sa.pdf Graphic file (type pdf)
+<use ./figures/by-nc-sa.pdf>
+Package pdftex.def Info: ./figures/by-nc-sa.pdf  used on input line 61.
+(pdftex.def)             Requested size: 96.35974pt x 33.7259pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 14.49998pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[2 <./figures/by-nc-sa.pdf>] (/home/killian/math/calc/CLP1/latex/problembook/howtouse.tex
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 18.00587pt on input line 6.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 18.00587pt on input line 6.
+ [1
+
+
+]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 32--32
+[] 
+ []
+
+
+Underfull \vbox (badness 1509) has occurred while \output is active []
+
+ [2]) [3] [4
+
+] (/home/killian/math/calc/CLP1/latex/problembook/clp_1_dc_problems.toc [5] [6] [7] [8])
+\tf@toc=\write11
+\openout11 = `clp_1_dc_problems.toc'.
+
+ [9] [10
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.80 \part{The questions}
+                          [1
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.80 \part{The questions}
+                          [2]
+Chapter 1.
+(/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s1.1.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 26--26
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 63--63
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s1.2.tex [3
+
+]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 33--33
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 67--67
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 86--86
+[][] 
+ []
+
+[4]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 145--145
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s1.3.tex
+Underfull \vbox (badness 5147) has occurred while \output is active []
+
+ [5]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 95--95
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 121--121
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 149--149
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 211--211
+[][] 
+ []
+
+[6]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 224--224
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 287--287
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 301--301
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 313--313
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 332--332
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s1.4.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 19--19
+[] 
+ []
+
+[7]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 30--30
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 42--42
+[][] 
+ []
+
+
+Overfull \hbox (6.90646pt too wide) in paragraph at lines 59--65
+[]\OT1/ppl/m/n/12 Q[4]: []Give two func-tions $\OML/zplm/m/it/12 f\OT1/zplm/m/n/12 (\OML/zplm/m/it/12 x\OT1/zplm/m/n/12 )$ \OT1/ppl/m/n/12 and $\OML/zplm/m/it/12 g\OT1/zplm/m/n/12 (\OML/zplm/m/it/12 x\OT1/zplm/m/n/12 )$ \OT1/ppl/m/n/12 that sat-isfy $[] \OML/zplm/m/it/12 f\OT1/zplm/m/n/12 (\OML/zplm/m/it/12 x\OT1/zplm/m/n/12 ) = [] \OML/zplm/m/it/12 g\OT1/zplm/m/n/12 (\OML/zplm/m/it/12 x\OT1/zplm/m/n/12 ) = \OT1/ppl/m/n/12 0$ and $[] [] \OT1/zplm/m/n/12 =
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 116--116
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 131--131
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 148--148
+[][] 
+ []
+
+[8]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 242--242
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 312--312
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 369--369
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 426--426
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 452--452
+[][] 
+ []
+
+[9]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 574--574
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 586--586
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 629--629
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 656--656
+[][] 
+ []
+
+[10]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 901--901
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 929--929
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 967--967
+[] 
+ []
+
+[11]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 1222--1222
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s1.5.tex [12]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 12--12
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 23--23
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 55--55
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 66--66
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 122--122
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 146--146
+[][] 
+ []
+
+
+LaTeX Warning: Characters dropped after `\end{solution}' on input line 198.
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 203--203
+[][] 
+ []
+
+[13]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 361--361
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 379--379
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 402--402
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 480--480
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 590--590
+[] 
+ []
+
+) [14] (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s1.6.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 38--38
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 67--67
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 75--75
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 84--84
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 198--198
+[] 
+ []
+
+[15]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 257--257
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 364--364
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 411--411
+[] 
+ []
+
+[16]
+Overfull \hbox (4.62764pt too wide) in paragraph at lines 499--540
+[]\OT1/ppl/m/n/12 Q[24]($\U/matha/m/n/12 ^^F$\OT1/ppl/m/n/12 ): Show that there ex-ists at least one real num-ber c such that $[] \OT1/zplm/m/n/12 = [](\OT1/ppl/m/n/12 2\OML/zplm/m/it/12 ^^Yc\OT1/zplm/m/n/12 ) +
+ []
+
+) [17] [18
+
+]
+Chapter 2.
+(/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s2.1.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 41--41
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19] [20]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 177--177
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 220--220
+[][] 
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21] (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s2.2.tex [22]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 71--71
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 118--118
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 148--148
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 163--163
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 202--202
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 301--301
+[][] 
+ []
+
+[24]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 399--399
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 495--495
+[][] 
+ []
+
+[25]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 657--657
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 766--766
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s2.3.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 18--18
+[] 
+ []
+
+[26]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 56--56
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 65--65
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 77--77
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 99--99
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s2.4.tex [27]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 92--92
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 112--112
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 139--139
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 200--200
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 223--223
+[] 
+ []
+
+
+Underfull \vbox (badness 5288) has occurred while \output is active []
+
+ [28]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 258--258
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 274--274
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s2.6.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 18--18
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 42--42
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 94--94
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 112--112
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 214--214
+[][] 
+ []
+
+[30]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 275--275
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 339--339
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s2.7.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 25--25
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 48--48
+[][] 
+ []
+
+
+Underfull \vbox (badness 4660) has occurred while \output is active []
+
+ [32]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 174--174
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 210--210
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 236--236
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 252--252
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s2.8.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 14--14
+[] 
+ []
+
+[33]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 61--61
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 122--122
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 145--145
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 197--197
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 217--217
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 343--343
+[][] 
+ []
+
+[34]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 521--521
+[][] 
+ []
+
+[35]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 755--755
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s2.9.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 22--22
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 80--80
+[] 
+ []
+
+
+Underfull \vbox (badness 4441) has occurred while \output is active []
+
+ [36]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 118--118
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 138--138
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 164--164
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 265--265
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 340--340
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 386--386
+[][] 
+ []
+
+[37]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 534--534
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 579--579
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 822--822
+[][] 
+ []
+
+[38]) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s2.10.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 43--43
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 66--66
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 85--85
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 102--102
+[][] 
+ []
+
+[39]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 120--120
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 135--135
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 174--174
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 324--324
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 376--376
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 399--399
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 467--467
+[][] 
+ []
+
+[40]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 615--615
+[][] 
+ []
+
+
+Overfull \hbox (13.09985pt too wide) in paragraph at lines 693--723
+[]\OT1/ppl/m/n/12 Q[30]: Let $\OML/zplm/m/it/12 f\OT1/zplm/m/n/12 (\OML/zplm/m/it/12 x\OT1/zplm/m/n/12 )$ \OT1/ppl/m/n/12 and $\OML/zplm/m/it/12 g\OT1/zplm/m/n/12 (\OML/zplm/m/it/12 x\OT1/zplm/m/n/12 )$ \OT1/ppl/m/n/12 be dif-fer-en-tiable func-tions, with $\OML/zplm/m/it/12 f\OT1/zplm/m/n/12 (\OML/zplm/m/it/12 x\OT1/zplm/m/n/12 ) \U/matha/m/n/12 ¡ \OT1/ppl/m/n/12 0$. Eval-u-ate $[] []$. 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 729--729
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s2.11.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 49--49
+[][] 
+ []
+
+
+Underfull \vbox (badness 4181) has occurred while \output is active []
+
+ [41] [42]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 130--130
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 172--172
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 211--211
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 311--311
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s2.12.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 19--19
+[] 
+ []
+
+[43]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 59--59
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 206--206
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 293--293
+[][] 
+ []
+
+[44]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 312--312
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 377--377
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 571--571
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 595--595
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 639--639
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 683--683
+[][] 
+ []
+
+[45]) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s2.13.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 14--14
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 27--27
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 49--49
+[][] 
+ []
+
+[46]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 185--185
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 285--285
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 349--349
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 553--553
+[][] 
+ []
+
+
+Underfull \vbox (badness 1796) has occurred while \output is active []
+
+ [47]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 580--580
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 698--698
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 780--780
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 811--811
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s2.14.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 36--36
+[][] 
+ []
+
+[48]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 84--84
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 152--152
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 194--194
+[][] 
+ []
+
+[49]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 267--267
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 322--322
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 399--399
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 436--436
+[][] 
+ []
+
+[50]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 666--666
+[][] 
+ []
+
+) [51] [52
+
+]
+Chapter 3.
+(/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.1.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 15--15
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 31--31
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 48--48
+[][] 
+ []
+
+[53]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 129--129
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 227--227
+[][] 
+ []
+
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 273.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 273.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 273.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 273.
+
+Overfull \hbox (5.70857pt too wide) in paragraph at lines 273--292
+[]\OT1/ppl/m/n/12 (Source: [][]$\OT1/pcr/m/n/8 https : / / www . nasa . gov / mission _ pages / shuttle / shuttlemissions / sts121 / launch / qa-[]leinbach . html$[][]\OT1/ppl/m/n/12 ) 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 345--345
+[][] 
+ []
+
+[54]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 448--448
+[] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.2.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 20--20
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 56--56
+[][] 
+ []
+
+[56]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 247--247
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 358--358
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 446--446
+[][] 
+ []
+
+
+Underfull \vbox (badness 2277) has occurred while \output is active []
+
+ [57]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 679--679
+[][] 
+ []
+
+[58]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 905--905
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 1065--1065
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 1148--1148
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 1216--1216
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61] [62]) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.3.1.tex
+Overfull \hbox (10.7797pt too wide) detected at line 20
+[]\OML/zplm/m/it/12 y \OT1/zplm/m/n/12 = [] [][] = \OT1/ppl/m/n/12 3 []  []\OML/zplm/m/it/12 y \OT1/zplm/m/n/12 = \OT1/ppl/m/n/12 3 []  []\OML/zplm/m/it/12 e[] \OT1/zplm/m/n/12 = \OML/zplm/m/it/12 e[] \OT1/zplm/m/n/12 + \OT1/ppl/m/n/12 1 []\OML/zplm/m/it/12 y \OT1/zplm/m/n/12 = \OT1/ppl/m/n/12 10\OML/zplm/m/it/12 e[]
+ []
+
+
+Overfull \hbox (6.03575pt too wide) detected at line 42
+[]\OML/zplm/m/it/12 Q\OT1/zplm/m/n/12 (\OML/zplm/m/it/12 t\OT1/zplm/m/n/12 ) = \OT1/ppl/m/n/12 0 []\OML/zplm/m/it/12 Q\OT1/zplm/m/n/12 (\OML/zplm/m/it/12 t\OT1/zplm/m/n/12 ) = \OT1/ppl/m/n/12 5\OML/zplm/m/it/12 e[] []Q\OT1/zplm/m/n/12 (\OML/zplm/m/it/12 t\OT1/zplm/m/n/12 ) = \OML/zplm/m/it/12 e[] []Q\OT1/zplm/m/n/12 (\OML/zplm/m/it/12 t\OT1/zplm/m/n/12 ) = \OML/zplm/m/it/12 e[] []Q\OT1/zplm/m/n/12 (\OML/zplm/m/it/12 t\OT1/zplm/m/n/12 ) = \OML/zplm/m/it/12 e[] \OT1/zplm/m/n/12 + \OT1/ppl/m/n/12 1
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 42--42
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 70--70
+[][] 
+ []
+
+[63]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 185--185
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 303--303
+[] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.3.2.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 28--28
+[] 
+ []
+
+[64]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 80--80
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 182--182
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 296--296
+[][] 
+ []
+
+[65]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 351--351
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.3.3.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 51--51
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 106--106
+[][] 
+ []
+
+[66]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 186--186
+[] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.3.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 149--149
+[][] 
+ []
+
+
+Underfull \vbox (badness 3954) has occurred while \output is active []
+
+ [67]) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.4.1.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 23--23
+[] 
+ []
+
+[68]
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 47.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 47.
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 100--100
+[][] 
+ []
+
+[69]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 142--142
+[] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.4.2.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 23--23
+[] 
+ []
+
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 49--49
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 110--110
+[] 
+ []
+
+
+Underfull \vbox (badness 3679) has occurred while \output is active []
+
+ [70]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 149--149
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 255--255
+[] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.4.3.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 19--19
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 74--74
+[] 
+ []
+
+[71]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 106--106
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 282--282
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 319--319
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 349--349
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 377--377
+[][] 
+ []
+
+) [72] (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.4.4.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 47--47
+[][] 
+ []
+
+[73]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 107--107
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 152--152
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 184--184
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.4.5.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 17--17
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 76--76
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 141--141
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 220--220
+[] 
+ []
+
+[74]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 408--408
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 433--433
+[][] 
+ []
+
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 156.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Delta' on input line 156.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 156.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 156.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Delta' on input line 156.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 156.
+
+(/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.4.6.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 24--24
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [75]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 66--66
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 94--94
+[] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.4.7.tex [76] [77]) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.4.8.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 24--24
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 67--67
+[][] 
+ []
+
+[78]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 153--153
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 235--235
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 446--446
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 585--585
+[][] 
+ []
+
+[79]) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.4.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 94--94
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 126--126
+[][] 
+ []
+
+[80]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 265--265
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 418--418
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 460--460
+[][] 
+ []
+
+[81]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 610--610
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.5.1.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 21--21
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 69--69
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 162--162
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [83]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 237--237
+[] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.5.2.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 65--65
+[][] 
+ []
+
+[84]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 185--185
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.5.3.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 119--119
+[][] 
+ []
+
+[85]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 213--213
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 325--325
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 427--427
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 495--495
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 572--572
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 713--713
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 751--751
+[][] 
+ []
+
+)
+Underfull \vbox (badness 2564) has occurred while \output is active []
+
+ [87] (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.6.1.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 15--15
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 71--71
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [88]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 113--113
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [89]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 157--157
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.6.2.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 58--58
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [90]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [91]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 134--134
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.6.3.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 23--23
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 87--87
+[][] 
+ []
+
+[92]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 165--165
+[] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 193--193
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 224--224
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.6.4.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 18--18
+[] 
+ []
+
+
+Underfull \vbox (badness 4205) has occurred while \output is active []
+
+ [93]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [94]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 112--112
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 142--142
+[] 
+ []
+
+[95]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 200--200
+[][] 
+ []
+
+) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.6.6.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 27--27
+[] 
+ []
+
+
+Underfull \vbox (badness 3128) has occurred while \output is active []
+
+ [96]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 388--388
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 606--606
+[][] 
+ []
+
+
+Underfull \vbox (badness 5431) has occurred while \output is active []
+
+ [97]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 818--818
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 1301--1301
+[][] 
+ []
+
+[98] [99]) (/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s3.7.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 19--19
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 36--36
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 56--56
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 80--80
+[] 
+ []
+
+
+Underfull \vbox (badness 3861) has occurred while \output is active []
+
+ [100]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 280--280
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 302--302
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 378--378
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 439--439
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 450--450
+[][] 
+ []
+
+[101]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 477--477
+[][] 
+ []
+
+) [102]
+Chapter 4.
+(/home/killian/math/calc/CLP1/latex/problembook/problems/prob_s4.1.tex
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 34--34
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [103
+
+]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 58--58
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 105--105
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 186--186
+[][] 
+ []
+
+[104]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 236--236
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 277--277
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 303--303
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 327--327
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 395--395
+[][] 
+ []
+
+[105]
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 562--562
+[][] 
+ []
+
+
+Overfull \hbox (15.75821pt too wide) in paragraph at lines 626--626
+[][] 
+ []
+
+) [106] [107
+
+] [108] (/home/killian/math/calc/CLP1/latex/problembook/hints.foo
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1.
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1--2
+[][] 
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 25--25
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 44--44
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 65--65
+[][]  
+ []
+
+[109] [110] [111]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 181--181
+[][]  
+ []
+
+[112]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 270--270
+[][]  
+ []
+
+[113]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 322--322
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 333--333
+[][]  
+ []
+
+[114]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 389--389
+[][]  
+ []
+
+[115]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 396--396
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 425--425
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 426--426
+[][]  
+ []
+
+[116]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 459--459
+[][]  
+ []
+
+[117]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 487--487
+[][]  
+ []
+
+[118]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 536--536
+[][]  
+ []
+
+[119]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 616--616
+[][]  
+ []
+
+[120] [121]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 680--680
+[][]  
+ []
+
+[122]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 709--709
+[][]  
+ []
+
+[123]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 774--774
+[][]  
+ []
+
+[124]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 817--817
+[][]  
+ []
+
+[125]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 863--863
+[][]  
+ []
+
+[126]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 902--902
+[][]  
+ []
+
+[127] [128]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 961--961
+[][]  
+ []
+
+[129]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 989--989
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1015--1015
+[][]  
+ []
+
+[130]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1030--1030
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1049--1049
+[][]  
+ []
+
+[131]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1063--1063
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1082--1082
+[][]  
+ []
+
+[132]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1110--1110
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1133--1133
+[][]  
+ []
+
+[133]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1157--1157
+[][]  
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1157.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Delta' on input line 1157.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1157.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1157.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Delta' on input line 1157.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1157.
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1166--1166
+[][]  
+ []
+
+[134]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1188--1188
+[][]  
+ []
+
+[135]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1229--1229
+[][]  
+ []
+
+[136]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1267--1267
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1295--1295
+[][]  
+ []
+
+[137]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1306--1306
+[][]  
+ []
+
+[138]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1360--1360
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1373--1373
+[][]  
+ []
+
+[139]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1382--1382
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1402--1402
+[][]  
+ []
+
+[140]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1425--1425
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1426--1426
+[][]  
+ []
+
+[141]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1460--1460
+[][]  
+ []
+
+[142]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1505--1505
+[][]  
+ []
+
+[143]) [144] [145
+
+] [146] (/home/killian/math/calc/CLP1/latex/problembook/answers.foo
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1--1
+[][]  
+ []
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1.
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 23--23
+[][]  
+ []
+
+[147]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 48--48
+[][]  
+ []
+
+[148]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 113--113
+[][]  
+ []
+
+[149] [150] [151]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 261--261
+[][]  
+ []
+
+[152]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 318--318
+[][]  
+ []
+
+
+Underfull \vbox (badness 2653) has occurred while \output is active []
+
+ [153] [154] [155]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 445--445
+[][]  
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+ppl on input line 453.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 453.
+ [156]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 481--481
+[][]  
+ []
+
+[157]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [158]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 573--573
+[][]  
+ []
+
+[159]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 596--596
+[][]  
+ []
+
+[160]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 652--652
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 653--653
+[][]  
+ []
+
+[161] [162]
+<./figures/graphE3c.pdf, id=4664, 148.555pt x 148.555pt>
+File: ./figures/graphE3c.pdf Graphic file (type pdf)
+<use ./figures/graphE3c.pdf>
+Package pdftex.def Info: ./figures/graphE3c.pdf  used on input line 706.
+(pdftex.def)             Requested size: 148.55463pt x 148.55463pt.
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 711--711
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 740--740
+[][]  
+ []
+
+[163 <./figures/graphE3c.pdf>] [164]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 851--851
+[][]  
+ []
+
+[165] [166]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 948--948
+[][]  
+ []
+
+[167] [168]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1030--1030
+[][]  
+ []
+
+[169]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1068--1068
+[][]  
+ []
+
+[170] [171] [172] [173]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1178--1178
+[][]  
+ []
+
+[174] [175] [176]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1329--1329
+[][]  
+ []
+
+[177]
+<./figures/graphE3.pdf, id=4967, 96.36pt x 79.29625pt>
+File: ./figures/graphE3.pdf Graphic file (type pdf)
+<use ./figures/graphE3.pdf>
+Package pdftex.def Info: ./figures/graphE3.pdf  used on input line 1384.
+(pdftex.def)             Requested size: 96.35974pt x 79.29604pt.
+ [178 <./figures/graphE3.pdf>] [179]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1457--1457
+[][]  
+ []
+
+[180]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1493--1493
+[][]  
+ []
+
+[181]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1557--1557
+[][]  
+ []
+
+[182]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1582--1582
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1606--1606
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1624--1624
+[][]  
+ []
+
+[183]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1649--1649
+[][]  
+ []
+
+[184]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1670--1670
+[][]  
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1705--1705
+[][]  
+ []
+
+[185]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1743--1743
+[][]  
+ []
+
+[186]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1757--1757
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1799--1799
+[][]  
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1799.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Delta' on input line 1799.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1799.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1799.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Delta' on input line 1799.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1799.
+
+[187]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1825--1825
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1844--1844
+[][]  
+ []
+
+[188] [189]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1909--1909
+[][]  
+ []
+
+[190] [191]
+<./figures/graph18.pdf, id=5292, 333.245pt x 105.39375pt>
+File: ./figures/graph18.pdf Graphic file (type pdf)
+<use ./figures/graph18.pdf>
+Package pdftex.def Info: ./figures/graph18.pdf  used on input line 2006.
+(pdftex.def)             Requested size: 333.24417pt x 105.39348pt.
+<./figures/graphE3b.pdf, id=5297, 265.99374pt x 101.37875pt>
+File: ./figures/graphE3b.pdf Graphic file (type pdf)
+<use ./figures/graphE3b.pdf>
+Package pdftex.def Info: ./figures/graphE3b.pdf  used on input line 2013.
+(pdftex.def)             Requested size: 265.99309pt x 101.3785pt.
+ [192 <./figures/graph18.pdf> <./figures/graphE3b.pdf>]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 2036--2036
+[][]  
+ []
+
+[193]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [194]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 2142--2142
+[][]  
+ []
+
+
+Underfull \vbox (badness 1152) has occurred while \output is active []
+
+ [195]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 2185--2185
+[][]  
+ []
+
+[196]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 2227--2227
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 2244--2244
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 2257--2257
+[][]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [197] [198] [199]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 2373--2373
+[][]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [200]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 2416--2416
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 2417--2417
+[][]  
+ []
+
+[201]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [202]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [203]
+<./figures/graphE12.pdf, id=5465, 247.92625pt x 149.55875pt>
+File: ./figures/graphE12.pdf Graphic file (type pdf)
+<use ./figures/graphE12.pdf>
+Package pdftex.def Info: ./figures/graphE12.pdf  used on input line 2512.
+(pdftex.def)             Requested size: 247.92564pt x 149.55838pt.
+Missing character: There is no ; in font nullfont!
+ [204 <./figures/graphE12.pdf>]
+Missing character: There is no ; in font nullfont!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [205]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [206]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [207]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [208] [209]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 2705--2705
+[][]  
+ []
+
+[210]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 2783--2783
+[][]  
+ []
+
+[211]) [212] [213] [214
+
+] [215] [216] (/home/killian/math/calc/CLP1/latex/problembook/solutions.foo
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1--1
+[][]  
+ []
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1.
+
+
+Underfull \vbox (badness 1072) has occurred while \output is active []
+
+ [217]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 54--54
+[][]  
+ []
+
+[218]
+Overfull \hbox (49.19022pt too wide) detected at line 85
+\OML/zplm/m/it/12 v\OT1/zplm/m/n/12 (\OT1/ppl/m/n/12 1\OT1/zplm/m/n/12 ) = [] [] = [] [] = [] [] = [] \OT1/ppl/m/n/12 6 \OT1/zplm/m/n/12 + \OT1/ppl/m/n/12 3\OML/zplm/m/it/12 h \OT1/zplm/m/n/12 = \OT1/ppl/m/n/12 6
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 114--114
+[][]  
+ []
+
+[219]
+Underfull \vbox (badness 2903) has occurred while \output is active []
+
+ [220] [221]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 194--194
+[][]  
+ []
+
+[222] [223] [224]
+Underfull \vbox (badness 3803) has occurred while \output is active []
+
+ [225]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [226]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [227] [228] [229] [230] [231] [232] [233]
+Missing character: There is no ; in font nullfont!
+ [234]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [235]
+Underfull \vbox (badness 2903) has occurred while \output is active []
+
+ [236] [237]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [238] [239] [240]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 833--833
+[][]  
+ []
+
+[241] [242] [243] [244] [245] [246]
+Underfull \vbox (badness 3407) has occurred while \output is active []
+
+ [247] [248]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1093--1093
+[][]  
+ []
+
+[249] [250] [251] [252] [253] [254] [255]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1344--1344
+[][]  
+ []
+
+[256] [257]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1409--1409
+[][]  
+ []
+
+[258] [259] [260]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [261]
+Overfull \hbox (11.52876pt too wide) detected at line 1537
+[]
+ []
+
+[262]
+Underfull \vbox (badness 7925) has occurred while \output is active []
+
+ [263] [264] [265] [266]
+Underfull \vbox (badness 5667) has occurred while \output is active []
+
+ [267] [268] [269]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1769--1769
+[][]  
+ []
+
+[270]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1804--1804
+[][]  
+ []
+
+[271] [272] [273] [274]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1923--1923
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 1924--1924
+[][]  
+ []
+
+[275] [276] [277] [278]
+File: ./figures/graphE3c.pdf Graphic file (type pdf)
+<use ./figures/graphE3c.pdf>
+Package pdftex.def Info: ./figures/graphE3c.pdf  used on input line 2081.
+(pdftex.def)             Requested size: 148.55463pt x 148.55463pt.
+ [279]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 2091--2091
+[][]  
+ []
+
+[280] [281] [282]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 2210--2210
+[][]  
+ []
+
+[283] [284] [285] [286] [287] [288] [289] [290] [291]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 2569--2569
+[][]  
+ []
+
+[292] [293] [294] [295] [296] [297] [298] [299] [300] [301]
+Overfull \hbox (8.88045pt too wide) detected at line 2866
+[]
+ []
+
+[302]
+Overfull \hbox (53.69397pt too wide) detected at line 2967
+[]
+ []
+
+[303] [304] [305]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 3034--3034
+[][]  
+ []
+
+[306] [307] [308] [309] [310] [311]
+Overfull \hbox (17.92902pt too wide) detected at line 3248
+[]
+ []
+
+[312] [313] [314] [315] [316]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 3391--3391
+[][]  
+ []
+
+Missing character: There is no ; in font nullfont!
+[317] [318] [319] [320] [321] [322] [323]
+Missing character: There is no ; in font nullfont!
+
+Underfull \vbox (badness 2790) has occurred while \output is active []
+
+ [324]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 3646--3646
+[][]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [325] [326] [327] [328] [329] [330]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [331] [332] [333] [334]
+Underfull \vbox (badness 5924) has occurred while \output is active []
+
+ [335]
+Underfull \vbox (badness 1383) has occurred while \output is active []
+
+ [336]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 3991--3991
+[][]  
+ []
+
+[337]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [338] [339] [340] [341]
+
+pdfTeX warning: pdflatex (file ./figures/graphXcubeSin.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures/graphXcubeSin.pdf, id=6618, 223.83624pt x 152.57pt>
+File: ./figures/graphXcubeSin.pdf Graphic file (type pdf)
+<use ./figures/graphXcubeSin.pdf>
+Package pdftex.def Info: ./figures/graphXcubeSin.pdf  used on input line 4196.
+(pdftex.def)             Requested size: 223.8357pt x 152.56963pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [342]
+<./figures/graphExpCos.pdf, id=6625, 232.87pt x 152.57pt>
+File: ./figures/graphExpCos.pdf Graphic file (type pdf)
+<use ./figures/graphExpCos.pdf>
+Package pdftex.def Info: ./figures/graphExpCos.pdf  used on input line 4235.
+(pdftex.def)             Requested size: 232.86942pt x 152.56963pt.
+
+Underfull \vbox (badness 1603) has occurred while \output is active []
+
+ [343 <./figures/graphXcubeSin.pdf>]
+Underfull \vbox (badness 3746) has occurred while \output is active []
+
+ [344 <./figures/graphExpCos.pdf>] [345] [346]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [347] [348]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 4465--4465
+[][]  
+ []
+
+[349] [350] [351] [352]
+Underfull \vbox (badness 7468) has occurred while \output is active []
+
+ [353] [354] [355]
+File: ./figures/graphE3.pdf Graphic file (type pdf)
+<use ./figures/graphE3.pdf>
+Package pdftex.def Info: ./figures/graphE3.pdf  used on input line 4639.
+(pdftex.def)             Requested size: 96.35974pt x 79.29604pt.
+ [356] [357] [358]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 4779--4779
+[][]  
+ []
+
+[359]
+Underfull \vbox (badness 3078) has occurred while \output is active []
+
+ [360] [361] [362] [363] [364] [365] [366]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 5000--5000
+[][]  
+ []
+
+[367] [368] [369]
+
+pdfTeX warning: pdflatex (file ./figures/ship.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./figures/ship.pdf, id=6860, 124.465pt x 118.4425pt>
+File: ./figures/ship.pdf Graphic file (type pdf)
+<use ./figures/ship.pdf>
+Package pdftex.def Info: ./figures/ship.pdf  used on input line 5104.
+(pdftex.def)             Requested size: 124.46469pt x 118.4422pt.
+[370 <./figures/ship.pdf>] [371] [372] [373] [374]
+Underfull \vbox (badness 1112) has occurred while \output is active []
+
+ [375]
+<./figures/train2.pdf, id=6899, 178.6675pt x 59.22125pt>
+File: ./figures/train2.pdf Graphic file (type pdf)
+<use ./figures/train2.pdf>
+Package pdftex.def Info: ./figures/train2.pdf  used on input line 5334.
+(pdftex.def)             Requested size: 178.66705pt x 59.22108pt.
+ [376 <./figures/train2.pdf>] [377] [378] [379] [380] [381] [382] [383] [384]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [385] [386] [387] [388] [389]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 5790--5790
+[][]  
+ []
+
+[390] [391] [392] [393] [394] [395]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 5985--5985
+[][]  
+ []
+
+[396] [397] [398] [399] [400] [401]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 6172--6172
+[][]  
+ []
+
+[402] [403]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 6259--6259
+[][]  
+ []
+
+[404] [405] [406] [407] [408]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 6425--6425
+[][]  
+ []
+
+Missing character: There is no ; in font nullfont!
+[409]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 6455--6455
+[][]  
+ []
+
+Missing character: There is no ; in font nullfont!
+[410]
+Missing character: There is no ; in font nullfont!
+ [411]
+Missing character: There is no ; in font nullfont!
+ [412]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 6571--6571
+[][]  
+ []
+
+[413] [414] [415] [416] [417] [418]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 6805--6805
+[][]  
+ []
+
+[419] [420] [421] [422]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 6915--6915
+[][]  
+ []
+
+[423] [424] [425] [426] [427] [428] [429]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 7188--7188
+[][]  
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 7188.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Delta' on input line 7188.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 7188.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 7188.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Delta' on input line 7188.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 7188.
+
+[430] [431]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 7254--7254
+[][]  
+ []
+
+[432] [433] [434] [435] [436]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 7423--7423
+[][]  
+ []
+
+[437] [438] [439] [440] [441] [442] [443] [444] [445] [446] [447] [448]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [449] [450] [451]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 7893--7893
+[][]  
+ []
+
+[452] [453] [454] [455] [456] [457]
+File: ./figures/graph18.pdf Graphic file (type pdf)
+<use ./figures/graph18.pdf>
+Package pdftex.def Info: ./figures/graph18.pdf  used on input line 8202.
+(pdftex.def)             Requested size: 333.24417pt x 105.39348pt.
+ [458]
+File: ./figures/graphE3b.pdf Graphic file (type pdf)
+<use ./figures/graphE3b.pdf>
+Package pdftex.def Info: ./figures/graphE3b.pdf  used on input line 8241.
+(pdftex.def)             Requested size: 265.99309pt x 101.3785pt.
+ [459]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 8300--8300
+[][]  
+ []
+
+[460] [461] [462]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ [463] [464] [465]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 8533--8533
+[][]  
+ []
+
+[466] [467]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 8626--8626
+[][]  
+ []
+
+[468] [469] [470] [471]
+<./figures/minTriangle.pdf, id=7669, 87.32625pt x 80.3pt>
+File: ./figures/minTriangle.pdf Graphic file (type pdf)
+<use ./figures/minTriangle.pdf>
+Package pdftex.def Info: ./figures/minTriangle.pdf  used on input line 8862.
+(pdftex.def)             Requested size: 87.32603pt x 80.29979pt.
+
+Underfull \vbox (badness 6188) has occurred while \output is active []
+
+ [472 <./figures/minTriangle.pdf>] [473]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [474] [475] [476] [477]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 9121--9121
+[][]  
+ []
+
+[478] [479]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 9193--9193
+[][]  
+ []
+
+[480] [481]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 9234--9234
+[][]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [482] [483] [484] [485]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 9428--9428
+[][]  
+ []
+
+[486] [487]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [488] [489]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 9551--9551
+[][]  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 9552--9552
+[][]  
+ []
+
+[490]
+Underfull \vbox (badness 6284) has occurred while \output is active []
+
+ [491] [492]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [493] [494]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [495] [496]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [497]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [498]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [499] [500] [501]
+File: ./figures/graphE12.pdf Graphic file (type pdf)
+<use ./figures/graphE12.pdf>
+Package pdftex.def Info: ./figures/graphE12.pdf  used on input line 10117.
+(pdftex.def)             Requested size: 247.92564pt x 149.55838pt.
+Missing character: There is no ; in font nullfont!
+ [502]
+Missing character: There is no ; in font nullfont!
+ [503]
+Missing character: There is no ; in font nullfont!
+ [504]
+Missing character: There is no ; in font nullfont!
+ [505] [506] [507] [508]
+Underfull \vbox (badness 1102) has occurred while \output is active []
+
+ [509]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [510]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [511] [512]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \vbox (badness 6300) has occurred while \output is active []
+
+ [513] [514]
+Underfull \vbox (badness 1448) has occurred while \output is active []
+
+ [515] [516]
+Underfull \vbox (badness 2343) has occurred while \output is active []
+
+ [517]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 10927--10927
+[][]  
+ []
+
+[518] [519] [520] [521] [522] [523] [524] [525]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 11282--11282
+[][]  
+ []
+
+[526] [527] [528] [529] [530] [531] [532] [533] [534]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [535]) [536]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 214.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 214.
+ (/home/killian/math/calc/CLP1/latex/problembook/clp_1_dc_problems.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 214.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 214.
+Package rerunfilecheck Info: File `clp_1_dc_problems.out' has not changed.
+(rerunfilecheck)             Checksum: 5273C1EFB2AB0B939B7238992C8DA108;16257.
+ ) 
+Here is how much of TeX's memory you used:
+ 55474 strings out of 481276
+ 1220385 string characters out of 5921753
+ 1356232 words of memory out of 5000000
+ 67340 multiletter control sequences out of 15000+600000
+ 611237 words of font info for 244 fonts, out of 8000000 for 9000
+ 1131 hyphenation exceptions out of 8191
+ 76i,23n,102p,1253b,938s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{theorem.2.13.6} has been referenced but does not exist, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/matha9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mathb12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on /home/killian/math/calc/CLP1/latex/problembook/clp_1_dc_problems.pdf (549 pages, 2057772 bytes).
+PDF statistics:
+ 8672 PDF objects out of 8907 (max. 8388607)
+ 7876 compressed objects within 79 object streams
+ 2430 named destinations out of 2487 (max. 500000)
+ 1674 words of extra memory for PDF output out of 10000 (max. 10000000)
+

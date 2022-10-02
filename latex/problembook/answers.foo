@@ -1,0 +1,2837 @@
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s1.1}}}\phantomsection \label {a ex:s1.1} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s1.1} \hspace {2ex} \nameref *{ex:s1.1}}
+\flushleft \hyperref [q:1.1.0.1]{A-1:} 
+\begin{center}
+\begin{tikzpicture}
+\YEaaxis{1}{5}{1}{3}
+\draw[thick] plot[domain=-1:5, samples=100](\x,{(3*\x-10)*(\x+1)*(\x-2)/30}) node[right]{$y=f(x)$};
+\draw (1,7/15) node[vertex, label=above:$P$]{};
+\draw (4.5,7*11/48) node[vertex, label= left:$Q$]{};
+\draw[thick, blue] plot[domain=-1:3.5] (\x,{27/30-13/30*\x}) node[below left]{\ref{s1.1p1.1}};
+\draw[thick, green] plot[domain=3.5:5.5] (\x,{7*11/48+2.31*(\x-4.5)}) node[left]{\ref{s1.1p1.2}};
+\draw[thick, red] plot[domain=0:5.5] (\x,{7/15+.325*(\x-1)}) node[right]{\ref{s1.1p1.3}};
+\end{tikzpicture}
+\end{center}
+\flushleft \hyperref [q:1.1.0.2]{A-2:} 
+\begin{enumerate}[(a)]
+\item True
+\item In general, this is false.
+For most functions $f(x)$ this will be false, but there
+                are some functions for which it is true.
+\end{enumerate}
+\flushleft \hyperref [q:1.1.0.3]{A-3:} 
+At least once.
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s1.2}}}\phantomsection \label {a ex:s1.2} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s1.2} \hspace {2ex} \nameref *{ex:s1.2}}
+\flushleft \hyperref [q:1.2.0.1]{A-1:} 
+Speed is nonnegative; velocity has a sign (positive or negative) that indicates direction.
+\flushleft \hyperref [q:1.2.0.2]{A-2:} 
+Yes--an object that is not moving has speed 0.
+\flushleft \hyperref [q:1.2.0.3]{A-3:} 
+0 kph
+\flushleft \hyperref [q:1.2.0.4]{A-4:} 
+The speed at the one second mark is larger than the average speed.
+\flushleft \hyperref [q:1.2.0.5]{A-5:} 
+The slope of a curve is given by $\dfrac{\mbox{change in vertical component}}{\mbox{change in horizontal component}}$. The change in the vertical component is exactly $s(b)-s(a)$, and the change in the horizontal component is exactly $b-a$.
+\flushleft \hyperref [q:1.2.0.6]{A-6:} 
+$(0,2) \cup (6,7)$
+\flushleft \hyperref [q:1.2.0.7]{A-7:} 
+\begin{enumerate}[(a)]
+\item 24 units per second.
+\item 6 units per second
+\end{enumerate}
+\flushleft \hyperref [q:1.2.0.8]{A-8:} 
+\begin{enumerate}[(a)]
+\item $\frac{1}{4}$ units per second
+\item $\frac{1}{2}$ units per second
+\item $\frac{1}{6}$ units per second
+\end{enumerate}
+Remark: the average velocity is \emph{not} the average of the two instantaneous velocities.
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s1.3}}}\phantomsection \label {a ex:s1.3} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s1.3} \hspace {2ex} \nameref *{ex:s1.3}}
+\flushleft \hyperref [q:1.3.0.1]{A-1:} 
+\begin{enumerate}[(a)]
+\item $\displaystyle \lim_{x \rightarrow -2} f(x)=1$
+\item $\displaystyle \lim_{x \rightarrow 0}f(x)=0$
+\item $\displaystyle \lim_{x \rightarrow 2}f(x)=2$
+\end{enumerate}
+\flushleft \hyperref [q:1.3.0.2]{A-2:} 
+DNE
+\flushleft \hyperref [q:1.3.0.3]{A-3:} 
+\begin{enumerate}[(a)]
+\item $\displaystyle \lim_{x \rightarrow -1^{-}} f(x)=2$
+\item $\displaystyle \lim_{x \rightarrow -1^{+}} f(x)=-2$
+\item $\displaystyle \lim_{x \rightarrow -1} f(x)= $ DNE
+\item $\displaystyle \lim_{x \rightarrow -2^{+}} f(x) =0$
+\item $\displaystyle \lim_{x \rightarrow 2^{-}} f(x)=0$
+\end{enumerate}
+\flushleft \hyperref [q:1.3.0.4]{A-4:} 
+Many answers are possible; here is one.
+\begin{center}
+\begin{tikzpicture}
+\YEaaxis{1}{3}{1}{5}
+\draw[thick] plot[domain=-1:3] (\x,{1.5*\x+.5}) node[right]{$y=f(x)$};
+\draw (2.3,.2)--(2.3,-.2) node[below]{3};
+\draw (.2,4)--(-.2,4) node[left]{10};
+\draw[dashed] (2.3,.2) |- (.2,4);
+\end{tikzpicture}
+\end{center}
+\flushleft \hyperref [q:1.3.0.5]{A-5:} 
+Many answers are possible; here is one.
+\begin{center}
+\begin{tikzpicture}
+\YEaaxis{1}{3}{1}{5}
+\draw[thick] plot[domain=-1:3] (\x,{1.5*\x+.5}) node[right]{$y=f(x)$};
+\draw (2.3,.2)--(2.3,-.2) node[below]{3};
+\draw (.2,4)--(-.2,4) node[left]{10};
+\draw[dashed] (2.3,.2) |- (.2,4);
+\draw (2.3,4) node[shape=circle, inner sep=0, minimum size=2mm, draw, fill=white]{};
+\draw (2.3,0) node[vertex]{};
+\end{tikzpicture}
+\end{center}
+\flushleft \hyperref [q:1.3.0.6]{A-6:} 
+ In general, this is false.
+\flushleft \hyperref [q:1.3.0.7]{A-7:} 
+False
+\flushleft \hyperref [q:1.3.0.8]{A-8:} 
+$\displaystyle\lim_{x \rightarrow -2^-} f(x)=16$
+\flushleft \hyperref [q:1.3.0.9]{A-9:} 
+Not enough information to say.
+\flushleft \hyperref [q:1.3.0.10]{A-10:} 
+$\displaystyle\lim_{t \rightarrow 0} \sin t=0$
+\flushleft \hyperref [q:1.3.0.11]{A-11:} 
+$\displaystyle\lim_{x \rightarrow 0^+} \log x = -\infty$
+\flushleft \hyperref [q:1.3.0.12]{A-12:} 
+$\displaystyle\lim_{y \rightarrow 3} y^2=9$
+\flushleft \hyperref [q:1.3.0.13]{A-13:} 
+ $\displaystyle\lim_{x \rightarrow 0^-} \dfrac{1}{x}=-\infty$
+\flushleft \hyperref [q:1.3.0.14]{A-14:} 
+ $\displaystyle\lim_{x \rightarrow 0} \dfrac{1}{x}=$ DNE
+\flushleft \hyperref [q:1.3.0.15]{A-15:} 
+$\displaystyle\lim_{x \rightarrow 0} \dfrac{1}{x^2}=\infty$
+\flushleft \hyperref [q:1.3.0.16]{A-16:} 
+$\displaystyle\lim_{x \rightarrow 3} \dfrac{1}{10}=\dfrac{1}{10}$
+\flushleft \hyperref [q:1.3.0.17]{A-17:} 
+9
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s1.4}}}\phantomsection \label {a ex:s1.4} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s1.4} \hspace {2ex} \nameref *{ex:s1.4}}
+\flushleft \hyperref [q:1.4.0.1]{A-1:} 
+(\ref{s1.4right1}) and (\ref{s1.4right2})
+\flushleft \hyperref [q:1.4.0.2]{A-2:} 
+There are many possible answers; one is $f(x)=10(x-3)$, $g(x)=x-3$.
+\flushleft \hyperref [q:1.4.0.3]{A-3:} 
+ There are many possible answers; one is
+$f(x)=(x-3)^2$ and $g(x)=x-3$. Another is $f(x)=0$ and $g(x)=x-3$.
+\flushleft \hyperref [q:1.4.0.4]{A-4:} 
+There are many possible answers; one is
+$f(x)=x-3$, $g(x)=(x-3)^3$.
+\flushleft \hyperref [q:1.4.0.5]{A-5:} 
+ Any real number; positive infinity; negative infinity; does not exist.
+\flushleft \hyperref [q:1.4.0.6]{A-6:} 
+ 0
+\flushleft \hyperref [q:1.4.0.7]{A-7:} 
+ 6
+\flushleft \hyperref [q:1.4.0.8]{A-8:} 
+ 16
+\flushleft \hyperref [q:1.4.0.9]{A-9:} 
+$4/\cos(3)$
+\flushleft \hyperref [q:1.4.0.10]{A-10:} 
+$2$
+\flushleft \hyperref [q:1.4.0.11]{A-11:} 
+$-7/2$
+\flushleft \hyperref [q:1.4.0.12]{A-12:} 
+3
+\flushleft \hyperref [q:1.4.0.13]{A-13:} 
+ $-\frac{3}{2}$
+\flushleft \hyperref [q:1.4.0.14]{A-14:} 
+$\log(2)-1$
+\flushleft \hyperref [q:1.4.0.15]{A-15:} 
+ $\frac{1}{4}$
+\flushleft \hyperref [q:1.4.0.16]{A-16:} 
+$\dfrac{1}{2}$
+\flushleft \hyperref [q:1.4.0.17]{A-17:} 
+$5$
+\flushleft \hyperref [q:1.4.0.18]{A-18:} 
+$-6$
+\flushleft \hyperref [q:1.4.0.19]{A-19:} 
+ $-14$
+\flushleft \hyperref [q:1.4.0.20]{A-20:} 
+$-\frac{1}{3}$
+\flushleft \hyperref [q:1.4.0.21]{A-21:} 
+$\frac{1}{6} $
+\flushleft \hyperref [q:1.4.0.22]{A-22:} 
+ $\frac{1}{\sqrt{3}}$
+\flushleft \hyperref [q:1.4.0.23]{A-23:} 
+ 1
+\flushleft \hyperref [q:1.4.0.24]{A-24:} 
+12
+\flushleft \hyperref [q:1.4.0.25]{A-25:} 
+ 0
+\flushleft \hyperref [q:1.4.0.26]{A-26:} 
+ $\frac{1}{2}$
+\flushleft \hyperref [q:1.4.0.27]{A-27:} 
+0
+\flushleft \hyperref [q:1.4.0.28]{A-28:} 
+ 5
+\flushleft \hyperref [q:1.4.0.29]{A-29:} 
+ $-\infty$
+\flushleft \hyperref [q:1.4.0.30]{A-30:} 
+ $\sqrt{\dfrac{2}{3}}$
+\flushleft \hyperref [q:1.4.0.31]{A-31:} 
+ DNE
+\flushleft \hyperref [q:1.4.0.32]{A-32:} 
+ $\infty$
+\flushleft \hyperref [q:1.4.0.33]{A-33:} 
+ $ x^5-32x+15$
+\flushleft \hyperref [q:1.4.0.34]{A-34:} 
+ $0$
+\flushleft \hyperref [q:1.4.0.35]{A-35:} 
+$0$
+\flushleft \hyperref [q:1.4.0.36]{A-36:} 
+ 2
+\flushleft \hyperref [q:1.4.0.37]{A-37:} 
+ 0
+\flushleft \hyperref [q:1.4.0.38]{A-38:} 
+ $-\dfrac{32}{9}$
+\flushleft \hyperref [q:1.4.0.39]{A-39:} 
+DNE
+\flushleft \hyperref [q:1.4.0.40]{A-40:} 
+DNE
+\flushleft \hyperref [q:1.4.0.41]{A-41:} 
+ $-\dfrac{9}{2}$
+\flushleft \hyperref [q:1.4.0.42]{A-42:} 
+ $-4$
+\flushleft \hyperref [q:1.4.0.43]{A-43:} 
+  $a=\dfrac{7}{2}$
+\flushleft \hyperref [q:1.4.0.44]{A-44:} 
+\begin{enumerate}[(a)]
+\item $\displaystyle\lim_{x \rightarrow 0} f(x)=0$
+\item $\displaystyle\lim_{x \rightarrow 0} g(x)=$ DNE
+\item $\displaystyle\lim_{x \rightarrow 0} f(x)g(x)=2$
+\item $\displaystyle\lim_{x \rightarrow 0} \dfrac{f(x)}{g(x)}=0$
+\item $\displaystyle\lim_{x \rightarrow 2} f(x)+g(x)=\dfrac{9}{2}$
+\item $\displaystyle\lim_{x \rightarrow 0} \dfrac{f(x)+1}{g(x+1)}=1$
+\end{enumerate}
+\flushleft \hyperref [q:1.4.0.45]{A-45:} 
+\begin{center}
+\begin{tikzpicture}
+\YEaxis{3}{3}
+\draw[thin, gray, dotted] (-3,-3) grid (3,3);
+\draw (1,.2)--(1,-.2) node[below]{1};
+\draw (.2,1)--(-.2,1) node[left]{1};
+\draw (-3,-1/3) node[vertex]{};
+\draw[thick] (-1,1/3)--
+ (0,1/3) cos (1,2/3);
+\draw (3,1) node[vertex]{};
+\draw[dashed] (-2,-3)--(-2,3) (2,-3)--(2,3);
+\draw[thick] plot[domain=-19/11:-1]({\x},{1/(\x+2)-2/3});
+\draw[thick] plot[domain=-3:-25/11]({\x},{1/(\x+2)+2/3});
+\draw[thick] plot[domain=1:1.7]({\x},{-1/(\x-2)-1/3});
+\draw[thick] plot[domain=7/3:3]({\x},{1/(\x-2)});
+\end{tikzpicture}
+\end{center}
+Pictures may vary somewhat; the important points are the values of the function at integer values of $x$, and the vertical asymptotes.
+\flushleft \hyperref [q:1.4.0.46]{A-46:} 
+\begin{center}
+\begin{tikzpicture}
+\YEaxis{3}{3}
+\draw[thin, gray, dotted] (-3,-3) grid (3,3);
+\draw (1,.2)--(1,-.2) node[below]{1};
+\draw (.2,1)--(-.2,1) node[left]{1};
+\draw[thick] (-3,2)--(3,2) node[above] {$y=\dfrac{f(x)}{g(x)}$};
+\draw (-2,2) node[opendot]{};
+\draw (2,2) node[opendot]{};
+\end{tikzpicture}
+\end{center}
+\flushleft \hyperref [q:1.4.0.47]{A-47:} 
+ 10
+\flushleft \hyperref [q:1.4.0.48]{A-48:} 
+\eqref{s1.4sum1} DNE , DNE\qquad
+\eqref{s1.4sum2} 0 \qquad
+\eqref{s1.4sum3} No: it is only true when both $\displaystyle\lim_{x \rightarrow a} f(x)$ and $\displaystyle\lim_{x \rightarrow a} g(x)$ exist.
+\flushleft \hyperref [q:1.4.0.49]{A-49:} 
+(a) $\ds\lim_{x \to 0^-} f(x)=-3$
+\qquad
+(b) $\ds\lim_{x \to 0^+} f(x)=3$
+\qquad
+(c) $\ds\lim_{x \to 0} f(x)=$ DNE
+\flushleft \hyperref [q:1.4.0.50]{A-50:} 
+(a) $\ds\lim_{x \to -4^-} f(x)=0$
+\qquad
+(b) $\ds\lim_{x \to -4^+} f(x)=0$
+\qquad
+(c) $\ds\lim_{x \to -4} f(x)=0$
+
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s1.5}}}\phantomsection \label {a ex:s1.5} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s1.5} \hspace {2ex} \nameref *{ex:s1.5}}
+\flushleft \hyperref [q:1.5.0.1]{A-1:} 
+ There are many answers: any constant polynomial has this property. One answer is $f(x)=1$.
+\flushleft \hyperref [q:1.5.0.2]{A-2:} 
+ There are many answers: any odd-degree polynomial has this property. One answer is $f(x)=x$.
+\flushleft \hyperref [q:1.5.0.3]{A-3:} 
+ 0
+\flushleft \hyperref [q:1.5.0.4]{A-4:} 
+ $\infty$
+\flushleft \hyperref [q:1.5.0.5]{A-5:} 
+ $0$
+\flushleft \hyperref [q:1.5.0.6]{A-6:} 
+ DNE
+\flushleft \hyperref [q:1.5.0.7]{A-7:} 
+ $-\infty$
+\flushleft \hyperref [q:1.5.0.8]{A-8:} 
+ $\sqrt{3}$
+\flushleft \hyperref [q:1.5.0.9]{A-9:} 
+3
+\flushleft \hyperref [q:1.5.0.10]{A-10:} 
+$-\frac{3}{4}$
+\flushleft \hyperref [q:1.5.0.11]{A-11:} 
+$-\dfrac{1}{2}$
+\flushleft \hyperref [q:1.5.0.12]{A-12:} 
+ $\frac{1}{2}$
+\flushleft \hyperref [q:1.5.0.13]{A-13:} 
+$\frac{5}{3}$
+\flushleft \hyperref [q:1.5.0.14]{A-14:} 
+ 0
+\flushleft \hyperref [q:1.5.0.15]{A-15:} 
+$\frac{4}{7}$
+\flushleft \hyperref [q:1.5.0.16]{A-16:} 
+ 1
+\flushleft \hyperref [q:1.5.0.17]{A-17:} 
+0
+\flushleft \hyperref [q:1.5.0.18]{A-18:} 
+ $-1$
+\flushleft \hyperref [q:1.5.0.19]{A-19:} 
+ $1$
+\flushleft \hyperref [q:1.5.0.20]{A-20:} 
+$-1$
+\flushleft \hyperref [q:1.5.0.21]{A-21:} 
+$-\frac{3}{2}$
+\flushleft \hyperref [q:1.5.0.22]{A-22:} 
+ $-\frac{5}{3}$
+\flushleft \hyperref [q:1.5.0.23]{A-23:} 
+ $-\infty$
+\flushleft \hyperref [q:1.5.0.24]{A-24:} 
+ $\dfrac{5}{2}$
+\flushleft \hyperref [q:1.5.0.25]{A-25:} 
+$\ds\lim_{a \to 0^+}\dfrac{a^2-\frac{1}{a}}{a-1}=\infty$
+\flushleft \hyperref [q:1.5.0.26]{A-26:} 
+$\ds\lim_{x \to 3}\dfrac{2x+8}{\frac{1}{x-3}+\frac{1}{x^2-9}}=0$
+\flushleft \hyperref [q:1.5.0.27]{A-27:} 
+ No such rational function exists.
+\flushleft \hyperref [q:1.5.0.28]{A-28:} 
+ This is the amount of the substance that will linger long-term. Since it's nonzero, the substance would be something that would stay in your body. Something like ``tattoo ink" is a reasonable answer, while ``penicillin" is not.
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s1.6}}}\phantomsection \label {a ex:s1.6} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s1.6} \hspace {2ex} \nameref *{ex:s1.6}}
+\flushleft \hyperref [q:1.6.0.1]{A-1:} 
+ Many answers are possible; the tangent function behaves like this.
+\flushleft \hyperref [q:1.6.0.2]{A-2:} 
+ At some time between my birth and now, I was exactly one meter tall.
+\flushleft \hyperref [q:1.6.0.3]{A-3:} 
+ One example is $f(x) = \left\{  \begin{array}{ll}
+0&\mbox{when }0 \leq x \leq 1\\
+2&\mbox{when }1<x \leq 2
+\end{array}\right.$. The IVT only guarantees $f(c)=1$ for some $c$ in $[0,2]$ when $f$ is \emph{continuous} over $[0,2]$. If $f$ is not continuous, the IVT says nothing.
+\begin{center}
+\begin{tikzpicture}
+\YEaaxis{.5}{4.5}{.5}{2.5}
+\draw[thick] (0,0)node[vertex]{}--(2,0) node[vertex]{};
+\draw[thick] (2,2) node[opendot]{}--(4,2) node[vertex]{};
+\end{tikzpicture}\end{center}
+\flushleft \hyperref [q:1.6.0.4]{A-4:} 
+ Yes
+\flushleft \hyperref [q:1.6.0.5]{A-5:} 
+ No
+\flushleft \hyperref [q:1.6.0.6]{A-6:} 
+  No
+\flushleft \hyperref [q:1.6.0.7]{A-7:} 
+True.
+\flushleft \hyperref [q:1.6.0.8]{A-8:} 
+True.
+\flushleft \hyperref [q:1.6.0.9]{A-9:} 
+In general, false.
+\flushleft \hyperref [q:1.6.0.10]{A-10:} 
+$\ds\lim_{x \to 0^+} h(x)=0$
+\flushleft \hyperref [q:1.6.0.11]{A-11:} 
+  $k=0$
+\flushleft \hyperref [q:1.6.0.12]{A-12:} 
+ Since $f$ is a polynomial, it is continuous over all real numbers. $f(0)=1<12345$ and $f(12345)=12345^3+12345^2+12345+1>12345$ (since all terms are positive). So by the IVT, $f(c)=12345$ for some $c$ between $0$ and $12345$.
+\flushleft \hyperref [q:1.6.0.13]{A-13:} 
+ $(-\infty, -1)\cup (-1,1) \cup (1,+\infty)$
+\flushleft \hyperref [q:1.6.0.14]{A-14:} 
+$(-\infty, -1)\cup (1,+\infty)$
+\flushleft \hyperref [q:1.6.0.15]{A-15:} 
+The function is continuous \emph{except} at
+$x=\pm \pi, \pm 3\pi, \pm 5\pi, \dots$.
+\flushleft \hyperref [q:1.6.0.16]{A-16:} 
+ $x \neq n\pi,$ where $n$ is any integer
+\flushleft \hyperref [q:1.6.0.17]{A-17:} 
+ $\pm 2$
+\flushleft \hyperref [q:1.6.0.18]{A-18:} 
+ $c=1$
+\flushleft \hyperref [q:1.6.0.19]{A-19:} 
+$-1$, $4$
+\flushleft \hyperref [q:1.6.0.20]{A-20:} 
+ $c=1$, $c=-1$
+\flushleft \hyperref [q:1.6.0.21]{A-21:} 
+This isn't the kind of equality that we can just solve; we'll need a trick, and that trick is the IVT. The general idea is to show that $\sin x$ is somewhere bigger, and somewhere smaller, than $x-1$. However, since the IVT can only show us that a function is equal to a constant, we need to slightly adjust our language. Showing $\sin x = x-1$ is equivalent to showing $\sin x - x + 1 = 0$, so let $f(x)=\sin x - x +1$, and let's show that it has a real root.
+
+First, we need to note that $f(x)$ is continuous (otherwise we can't use the IVT). Now, we need to find a value of $x$ for which it is positive, and for which it's negative. By checking a few values, we find $f(0)$ is positive, and $f(100)$ is negative.  So, by the IVT, there exists a value of $x$ (between $0$ and $100$) for which $f(x)=0$. Therefore, there exists a value of $x$ for which $\sin x = x-1$.
+\flushleft \hyperref [q:1.6.0.22]{A-22:} 
+ We let $f(x)=3^x-x^2$. Then $f(x)$ is a continuous function, since both $3^x$ and $x^2$ are continuous for all real numbers.
+
+We want a value $a$ such that $f(a)>0$. We see that $a=0$ works since
+$$f(0)=3^0-0=1>0.$$
+
+We want a value $b$ such that $f(b)<0$. We see that
+$b=-1$ works since
+$$f(-1)=\frac{1}{3}-1<0.$$
+
+So, because $f(x)$ is continuous on $(-\infty, \infty)$ and $f(0)>0$ while
+$f(-1)<0$, then the Intermediate Value Theorem guarantees the existence of a
+real number $c\in (-1,0)$ such that $f(c)=0$.
+\flushleft \hyperref [q:1.6.0.23]{A-23:} 
+We let $f(x)=2\tan(x)-x-1$. Then $f(x)$ is a continuous function on the interval $(-\pi/2, \pi/2)$ since $\tan(x)=\sin(x)/\cos(x)$ is continuous on this interval, while $x+1$ is a polynomial and therefore continuous for all real numbers.
+
+We find a value $a\in (-\pi/2,\pi/2)$ such that $f(a)<0$. We observe immediately that $a=0$ works since
+$$f(0)=2\tan(0)-0-1=0-1=-1<0.$$
+
+We find a value $b\in (-\pi/2, \pi/2)$ such that $f(b)>0$. We see that $b=\pi/4$ works since
+$$f(\pi/4)=2\tan(\pi/4) -\pi/4 - 1=2-\pi/4 - 1=1-\pi/4=(4-\pi)/4>0,$$
+because $3<\pi<4$.
+
+So, because $f(x)$ is continuous on $[0,\pi/4]$ and $f(0)<0$ while $f(\pi/4)>0$, then the Intermediate Value Theorem guarantees the existence of a real number $c\in (0,\pi/4)$ such that $f(c)=0$.
+
+\flushleft \hyperref [q:1.6.0.24]{A-24:} 
+Let $f(x) = \sqrt{\cos(\pi x)} - \sin(2\pi x) -1/2$. This function is
+continuous provided $\cos(\pi x)\geq 0$. This is  true for $0 \leq x
+\leq \frac{1}{2}$.
+
+Now $f$ takes positive values on $[0,1/2]$:
+\begin{align*}
+  f(0) &= \sqrt{\cos(0)} - \sin(0) -1/2 = \sqrt{1} -1/2 = 1/2.
+\end{align*}
+And $f$ takes negative values on $[0,1/2]$:
+\begin{align*}
+  f(1/2) &= \sqrt{\cos(\pi/2)}-\sin(\pi)-1/2 = 0-0-1/2 = -1/2
+\end{align*}
+(Notice that $f(1/3)=(\sqrt{2}-\sqrt{3})/2-1/2$ also works)
+
+So, because $f(x)$ is continuous on $[0,1/2)$ and $f(0)>0$ while $f(1/2)<0$,
+then the  Intermediate Value Theorem guarantees the existence of a real number
+$c\in (0,1/2)$ such that $f(c)=0$.
+\flushleft \hyperref [q:1.6.0.25]{A-25:} 
+We let $f(x)=\dfrac{1}{\cos^2(\pi x)}-x-\dfrac{3}{2}$. Then $f(x)$ is a continuous function on the
+interval $(-1/2, 1/2)$ since $\cos x$ is continuous everywhere and non-zero on that
+interval.
+
+The function $f$ takes negative values.  For example, when $x=0$:
+\begin{align*}
+f(0) &= \frac{1}{\cos^2(0)} - 0 - \frac{3}{2} = 1-\frac{3}{2} = -\frac{1}{2} <0.
+\end{align*}
+It also takes positive values, for instance when $x=1/4$:
+\begin{align*}
+f(1/4) &= \frac{1}{(\cos \pi/4)^2} - \frac{1}{4} - \frac{3}{2} \\
+  &= \frac{1}{1/2} - \frac{1+6}{4} \\
+  &= 2 - 7/4 = 1/4 >0.
+\end{align*}
+
+By the IVT there is $c$, $0<c<1/4$ such that $f(c)=0$, in which case
+\begin{align*}
+\dfrac{1}{(\cos\pi c)^2} = c+\dfrac{3}{2}.
+\end{align*}
+\flushleft \hyperref [q:1.6.0.26]{A-26:} 
+ $[0,1]$ is the easiest answer to find. Also acceptable are $[-2,-1]$ and $[14,15]$.
+\flushleft \hyperref [q:1.6.0.27]{A-27:} 
+ 1.91
+\flushleft \hyperref [q:1.6.0.28]{A-28:} 
+\begin{itemize}
+\item If $f(a)=g(a)$, or $f(b)=g(b)$, then we simply take $c=a$ or $c=b$.
+\item Suppose $f(a) \neq g(a)$ and $f(b) \neq g(b)$. Then $f(a)<g(a)$ and $g(b)<f(b)$, so if we define $h(x)=f(x)-g(x)$, then $h(a)<0$ and $h(b)>0$. Since $h$ is the difference of two functions that are continuous over $[a,b]$, also $h$ is continuous over $[a,b]$. So, by the Intermediate Value Theorem, there exists some $c \in (a,b)$ with $h(c)=0$; that is, $f(c)=g(c)$.
+\end{itemize}
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s2.1}}}\phantomsection \label {a ex:s2.1} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s2.1} \hspace {2ex} \nameref *{ex:s2.1}}
+\flushleft \hyperref [q:2.1.0.1]{A-1:} 
+ If $Q$ is to the left of the $y$ axis, the secant line has positive slope;
+if $Q$ is to the right of the $y$ axis, the secant line has negative slope.
+\flushleft \hyperref [q:2.1.0.2]{A-2:} 
+\eqref{s2.1p2.1} closer \qquad
+\eqref{s2.1p2.2} the tangent line has the larger slope
+\flushleft \hyperref [q:2.1.0.3]{A-3:} 
+ \{(a), (c), (e)\}, \quad\{(b),(f)\},\quad \{(d)\}
+\flushleft \hyperref [q:2.1.0.4]{A-4:} 
+ Something like $1.5$. A reasonable answer would be between 1 and 2.
+\flushleft \hyperref [q:2.1.0.5]{A-5:} 
+ There is only one tangent line to $f(x)$ at $P$ (shown in blue), but there are infinitely many choices of $Q$ and $R$ (one possibility shown in red).
+\begin{center}
+\begin{tikzpicture}
+\YEaxis{5}{3}
+\draw[thick] plot[domain=0:4.5](\x,{\x*\x/4-2}) node[below right]{$y=f(x)$};
+\draw[thick] (-4.5,0) cos (-2.25,-1) sin (0,-2);
+\draw (1,-7/4) node[vertex, label=below:$P$]{};
+\draw[blue, thick] (-1,-11/4)--(4,-1/4);
+\draw[red] (0,-2) node[vertex, label=above left:$Q$]{};
+\draw[red] (2,-1) node[vertex, label=above:$R$]{};
+\draw[red, thick] (-1,-2.5)--(4,0);
+\end{tikzpicture}
+\end{center}
+\flushleft \hyperref [q:2.1.0.6]{A-6:} 
+\begin{center}
+\begin{tikzpicture}
+\YEaxis{5}{3}
+\draw[thick] plot[domain=2:4.5](\x,{-(\x-3)*(\x-3)/2-1/2}) node[below right]{$y=f(x)$};
+\draw[thick] plot[domain=-1:2](\x,{\x*\x/4-2});
+\draw[thick] plot[smooth] coordinates{(-5,3) (-4,1.3) (-3,1) (-2,-1) (-1,-7/4)};
+\draw[blue] (-3.5,1.15) node[vertex]{};
+\draw[blue] (0,-2) node[vertex]{};
+\draw[blue] (3,-1/2) node[vertex]{};
+\end{tikzpicture}\end{center}
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s2.2}}}\phantomsection \label {a ex:s2.2} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s2.2} \hspace {2ex} \nameref *{ex:s2.2}}
+\flushleft \hyperref [q:2.2.0.1]{A-1:} 
+(a), (d)
+\flushleft \hyperref [q:2.2.0.2]{A-2:} 
+ (e)
+\flushleft \hyperref [q:2.2.0.3]{A-3:} 
+ (b)
+\flushleft \hyperref [q:2.2.0.4]{A-4:} 
+By definition, $f(x) = x^3$ is differentiable at $x = 0$
+if the limit
+$$
+\lim_{h\rightarrow 0}\frac{f(h)-f(0)}{h}
+=\lim_{h\rightarrow 0}\frac{h^3-0}{h}
+$$
+exists.
+\flushleft \hyperref [q:2.2.0.5]{A-5:} 
+ $x=-1$ and $x=3$
+\flushleft \hyperref [q:2.2.0.6]{A-6:} 
+ True. (Contrast to Question~\ref{s2.2onesided2}.)
+\flushleft \hyperref [q:2.2.0.7]{A-7:} 
+ In general, false. (Contrast to Question~\ref{s2.2onesided1}.)
+\flushleft \hyperref [q:2.2.0.8]{A-8:} 
+ metres per second
+\flushleft \hyperref [q:2.2.0.9]{A-9:} 
+ $y-6=3(x-1)$, or $y=3x +3$
+\flushleft \hyperref [q:2.2.0.10]{A-10:} 
+ $\dfrac{-1}{x^2}$
+\flushleft \hyperref [q:2.2.0.11]{A-11:} 
+ By definition
+$$
+f'(0)=\lim_{h\rightarrow 0}\frac{f(h)-f(0)}{h}
+     =\lim_{h\rightarrow 0}\frac{h|h|}{h}
+     =\lim_{h\rightarrow 0}|h|=0
+$$
+In particular, the limit exists, so the derivative exists (and is equal to zero).
+\flushleft \hyperref [q:2.2.0.12]{A-12:} 
+ $\dfrac{-2}{(x+1)^2}$
+\flushleft \hyperref [q:2.2.0.13]{A-13:} 
+ {$\dfrac{-2x}{[x^2+3]^2}$}
+\flushleft \hyperref [q:2.2.0.14]{A-14:} 
+ 1
+\flushleft \hyperref [q:2.2.0.15]{A-15:} 
+ $f'(x)=-\dfrac{2}{x^3}$
+\flushleft \hyperref [q:2.2.0.16]{A-16:} 
+$a=4$, $b=-4$
+\flushleft \hyperref [q:2.2.0.17]{A-17:} 
+ $f'(x)=\dfrac{1}{2\sqrt{1+x}}$ when $x>-1$; $f'(x)$ does not exist when $x \leq -1$.
+\flushleft \hyperref [q:2.2.0.18]{A-18:} 
+ $v(t)=4t^3-2t$
+\flushleft \hyperref [q:2.2.0.19]{A-19:} 
+ No, it does not.
+\flushleft \hyperref [q:2.2.0.20]{A-20:} 
+ No, it does not.
+\flushleft \hyperref [q:2.2.0.21]{A-21:} 
+ Yes, it is.
+\flushleft \hyperref [q:2.2.0.22]{A-22:} 
+Yes, it is.
+\flushleft \hyperref [q:2.2.0.23]{A-23:} 
+ Many answers are possible; here is one.
+\begin{center}
+\begin{tikzpicture}
+\YEaxis{4.2}{4.2}
+\foreach \x in {1,1/2,1/4,1/8,0}{
+\draw (4*\x,4*\x) node[vertex]{};
+\draw (-\x*4,-\x*4) node[vertex]{};}
+\draw (4,.2)--(4,-.2) node[below]{1};
+\draw (.2,4)--(-.2,4) node[left]{1};
+\draw[thick] (-4,-4)--(-1/2,-1/2) (1/2,1/2)--(4,4);
+\draw[thick] (-1/2,-1/2) sin (-1/4,1/4) cos (0,0) sin (1/4,-1/4) cos (1/2,1/2);
+\end{tikzpicture}
+\end{center}
+\flushleft \hyperref [q:2.2.0.24]{A-24:} 
+\begin{align*}
+p'(x) &= \lim_{h \rightarrow 0} \frac{p(x+h)-p(x)}{h}\\
+&= \lim_{h \rightarrow 0} \frac{f(x+h)+g(x+h)-f(x)-g(x)}{h}\\
+&= \lim_{h \rightarrow 0} \frac{f(x+h)-f(x)+g(x+h)-g(x)}{h}\\
+&= \lim_{h \rightarrow 0} \left[\frac{f(x+h)-f(x)}{h}+
+\frac{g(x+h)-g(x)}{h}\right]\\
+(*)&= \left[\lim_{h \rightarrow 0} \frac{f(x+h)-f(x)}{h}\right]+ \left[\lim_{h \rightarrow 0}
+\frac{g(x+h)-g(x)}{h}\right]\\
+&= f'(x)+g'(x)
+\end{align*}
+At step ($*$), we use the limit law that $\displaystyle\lim_{x \rightarrow a} \left[F(x)+G(x)\right] = \displaystyle\lim_{x \rightarrow a} F(x)+\displaystyle\lim_{x \rightarrow a}G(x)$, as long as  $\displaystyle\lim_{x \rightarrow a} F(x)$ and $\displaystyle\lim_{x \rightarrow a}G(x)$ exist. Because the problem states that $f'(x)$ and $g'(x)$ exist, we know that $\displaystyle\lim_{h \rightarrow 0} \frac{f(x+h)-f(x)}{h}$ and $\displaystyle\lim_{h \rightarrow 0}
+\frac{g(x+h)-g(x)}{h}$ exist, so our work is valid.
+\flushleft \hyperref [q:2.2.0.25]{A-25:} 
+\eqref{s2.2prod1} $f'(x)=2$ and $g'(x)=1$
+\qquad \eqref{s2.2prod2} $p'(x)=4x$
+\qquad \eqref{s2.2prod3} no
+\flushleft \hyperref [q:2.2.0.26]{A-26:} 
+$y=6x-9$ and $y=-2x-1$
+\flushleft \hyperref [q:2.2.0.27]{A-27:} 
+ $a>1$
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s2.3}}}\phantomsection \label {a ex:s2.3} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s2.3} \hspace {2ex} \nameref *{ex:s2.3}}
+\flushleft \hyperref [q:2.3.0.1]{A-1:} 
+\eqref{s2.1dam1} The average rate of change of the height of the water over the single day starting at $t=0$, measured in $\frac{\mathrm{m}}{\mathrm{hr}}$.
+
+\eqref{s2.1dam2} The instantaneous rate of change of the height of the water at the time $t=0$.
+\flushleft \hyperref [q:2.3.0.2]{A-2:} 
+ Profit per additional widget sold, when $t$ widgets are being sold. This is called the marginal profit per widget, when $t$ widgets are being sold.
+\flushleft \hyperref [q:2.3.0.3]{A-3:} 
+ $T'(d)$ measures how quickly the temperature is changing per unit change of depth, measured in degrees per metre. $|T'(d)|$ will probably be largest when $d$ is near zero, unless there are hot springs or other underwater heat sources.
+\flushleft \hyperref [q:2.3.0.4]{A-4:} 
+ Calories per additional gram, when there are $w$ grams.
+\flushleft \hyperref [q:2.3.0.5]{A-5:} 
+ The acceleration of the object.
+\flushleft \hyperref [q:2.3.0.6]{A-6:} 
+ Degrees Celsius temperature change per joule of heat added.
+(This is closely related to heat capacity and to
+         specific heat --- there's a nice explanation of this on Wikipedia.)
+\flushleft \hyperref [q:2.3.0.7]{A-7:} 
+ Number of bacteria added per degree. That is: the number of extra bacteria (possibly negative) that will exist in the population by raising the temperature by one degree.
+\flushleft \hyperref [q:2.3.0.8]{A-8:} 
+ $360R'(t)$
+\flushleft \hyperref [q:2.3.0.9]{A-9:} 
+  If $P'(t)$ is positive, your sample is below the ideal temperature, and if $P'(t)$ is negative, your sample is above the ideal temperature. If $P'(t) = 0$, you don't know whether the sample is exactly at the ideal temperature, or way above or below it with no living bacteria.
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s2.4}}}\phantomsection \label {a ex:s2.4} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s2.4} \hspace {2ex} \nameref *{ex:s2.4}}
+\flushleft \hyperref [q:2.4.0.1]{A-1:} 
+ True
+\flushleft \hyperref [q:2.4.0.2]{A-2:} 
+ False, in general
+\flushleft \hyperref [q:2.4.0.3]{A-3:} 
+ True
+\flushleft \hyperref [q:2.4.0.4]{A-4:} 
+ If you're creative, you can find lots of ways to differentiate!\\
+Constant multiple: $g'(x)=3f'(x)$.\\
+Product rule: $g'(x) = \diff{}{x}\{3\}f(x)+3f'(x)=0f(x)+3f'(x)=3f'(x)$.\\
+Sum rule: $g'(x)=\diff{}{x}\{f(x)+f(x)+f(x)\}=f'(x)+f'(x)+f'(x)=3f'(x)$.\\
+Quotient rule: $g'(x)=\diff{}{x}\left\{\frac{f(x)}{\frac{1}{3}}\right\}=
+\frac{\frac{1}{3}f'(x)-f(x)(0)}{\frac{1}{9}}=\frac{\frac{1}{3}f'(x)}{\frac{1}{9}}=9\left(\frac{1}{3}\right)f'(x)=3f'(x)$.\\
+All rules give $g'(x)=3f'(x)$.
+\flushleft \hyperref [q:2.4.0.5]{A-5:} 
+ $f'(x)=6x+\frac{2}{\sqrt{x}}$
+\flushleft \hyperref [q:2.4.0.6]{A-6:} 
+ $-36x+24\sqrt{x}+\frac{20}{\sqrt{x}}-45$
+\flushleft \hyperref [q:2.4.0.7]{A-7:} 
+ $y -  \frac{1}{8} = \frac{3}{4}\cdot \left(x-\frac{1}{2}\right)$, or $y= \tfrac{3}{4} x - \tfrac{1}{4}$
+\flushleft \hyperref [q:2.4.0.8]{A-8:} 
+\eqref{s2.4particle1} $4$\qquad
+\eqref{s2.4particle2} left \qquad
+\eqref{s2.4particle3} decreasing
+\flushleft \hyperref [q:2.4.0.9]{A-9:} 
+$\dfrac{1}{{(x+1/2)}^2}$, or $\dfrac{4}{(2x+1)^2}$
+\flushleft \hyperref [q:2.4.0.10]{A-10:} 
+ $-72$
+\flushleft \hyperref [q:2.4.0.11]{A-11:} 
+ $y-\frac{1}{2}=-\frac{1}{8}(x-1)$, or $y=-\tfrac{1}{8}x +\tfrac{5}{8}$
+\flushleft \hyperref [q:2.4.0.12]{A-12:} 
+ $b'(t)-d'(t)$
+\flushleft \hyperref [q:2.4.0.13]{A-13:} 
+{$(1,3),\ (3,27)$}
+\flushleft \hyperref [q:2.4.0.14]{A-14:} 
+ $\dfrac{1}{2\sqrt{100180}}$
+\flushleft \hyperref [q:2.4.0.15]{A-15:} 
+ $20t+7$ square metres per second.
+\flushleft \hyperref [q:2.4.0.16]{A-16:} 
+ 0
+\flushleft \hyperref [q:2.4.0.17]{A-17:} 
+\begin{align*}
+\intertext{First expression, $f(x)=\dfrac{g(x)}{h(x)}$:}
+f'(x)&=\frac{h(x)g'(x)-g(x)h'(x)}{h^2(x)}
+\intertext{Second expresson, $f(x)=\dfrac{g(x)}{k(x)}\cdot\dfrac{k(x)}{h(x)}$:}
+f'(x)&=\left(\frac{k(x)g'(x)-g(x)k'(x)}{k^2(x)}\right)\left(\frac{k(x)}{h(x)}\right)+\left(\frac{g(x)}{k(x)}\right)\left(\frac{h(x)k'(x)-k(x)h'(x)}{h^2(x)}\right)\\
+&=\frac{k(x)g'(x)-g(x)k'(x)}{k(x)h(x)}+
+\frac{g(x)h(x)k'(x)-g(x)k(x)h'(x)}{k(x)h^2(x)}\\
+&=\frac{h(x)k(x)g'(x)-h(x)g(x)k'(x)}{k(x)h^2(x)}+
+\frac{g(x)h(x)k'(x)-g(x)k(x)h'(x)}{k(x)h^2(x)}\\
+&=\frac{h(x)k(x)g'(x)-h(x)g(x)k'(x)+g(x)h(x)k'(x)-g(x)k(x)h'(x)}{k(x)h^2(x)}\\
+&=\frac{h(x)k(x)g'(x)-g(x)k(x)h'(x)}{k(x)h^2(x)}\\
+&=\frac{h(x)g'(x)-g(x)h'(x)}{h^2(x)}
+\intertext{and this is exactly what we got from differentiating the first expression.}
+\end{align*}
+ \par \nicerule \\[2ex]{\large \textbf {No exercises for Section\nobreakspace {}\ref {ex:s2.5}}.}\phantomsection \label {a ex:s2.5} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s2.5} \hspace {2ex} \nameref *{ex:s2.5}}
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s2.6}}}\phantomsection \label {a ex:s2.6} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s2.6} \hspace {2ex} \nameref *{ex:s2.6}}
+\flushleft \hyperref [q:2.6.0.1]{A-1:} 
+   In the quotient rule, there is a minus, not a plus. Also, $2(x+1)+2x$ is not the same as $2(x+1)$.
+
+ The correct version is:
+\begin{align*}
+f(x)&=\frac{2x}{x+1}\\
+f'(x)&=\frac{2(x+1)\textcolor{red}{-}2x}{(x+1)^2}\\
+&=\frac{2}{(x+1)^2}
+\end{align*}
+\flushleft \hyperref [q:2.6.0.2]{A-2:} 
+ False
+\flushleft \hyperref [q:2.6.0.3]{A-3:} 
+ $4x(x^2+2)(x^2+3)$
+\flushleft \hyperref [q:2.6.0.4]{A-4:} 
+ $12t^3+15t^2+\frac{1}{t^2}$
+\flushleft \hyperref [q:2.6.0.5]{A-5:} 
+ $x'(y)=8y^3+2y$
+\flushleft \hyperref [q:2.6.0.6]{A-6:} 
+ $T'(x)=\dfrac{(x^2+3)\left(\frac{1}{2\sqrt{x}}\right)-(\sqrt{x}+1)(2x)}{(x^2+3)^2}$
+\flushleft \hyperref [q:2.6.0.7]{A-7:} 
+$\dfrac{21-4x-7x^2}{(x^2+3)^2}$
+\flushleft \hyperref [q:2.6.0.8]{A-8:} 
+ 7
+\flushleft \hyperref [q:2.6.0.9]{A-9:} 
+ $\dfrac{3x^4+30x^3-2x-5}{(x^2+5x)^2}
+$
+\flushleft \hyperref [q:2.6.0.10]{A-10:} 
+ $\dfrac{-3x^2+12x+5}{(2-x)^2}$
+\flushleft \hyperref [q:2.6.0.11]{A-11:} 
+ $\dfrac{-22x}{(3x^2+5)^2}$
+\flushleft \hyperref [q:2.6.0.12]{A-12:} 
+$\dfrac{4x^3+12x^2-1}{(x+2)^2}$
+\flushleft \hyperref [q:2.6.0.13]{A-13:} 
+The derivative of the function is
+\begin{align*}
+ \frac{(1-x^2)\cdot\frac{1}{2\sqrt{x}} - \sqrt{x} \cdot (-2x)}{(1-x^2)^2}
+  &= \frac{(1-x^2) - 2x \cdot (-2x)}{2\sqrt{x}(1-x^2)^2}
+\end{align*}
+The derivative is undefined if either $x<0$ or $x = 0,\pm 1$ (since the square-root is
+undefined for $x<0$ and the denominator is zero when $x=0,1,-1$. Putting this together
+--- the derivative exists for $x>0, x\neq 1$.
+\flushleft \hyperref [q:2.6.0.14]{A-14:} 
+ $\left(\frac{3}{5}{x}^{\frac{-4}{5}}+5{x}^{\frac{-2}{3}}\right)\left(3x^2+8x-5\right)+
+\left(3\sqrt[5]{x}+15\sqrt[3]{x}+8\right)\left(6x+8\right)$
+\flushleft \hyperref [q:2.6.0.15]{A-15:} 
+ $f'(x)=(2x+5)(x^{-1/2}+x^{-2/3})+(x^2+5x+1)\left(\frac{-1}{2}x^{-3/2}-\frac{2}{3}x^{-5/3}\right)$
+\flushleft \hyperref [q:2.6.0.16]{A-16:} 
+ $x=-5$ and $x=1$
+\flushleft \hyperref [q:2.6.0.17]{A-17:} 
+ $y=x-\dfrac{1}{4}$
+\flushleft \hyperref [q:2.6.0.18]{A-18:} 
+\begin{center}
+\includegraphics{graphE3c}
+\end{center}
+$y=4x-4$ and $y=-2x-1$
+\flushleft \hyperref [q:2.6.0.19]{A-19:} 
+{$2015\cdot 2^{2014}$}
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s2.7}}}\phantomsection \label {a ex:s2.7} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s2.7} \hspace {2ex} \nameref *{ex:s2.7}}
+\flushleft \hyperref [q:2.7.0.1]{A-1:} 
+ A-$(a)$ and $(d)$,\quad B-$(e)$,\quad C-$(c)$,\quad D-$(b)$
+\flushleft \hyperref [q:2.7.0.2]{A-2:} 
+ $(b),~(d),~(e)$
+\flushleft \hyperref [q:2.7.0.3]{A-3:} 
+False
+\flushleft \hyperref [q:2.7.0.4]{A-4:} 
+ increasing
+\flushleft \hyperref [q:2.7.0.5]{A-5:} 
+$\dfrac{(x-1)e^x}{2x^2}$
+\flushleft \hyperref [q:2.7.0.6]{A-6:} 
+$2e^{2x}$
+\flushleft \hyperref [q:2.7.0.7]{A-7:} 
+$e^{a+x}$
+\flushleft \hyperref [q:2.7.0.8]{A-8:} 
+$x>-1$
+\flushleft \hyperref [q:2.7.0.9]{A-9:} 
+$-e^{-x}$
+\flushleft \hyperref [q:2.7.0.10]{A-10:} 
+$2e^{2x}$
+\flushleft \hyperref [q:2.7.0.11]{A-11:} 
+When $t$ is in the interval $(-2,0)$.
+\flushleft \hyperref [q:2.7.0.12]{A-12:} 
+$g'(x)=[f(x)+f'(x)]e^x$
+\flushleft \hyperref [q:2.7.0.13]{A-13:} 
+(b) and (d)
+\flushleft \hyperref [q:2.7.0.14]{A-14:} 
+$a=b=\dfrac{e}{2}$
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s2.8}}}\phantomsection \label {a ex:s2.8} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s2.8} \hspace {2ex} \nameref *{ex:s2.8}}
+\flushleft \hyperref [q:2.8.0.1]{A-1:} 
+\begin{center}\begin{tikzpicture}
+\YEaxis{7}{1.2}
+\draw (3.1,.2)--(3.1,-.2) node[below]{$\pi$};
+\draw (-3.1,.2)--(-3.1,-.2) node[below]{$-\pi$};
+\draw[thick, blue] plot[domain=-6.28:0](\x,{sin \x r});
+\draw[thick, blue] plot[domain=-6.28:0](\x+6.28,{sin \x r}) node[above]{$y=\sin x$};
+\foreach \x in {-4.71,1.57}
+{\draw[blue] ( \x,1) node[vertex]{};
+\draw[blue, dashed] (\x-.75,1)--(\x+.75,1);}
+\foreach \x in {4.71,-1.57}
+{\draw[blue] ( \x,-1) node[vertex]{};
+\draw[blue, dashed] (\x-.75,-1)--(\x+.75,-1);}
+\draw[thick, red] plot[domain=-6.28:0](\x,{cos \x r});
+\draw[thick, red] plot[domain=-6.28:0](\x+6.28,{cos \x r}) node[above]{$y=\cos x$};
+\foreach \x in {-4.71,4.71,1.57,-1.57}
+{\draw[red] (\x,0) node[vertex]{};}
+\end{tikzpicture}\end{center}
+The graph $f(x)=\sin x$ has horizontal tangent lines precisely at those points where $\cos x=0$.
+\flushleft \hyperref [q:2.8.0.2]{A-2:} 
+\begin{center}\begin{tikzpicture}
+\YEaxis{7}{1.2}
+\draw (3.1,.2)--(3.1,-.2) node[below]{$\pi$};
+\draw (-3.1,.2)--(-3.1,-.2) node[below]{$-\pi$};
+\draw[thick, blue] plot[domain=-6.28:0](\x,{sin \x r});
+\draw[thick, blue] plot[domain=-6.28:0](\x+6.28,{sin \x r}) node[above]{$y=\sin x$};
+\foreach \x in {-6.28,0,6.28}
+{\draw[blue] ( \x,0) node[vertex]{};
+\draw[blue, dashed] (\x-1,-1)--(\x+1,1);}
+\draw[thick, red] plot[domain=-6.28:0](\x,{cos \x r});
+\draw[thick, red] plot[domain=-6.28:0](\x+6.28,{cos \x r}) node[above]{$y=\cos x$};
+\foreach \x in {-6.28,0,6.28}
+{\draw[red] (\x,1) node[vertex]{};}
+\end{tikzpicture}\end{center}
+The graph $f(x)=\sin x$ has maximum slope at those points where $\cos x$ has a maximum. That is, where $\cos x = 1$.
+\flushleft \hyperref [q:2.8.0.3]{A-3:} 
+$f'(x)=\cos x - \sin x + \sec^2 x$
+\flushleft \hyperref [q:2.8.0.4]{A-4:} 
+$x=\frac{\pi}{4}+\pi n$, for any integer $n$.
+\flushleft \hyperref [q:2.8.0.5]{A-5:} 
+0
+\flushleft \hyperref [q:2.8.0.6]{A-6:} 
+$f'(x)=2(\cos^2 x - \sin ^2 x)$
+\flushleft \hyperref [q:2.8.0.7]{A-7:} 
+$f'(x)=e^x(\cot x - \csc^2 x)$
+\flushleft \hyperref [q:2.8.0.8]{A-8:} 
+$f'(x)=\dfrac{2+3 \sec x + 2 \sin x -2\tan x \sec x+3\sin x \tan x }{(\cos x + \tan x)^2}$
+\flushleft \hyperref [q:2.8.0.9]{A-9:} 
+$f'(x)=\dfrac{5\sec x \tan x - 5 \sec x - 1}{e^x}$
+\flushleft \hyperref [q:2.8.0.10]{A-10:} 
+$f'(x)=(e^x+\cot x)(30x^5+\csc x \cot x)+(e^x-\csc^2x)(5x^6-\csc x)$
+\flushleft \hyperref [q:2.8.0.11]{A-11:} 
+$-\sin(\theta)$
+\flushleft \hyperref [q:2.8.0.12]{A-12:} 
+$f'(x)=-\cos x - \sin x$
+\flushleft \hyperref [q:2.8.0.13]{A-13:} 
+$\left(\dfrac{\cos\theta+\sin\theta}{\cos\theta-\sin\theta}\right)^2+1$
+\flushleft \hyperref [q:2.8.0.14]{A-14:} 
+$a=0$, $b=1$.
+\flushleft \hyperref [q:2.8.0.15]{A-15:} 
+ $y -  \pi = 1\cdot (x-\pi/2)$
+\flushleft \hyperref [q:2.8.0.16]{A-16:} 
+{$-\sin(2015)$}
+\flushleft \hyperref [q:2.8.0.17]{A-17:} 
+{$-\sqrt{3}/2$}
+\flushleft \hyperref [q:2.8.0.18]{A-18:} 
+ $-1$
+\flushleft \hyperref [q:2.8.0.19]{A-19:} 
+\begin{align*}
+\tan \theta &= \dfrac{\sin \theta}{\cos \theta}
+\intertext{So, using the quotient rule,}
+\diff{}{\theta}\{\tan \theta\}&=\frac{\cos\theta\cos\theta-\sin\theta(-\sin\theta)}{\cos^2\theta}
+=\frac{\cos^2\theta+\sin^2\theta}{\cos^2\theta}\\
+&=\left(\frac{1}{\cos \theta}\right)^2=\sec^2\theta
+\end{align*}
+\flushleft \hyperref [q:2.8.0.20]{A-20:} 
+ $a=-\frac{2}{3}$, $b=2$
+\flushleft \hyperref [q:2.8.0.21]{A-21:} 
+All values of $x$ except $x=\frac{\pi}{2}+n\pi$, for any integer $n$.
+\flushleft \hyperref [q:2.8.0.22]{A-22:} 
+The function is differentiable whenever $x^2+x-6\ne 0$ since the derivative equals
+\begin{align*}
+\frac{10\cos(x)\cdot (x^2+x-6)-10\sin(x)\cdot (2x+1)}{(x^2+x-6)^2},
+\end{align*}
+which is well-defined unless $x^2+x-6=0$. We solve $x^2+x-6=(x-2)(x+3)=0,$
+and get $x=2$ and $x=-3$. So, the function is differentiable for all real values $x$ except for $x=2$ and for $x=-3$.
+\flushleft \hyperref [q:2.8.0.23]{A-23:} 
+The function is differentiable whenever $\sin(x)\ne 0$ since the derivative equals
+\begin{align*}
+\frac{\sin(x)\cdot (2x+6) - \cos(x)\cdot (x^2+6x+5)}{(\sin x)^2},
+\end{align*}
+which is well-defined unless $\sin x = 0$. This happens when $x$ is an integer multiple
+of $\pi$. So, the function is differentiable for all real values $x$ except $x=n\pi,$, where $n$ is any integer.
+\flushleft \hyperref [q:2.8.0.24]{A-24:} 
+$y -  1 = 2\cdot (x-\pi/4)$
+\flushleft \hyperref [q:2.8.0.25]{A-25:} 
+ $y=2x+2$
+\flushleft \hyperref [q:2.8.0.26]{A-26:} 
+$x = \frac{3\pi}{4}+n\pi$ for any integer $n$.
+\flushleft \hyperref [q:2.8.0.27]{A-27:} 
+$f'(0)=0$
+\flushleft \hyperref [q:2.8.0.28]{A-28:} 
+$h'(x)=\left\{\begin{array}{rl}
+\cos x&x> 0\\
+-\cos x&x<0
+\end{array}\right.$ It exists for all $x \neq 0$.
+\flushleft \hyperref [q:2.8.0.29]{A-29:} 
+ \ref{s2.8_2006iii}
+\flushleft \hyperref [q:2.8.0.30]{A-30:} 
+ $2$
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s2.9}}}\phantomsection \label {a ex:s2.9} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s2.9} \hspace {2ex} \nameref *{ex:s2.9}}
+\flushleft \hyperref [q:2.9.0.1]{A-1:} 
+\eqref{s2.9otter1} $\diff{K}{U}$ is negative\qquad
+\eqref{s2.9otter2} $\diff{U}{O}$ is negative\qquad
+\eqref{s2.9otter3} $\diff{K}{O}$ is positive
+\flushleft \hyperref [q:2.9.0.2]{A-2:} 
+negative
+\flushleft \hyperref [q:2.9.0.3]{A-3:} 
+$-5\sin(5x+3)$
+\flushleft \hyperref [q:2.9.0.4]{A-4:} 
+$10x(x^2+2)^4$
+\flushleft \hyperref [q:2.9.0.5]{A-5:} 
+$17(4k^4+2k^2+1)^{16}\cdot(16k^3+4k)$
+\flushleft \hyperref [q:2.9.0.6]{A-6:} 
+$\frac{-2x}{({x^2-1})\sqrt{x^4-1}}$
+\flushleft \hyperref [q:2.9.0.7]{A-7:} 
+$-e^{\cos(x^2)}\cdot \sin(x^2)\cdot 2x$
+\flushleft \hyperref [q:2.9.0.8]{A-8:} 
+$-4$
+\flushleft \hyperref [q:2.9.0.9]{A-9:} 
+$[\cos x -x\sin x]e^{x\cos(x)}$
+\flushleft \hyperref [q:2.9.0.10]{A-10:} 
+$[2x-\sin x]e^{x^2+\cos(x)}$
+\flushleft \hyperref [q:2.9.0.11]{A-11:} 
+$\frac{3}{2\sqrt{x-1}\sqrt{x+2}^3}$
+\flushleft \hyperref [q:2.9.0.12]{A-12:} 
+ $f'(x)= -\dfrac{2}{x^3}+\dfrac{x}{\sqrt{x^2-1}}$ is defined
+for $x$ in $(-\infty,1) \cup (1,\infty)$.
+\flushleft \hyperref [q:2.9.0.13]{A-13:} 
+ $ f'(x)=\dfrac{(1+x^2)(5\cos 5x)-(\sin 5x)(2x)}{{(1+x^2)}^2}$
+\flushleft \hyperref [q:2.9.0.14]{A-14:} 
+$2e^{2x+7}\sec(e^{2x+7})\tan(e^{2x+7}) $
+\flushleft \hyperref [q:2.9.0.15]{A-15:} 
+ $y=1$
+\flushleft \hyperref [q:2.9.0.16]{A-16:} 
+$t=\frac{2}{3}$ and $t=4$
+\flushleft \hyperref [q:2.9.0.17]{A-17:} 
+$2e\sec^2(e)$
+\flushleft \hyperref [q:2.9.0.18]{A-18:} 
+$y'=4e^{4x}\tan x+e^{4x}\sec^2 x$
+\flushleft \hyperref [q:2.9.0.19]{A-19:} 
+ $\dfrac{3}{{(1+e^{3})}^2}$
+\flushleft \hyperref [q:2.9.0.20]{A-20:} 
+ $2 \sin(x) \cdot \cos(x) \cdot e^{\sin^2(x)}$
+\flushleft \hyperref [q:2.9.0.21]{A-21:} 
+ $\cos\left(e^{5x}\right)\cdot e^{5x}\cdot 5$
+\flushleft \hyperref [q:2.9.0.22]{A-22:} 
+$-e^{\cos(x^2)}\cdot \sin(x^2) \cdot 2x$
+\flushleft \hyperref [q:2.9.0.23]{A-23:} 
+ $y'=-\sin\big(x^2+\sqrt{x^2+1}\big)\left(2x+\dfrac{x}{\sqrt{x^2+1}}\right)$
+\flushleft \hyperref [q:2.9.0.24]{A-24:} 
+ $y'=2x\cos^2x-2(1+x^2) \sin x\cos x$
+\flushleft \hyperref [q:2.9.0.25]{A-25:} 
+ $y'=\dfrac{e^{3x}(3x^2-2x+3)}{(1+x^2)^2}$
+\flushleft \hyperref [q:2.9.0.26]{A-26:} 
+ $-40$
+\flushleft \hyperref [q:2.9.0.27]{A-27:} 
+ $(1,1)$ and $(-1,-1)$.
+\flushleft \hyperref [q:2.9.0.28]{A-28:} 
+Always
+\flushleft \hyperref [q:2.9.0.29]{A-29:} 
+$e^x\sec^3(5x-7)(1+15\tan(5x-7))$
+\flushleft \hyperref [q:2.9.0.30]{A-30:} 
+$e^{2x} \cos 4x + 2x e^{2x} \cos 4x -4 x e^{2x} \sin 4x$
+\flushleft \hyperref [q:2.9.0.31]{A-31:} 
+$t=\dfrac{\pi}{4}$
+\flushleft \hyperref [q:2.9.0.32]{A-32:} 
+ Let $f(x)=e^{x+x^2}$ and $g(x)=1+x$. Then $f(0)=g(0)=1$.
+
+$f'(x)=(1+2x)e^{x+x^2}$ and $g'(x)=1$. When $x>0$,
+\[f'(x)=(1+2x)e^{x+x^2}>1\cdot e^{x+x^2}=e^{x+x^2}>e^{0+0^2}=1=g'(x).\] Since $f(0)=g(0)$, and $f'(x)>g'(x)$ for all $x>0$, that means $f$ and $g$ start at the same place, but $f$ always grows faster. Therefore, $f(x)>g(x)$ for all $x>0$.
+\flushleft \hyperref [q:2.9.0.33]{A-33:} 
+$\cos(2x)=\cos^2x-\sin^2x$
+\flushleft \hyperref [q:2.9.0.34]{A-34:} 
+\begin{align*} f'(x)&=
+\frac{1}{3}\left(
+\dfrac{ \sqrt{x^3-9} \tan x }{e^{\csc x^2}}
+\right)^{\frac{2}{3}}\cdot\\
+&~\left(\frac{ \sqrt{x^3-9}\tan x  {(-2x)e^{\csc x^2}\csc(x^2)\cot(x^2)}-e^{\csc x^2}{\left(\frac{3x^2\tan x}{2\sqrt{{x^3-9}}}+\sqrt{x^3-9}\sec^2 x\right)}}{(\tan^2 x)(x^3-9) }\right)
+\end{align*}
+\flushleft \hyperref [q:2.9.0.35]{A-35:} 
+\eqref{s2.9_parametricwiggle1}
+
+\begin{center}\begin{tikzpicture}
+\YEaaxis{3.5}{3.5}{.5}{4.5}
+\draw[thick] plot[smooth, scale=3, domain=-1:1] (\x,{1-\x*\x});
+\foreach \Point in {(-3,0), (-2.1,1.5), (0,3), (2.1,1.5), (3,0)}
+{\draw \Point node[vertex]{};}
+\draw (3,0) node[vertex, label=below:{$\atp{(1,0)}{t=\pi/2}$}]{};
+\draw (-3,0) node[vertex, label=below:{$\atp{(-1,0)}{t=3\pi/2}$}]{};
+\draw (0,3) node[vertex, label=above right:{$\atp{(0,1)}{t=0, \pi,2\pi}$}]{};
+\draw (-2.1,1.5) node[vertex, label=left:{$\atp{\left(-\frac{1}{\sqrt{2}},\frac{1}{2}\right)}{t= 5\pi/4,7\pi/4}$}]{};
+\draw (2.1,1.5) node[vertex, label=right:{$\atp{\left(\frac{1}{\sqrt{2}},\frac{1}{2}\right)}{t= \pi/4,3\pi/4}$}]{};\end{tikzpicture}\end{center}
+
+The particle traces the curve $y=1-x^2$ restricted to domain $[-1,1]$. At $t=0$, the particle is at the top of the curve, $(1,0)$. Then it moves to the right, and goes back and forth along the curve, repeating its path every $2\pi$ units of time.\\
+
+\eqref{s2.9_parametricwiggle2} $\sqrt{3}$
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s2.10}}}\phantomsection \label {a ex:s2.10} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s2.10} \hspace {2ex} \nameref *{ex:s2.10}}
+\flushleft \hyperref [q:2.10.0.1]{A-1:} 
+Ten speakers: 13 dB. One hundred speakers: 23 dB.
+\flushleft \hyperref [q:2.10.0.2]{A-2:} 
+$20\log2 \approx 14$ years
+\flushleft \hyperref [q:2.10.0.3]{A-3:} 
+(b)
+\flushleft \hyperref [q:2.10.0.4]{A-4:} 
+$f'(x)=\dfrac{1}{x}$
+\flushleft \hyperref [q:2.10.0.5]{A-5:} 
+$f'(x)=\dfrac{2}{x}$
+\flushleft \hyperref [q:2.10.0.6]{A-6:} 
+$f'(x)=\dfrac{2x+1}{x^2+x}$
+\flushleft \hyperref [q:2.10.0.7]{A-7:} 
+$f'(x) = \dfrac{1}{x\log10}$
+\flushleft \hyperref [q:2.10.0.8]{A-8:} 
+ $y'=\dfrac{1-3\log x}{x^4}$
+\flushleft \hyperref [q:2.10.0.9]{A-9:} 
+$\ds\diff{}{\theta} \log(\sec \theta) = \tan \theta$
+\flushleft \hyperref [q:2.10.0.10]{A-10:} 
+$f'(x)=\dfrac{-e^{\cos(\log x)}\sin(\log x)}{x}$
+\flushleft \hyperref [q:2.10.0.11]{A-11:} 
+ $y'=\dfrac{2x+\frac{4x^3}{2\sqrt{x^4+1}}}{x^2+\sqrt{x^4+1}}$
+\flushleft \hyperref [q:2.10.0.12]{A-12:} 
+ $\dfrac{\tan x}{2\sqrt{-\log(\cos x)}}$
+\flushleft \hyperref [q:2.10.0.13]{A-13:} 
+ $\dfrac{\sqrt{x^2+4}+x}{x\sqrt{x^2+4}+x^2+4}=
+                    \dfrac{1}{\sqrt{x^2+4}}$
+\flushleft \hyperref [q:2.10.0.14]{A-14:} 
+$g'(x)=\dfrac{2xe^{x^2}\sqrt{1+x^4}+2x^3}{e^{x^2}\sqrt{1+x^4}+1+x^4}$
+\flushleft \hyperref [q:2.10.0.15]{A-15:} 
+ $\dfrac{4}{3}$
+\flushleft \hyperref [q:2.10.0.16]{A-16:} 
+$f'(x)=\dfrac{3x}{x^2+5}-\dfrac{2x^3}{x^4+10}$
+\flushleft \hyperref [q:2.10.0.17]{A-17:} 
+$\dfrac{40}{3}$
+\flushleft \hyperref [q:2.10.0.18]{A-18:} 
+$g'(x)=\pi^x\log \pi+\pi x^{\pi -1}$
+\flushleft \hyperref [q:2.10.0.19]{A-19:} 
+$f'(x) = x^x(\log x + 1)$
+\flushleft \hyperref [q:2.10.0.20]{A-20:} 
+ $x^x(\log x+1)+\dfrac{1}{x\log 10}$
+\flushleft \hyperref [q:2.10.0.21]{A-21:} 
+$f'(x)=\dfrac{1}{4}\left(
+{\sqrt[4]{\dfrac{(x^4+12)(x^4-x^2+2)}{x^3}}}\right)\left(\dfrac{4x^3}{x^4+12}+\dfrac{4x^3-2x}{x^4-x^2+2}-\dfrac{3}{x}\right)$
+\flushleft \hyperref [q:2.10.0.22]{A-22:} 
+$f'(x)=(x+1)(x^2+1)^2(x^3+1)^3(x^4+1)^4(x^5+1)^5
+\left[\frac{1}{x+1}+\frac{4x}{x^2+1}
++\frac{9x^2}{x^3+1}+\frac{16x^3}{x^4+1}+\frac{25x^4}{x^5+1}\right]$
+\flushleft \hyperref [q:2.10.0.23]{A-23:} 
+$\left(\dfrac{x^2+2x+3}{3x^4+4x^3+5}\right)\left(\dfrac{1}{x^2+2x+3}-\dfrac{6x^2}{3x^4+4x^3+5}-\dfrac{1}{2(x+1)^2}\right)
+$
+\flushleft \hyperref [q:2.10.0.24]{A-24:} 
+$f'(x)=(\cos x)^{\sin x}\left[(\cos x) \log (\cos x) - \sin x \tan x\right]$
+\flushleft \hyperref [q:2.10.0.25]{A-25:} 
+${\ds\diff{}{x}\left\{(\tan x)^x\right\}}={(\tan x)^x}\left(\log(\tan x) + \dfrac{x}{\sin x \cos x}\right)$
+\flushleft \hyperref [q:2.10.0.26]{A-26:} 
+ $2x(x^2+1)^{x^2+1} (1+\log(x^2+1))$
+\flushleft \hyperref [q:2.10.0.27]{A-27:} 
+$f'(x)= (x^2+1)^{\sin(x)} \cdot \left( \cos x \cdot \log(x^2+1) + \frac{2x\sin x}{x^2+1}
+\right)$
+\flushleft \hyperref [q:2.10.0.28]{A-28:} 
+$x^{\cos^3(x)} \cdot \left( -3\cos^2(x)\sin(x) \log(x) + \dfrac{\cos^3(x)}{x} \right)$
+\flushleft \hyperref [q:2.10.0.29]{A-29:} 
+$(3+\sin(x))^{x^2-3}\cdot \left[ 2x\log(3+\sin(x)) + \dfrac{(x^2-3)\cos(x)}{3+\sin(x)}\right]$
+\flushleft \hyperref [q:2.10.0.30]{A-30:} 
+ $\ds\diff{}{x}\left\{[f(x)]^{g(x)}\right\}=\left[f(x)\right]^{g(x)}\left[
+g'(x)\log(f(x))+ \dfrac{g(x)f'(x)}{f(x)}
+ \right]$
+\flushleft \hyperref [q:2.10.0.31]{A-31:} 
+Let $g(x):=\log(f(x))$. Notice $g'(x)=\frac{f'(x)}{f(x)}$.\\
+
+In order to show that the two curves have horizontal tangent lines at the same values of $x$, we will show two things: first, that if $f(x)$ has a horizontal tangent line at some
+value of $x$, then also $g(x)$ has a horizontal tangent line at that value of $x$.
+Second, we will show that if $g(x)$ has a horizontal tangent line at some
+value of $x$, then also $f(x)$ has a horizontal tangent line at that value of $x$.
+
+Suppose $f(x)$ has a horizontal tangent line where $x=x_0$ for some point $x_0$. This means $f'(x_0)=0$. Then $g'(x_0)=\frac{f'(x_0)}{f(x_0)}$. Since $f(x_0) \neq 0$, $\frac{f'(x_0)}{f(x_0)}=\frac{0}{f(x_0)}=0$, so $g(x)$ also has a horizontal tangent line when $x=x_0$. This shows that whenever $f$ has a horizontal tangent line, $g$ has one too.
+
+Now suppose $g(x)$ has a horizontal tangent line where $x=x_0$ for some point $x_0$. This means $g'(x_0)=0$. Then $g'(x_0)=\frac{f'(x_0)}{f(x_0)}=0$,
+so $f'(x_0)$ exists and is equal to zero.
+Therefore, $f(x)$ also has a horizontal tangent line when $x=x_0$. This shows that whenever $g$ has a horizontal tangent line, $f$ has one too.
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s2.11}}}\phantomsection \label {a ex:s2.11} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s2.11} \hspace {2ex} \nameref *{ex:s2.11}}
+\flushleft \hyperref [q:2.11.0.1]{A-1:} 
+(a) and (b)
+\flushleft \hyperref [q:2.11.0.2]{A-2:} 
+At $(0,4)$ and $(0,-4)$, $\ds\diff{y}{x}$ is 0; at $(0,0)$, $\ds\diff{y}{x}$ does not exist.
+\flushleft \hyperref [q:2.11.0.3]{A-3:} 
+(a) no \qquad (b) no\\
+$\ds\diff{y}{x}=-\dfrac{x}{y}$. It is not possible to write $\ds\diff{y}{x}$ as a function of $x$, because (as stated in (b)) one value of $x$ may give two values of $\ds\diff{y}{x}$. For instance, when $x=\pi/4$, at the point $\left(\dfrac{\pi}{4},\dfrac{1}{\sqrt{2}}\right)$ the circle has slope $\ds\diff{y}{x}=-1$, while
+at the point $\left(\dfrac{\pi}{4},\dfrac{-1}{\sqrt{2}}\right)$ the circle has slope $\ds\diff{y}{x}=1$.
+\flushleft \hyperref [q:2.11.0.4]{A-4:} 
+$\ds\diff{y}{x}=-\dfrac{e^x+y}{e^y+x}$
+\flushleft \hyperref [q:2.11.0.5]{A-5:} 
+ $\ds\diff{y}{x} = \dfrac{y^2+1}{e^y-2xy}$
+\flushleft \hyperref [q:2.11.0.6]{A-6:} 
+At $(x,y)=(4,1)$, $y' =
+-\dfrac{1}{\pi + 1}$.
+At $(x,y)=(-4,1)$,  $y' = \dfrac{1}{\pi-1}$.
+\flushleft \hyperref [q:2.11.0.7]{A-7:} 
+$ -\ds\frac{2x\sin(x^2+y)+3x^2}{4y^3+\sin(x^2+y)}$
+\flushleft \hyperref [q:2.11.0.8]{A-8:} 
+At $(x,y)=(1,0)$,  $y' = -6$,
+and at $(x,y)=(-5,0)$,  $y' = \frac{6}{25}$.
+\flushleft \hyperref [q:2.11.0.9]{A-9:} 
+$\diff{y}{x} = \dfrac{\cos(x+y)-2x}{2y-\cos(x+y)}$
+\flushleft \hyperref [q:2.11.0.10]{A-10:} 
+At $(x,y)=(2,0)$ we have $y' = -\frac{3}{2}$,
+ and at $(x,y)=(-4,0)$ we have $y' = -\frac{3}{4}$.
+\flushleft \hyperref [q:2.11.0.11]{A-11:} 
+$\left(\dfrac{\sqrt{3}}{2},\dfrac{-1}{2\sqrt{3}}\right)$,
+$\left(\dfrac{-\sqrt{3}}{2},\dfrac{1}{2\sqrt{3}}\right)$
+\flushleft \hyperref [q:2.11.0.12]{A-12:} 
+$-\dfrac{28}{3}$
+\flushleft \hyperref [q:2.11.0.13]{A-13:} 
+$\ds\diff{y}{x}=-\dfrac{2xy^2+\sin y}{2x^2y+x\cos y}$
+\flushleft \hyperref [q:2.11.0.14]{A-14:} 
+ At $(x,y)=(2,0)$, $y' = -2$. At  $(x,y)=(-2,0)$,  $y' = 2$.
+\flushleft \hyperref [q:2.11.0.15]{A-15:} 
+ $x=0$, $x=1$, $x=-1$
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s2.12}}}\phantomsection \label {a ex:s2.12} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s2.12} \hspace {2ex} \nameref *{ex:s2.12}}
+\flushleft \hyperref [q:2.12.0.1]{A-1:} 
+(a) $(-\infty,\infty)$ \qquad (b) all integer multiples of $\pi$\qquad
+(c) $[-1,1]$
+\flushleft \hyperref [q:2.12.0.2]{A-2:} 
+ False
+\flushleft \hyperref [q:2.12.0.3]{A-3:} 
+\begin{center}\begin{tikzpicture}
+\YEaxis{3.5}{3}
+\draw[blue, ultra thick] plot[domain=-1:.73, samples=100]({1.5*sin(2*\x r)+cos(\x r)},\x) node[right]{$y=f^{-1}(x)$};
+\YExcoord{1}{1}
+\end{tikzpicture}\end{center}
+
+\flushleft \hyperref [q:2.12.0.4]{A-4:} 
+\begin{itemize}
+\item If $|a|>1$, there is no point where the curve has horizontal tangent line.
+\item If $|a|=1$, the curve has a horizontal tangent line where
+$x=2\pi n + \dfrac{a\pi}{2}$\\ for any integer $n$.
+\item If $|a|<1$, the curve has a horizontal tangent line where
+$x=2\pi n+\arcsin(a)$ or $x=(2 n +1) \pi - \arcsin (a)$ for any integer $n$.
+\end{itemize}
+\flushleft \hyperref [q:2.12.0.5]{A-5:} 
+Domain: $x=\pm 1$. Not differentiable anywhere.
+\flushleft \hyperref [q:2.12.0.6]{A-6:} 
+$f'(x)=\dfrac{1}{\sqrt{9-x^2}}$; domain of $f$ is $[-3,3]$.
+\flushleft \hyperref [q:2.12.0.7]{A-7:} 
+$f'(t)=\dfrac{-\frac{t^2-1}{\sqrt{1-t^2}}-2t\arccos t}{(t^2-1)^2}$, and the domain of $f(t)$ is $(-1,1)$.
+\flushleft \hyperref [q:2.12.0.8]{A-8:} 
+The domain of $f(x)$ is all real numbers, and
+$f'(x)=\dfrac{-2x}{(x^2+2)\sqrt{x^4+4x^2+3}}$.
+\flushleft \hyperref [q:2.12.0.9]{A-9:} 
+$f'(x)=\dfrac{1}{a^2+x^2}$ and the domain of $f(x)$ is all real numbers.
+\flushleft \hyperref [q:2.12.0.10]{A-10:} 
+$f'(x)=\arcsin x$, and the domain of $f(x)$ is $[-1,1]$.
+\flushleft \hyperref [q:2.12.0.11]{A-11:} 
+ $x=0$
+\flushleft \hyperref [q:2.12.0.12]{A-12:} 
+$\ds\diff{}{x}\{\arcsin x + \arccos x\}=0$
+\flushleft \hyperref [q:2.12.0.13]{A-13:} 
+ $y'=\dfrac{-1}{x^2\sqrt{1-\frac{1}{x^2}}}$
+\flushleft \hyperref [q:2.12.0.14]{A-14:} 
+ $y'=\dfrac{-1}{1+x^2}$
+\flushleft \hyperref [q:2.12.0.15]{A-15:} 
+ $2x\arctan x+1$
+\flushleft \hyperref [q:2.12.0.16]{A-16:} 
+Let $\theta = \arctan x$. Then $\theta$ is the angle of a right triangle that gives $\tan \theta = x$. In particular, the ratio of the opposite side to the adjacent side is $x$. So, we have a  triangle that looks like this:
+\begin{center}\begin{tikzpicture}
+\draw (0,0)-|(-6,3)--cycle;
+\draw (-1.25,.25) node{$\theta$};
+\draw (-1,0) arc(180:152:1cm);
+\draw (-6.5,1.5) node{$x$};
+\draw (-3,-.5) node{$1$};
+\draw (-3,2.25) node{$\sqrt{x^2+1}$};
+\end{tikzpicture}\end{center}
+where the length of the hypotenuse came from the Pythagorean Theorem. Now,
+\[\sin\left(\arctan x\right) = \sin \theta = \frac{\mbox{opp}}{\mbox{hyp}} = \frac{x}{\sqrt{x^2+1}}\]
+From here, we differentiate using the quotient rule:
+\begin{align*}
+\diff{}{x}\left\{\frac{x}{\sqrt{x^2+1}}
+\right\}&=
+\frac{\sqrt{x^2+1}-x\frac{2x}{2\sqrt{x^2+1}}}{x^2+1}\\
+&=\left(\frac{\sqrt{x^2+1}-\frac{x^2}{\sqrt{x^2+1}}}{x^2+1}\right)\cdot\frac{\sqrt{x^2+1}}{\sqrt{x^2+1}}\\
+&=\frac{(x^2+1)-x^2}{(x^2+1)^{3/2}}\\
+&=\frac{1}{(x^2+1)^{3/2}}=(x^2+1)^{-3/2}
+\end{align*}
+\flushleft \hyperref [q:2.12.0.17]{A-17:} 
+Let $\theta = \arcsin x$. Then $\theta$ is the angle of a right triangle that gives $\sin \theta = x$. In particular, the ratio of the opposite side to the hypotenuse is $x$. So, we have a  triangle that looks like this:
+\begin{center}\begin{tikzpicture}
+\draw (0,0)-|(-6,3)--cycle;
+\draw (-1.25,.25) node{$\theta$};
+\draw (-1,0) arc(180:152:1cm);
+\draw (-6.5,1.5) node{$x$};
+\draw (-3,-.5) node{$\sqrt{1-x^2}$};
+\draw (-3,2.25) node{$1$};
+\end{tikzpicture}\end{center}
+where the length of the adjacent side came from the Pythagorean Theorem. Now,
+\[\cot\left(\arcsin x\right) = \cot \theta = \frac{\mbox{adj}}{\mbox{opp}} = \frac{\sqrt{1-x^2}}{x}\]
+From here, we differentiate using the quotient rule:
+\begin{align*}
+\diff{}{x}\left\{\frac{\sqrt{1-x^2}}{x}
+\right\}&=
+\frac{x\frac{-2x}{2\sqrt{1-x^2}}-\sqrt{1-x^2}}{x^2}\\
+&=\frac{-x^2-(1-x^2)}{x^2\sqrt{1-x^2}}\\
+&=\frac{-1}{x^2\sqrt{1-x^2}}
+\end{align*}
+\flushleft \hyperref [q:2.12.0.18]{A-18:} 
+ $(x,y)=\pm\big(\frac{\sqrt{3}}{2},\frac{\pi}{3}\big)$
+\flushleft \hyperref [q:2.12.0.19]{A-19:} 
+$x=\dfrac{(2n+1)\pi}{2}$ for any integer $n$
+\flushleft \hyperref [q:2.12.0.20]{A-20:} 
+$g'(y)=\dfrac{1}{1-\sin g(y)}$
+\flushleft \hyperref [q:2.12.0.21]{A-21:} 
+$\dfrac{1}{2}$
+\flushleft \hyperref [q:2.12.0.22]{A-22:} 
+ $\dfrac{1}{e+1}$
+\flushleft \hyperref [q:2.12.0.23]{A-23:} 
+$f'(x)=[\sin x +2]^{\arcsec x}\left(\dfrac{\log[\sin x +2]}{|x|\sqrt{x^2-1}}+ \dfrac{\arcsec x \cdot\cos x}{\sin x +2}\right)$. The domain of $f(x)$ is $|x|\ge 1$.
+\flushleft \hyperref [q:2.12.0.24]{A-24:} 
+The function $\dfrac{1}{\sqrt{x^2-1}}$ exists only for those values of $x$ with $x^2-1>0$: that is, the domain of $\dfrac{1}{\sqrt{x^2-1}}$ is $|x|>1$. However, the domain of arcsine is $|x| \leq 1$. So, there is not one single value of $x$ where  $\arcsin x$ and $\dfrac{1}{\sqrt{x^2-1}}$ are both defined.
+
+If the derivative of $\arcsin(x)$ were given by $\dfrac{1}{\sqrt{x^2-1}}$, then the derivative of $\arcsin(x)$ would not exist anywhere, so we would probably just write ``derivative does not exist," instead of making up a function with a mismatched domain. Also, the function $f(x)=\arcsin(x)$ is a smooth curve--its derivative exists at every point strictly inside its domain. (Remember not all curves are like this: for instance, $g(x)=|x|$ does not have a derivative at $x=0$, but $x=0$ is strictly inside its domain.) So, it's a pretty good bet that the derivative of arcsine is \emph{not} $\dfrac{1}{\sqrt{x^2-1}}$.
+\flushleft \hyperref [q:2.12.0.25]{A-25:} 
+$\dfrac{1}{2}$
+\flushleft \hyperref [q:2.12.0.26]{A-26:} 
+$f^{-1}(7)=-\dfrac{25}{4}$
+\flushleft \hyperref [q:2.12.0.27]{A-27:} 
+$f(0)=-7$
+\flushleft \hyperref [q:2.12.0.28]{A-28:} 
+$y'=\dfrac{2x\sqrt{1-(x+2y)^2}-1}{2-2y\sqrt{1-(x+2y)^2}}$, or equivalently,
+$y'=\dfrac{2x\cos(x^2+y^2)-1}{2-2y\cos(x^2+y^2)}$
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s2.13}}}\phantomsection \label {a ex:s2.13} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s2.13} \hspace {2ex} \nameref *{ex:s2.13}}
+\flushleft \hyperref [q:2.13.0.1]{A-1:} 
+The caribou spent \emph{at least} about 71 and a half hours travelling during its migration (probably much more) in one year.
+\flushleft \hyperref [q:2.13.0.2]{A-2:} 
+At some point during the day, the crane was travelling at exactly 10 kph.
+\flushleft \hyperref [q:2.13.0.3]{A-3:} 
+One possible answer:
+\begin{center}\begin{tikzpicture}
+\YEaaxis{1}{12}{3.5}{3.5}
+\draw plot[domain=2:10, samples=100](\x,{(6/(cosh(\x-3))-3});
+\draw (2,0.89) node[vertex](a){};
+\draw (10,-3) node[vertex](b){};
+\draw (2,.2)--(2,-.2) node[below]{$a$};
+\draw (10,.2)--(10,-.2) node[below]{$b$};
+\draw[blue, dashed] (a)--(b);
+\draw[red] (3.1,2.95) node[vertex](c1){};
+\draw[red, dashed] plot[domain=1:6](\x,{-0.49*\x+4.5});
+\draw[red, thick] (3.1,.2)--(3.1,-.2) node[below]{$c$};
+\end{tikzpicture}\end{center}
+Another possible answer:
+\begin{center}\begin{tikzpicture}
+\YEaaxis{1}{12}{3.5}{3.5}
+\draw plot[domain=2:10, samples=100](\x,{(6/(cosh(\x-3))-3});
+\draw (2,0.89) node[vertex](a){};
+\draw (10,-3) node[vertex](b){};
+\draw (2,.2)--(2,-.2) node[below]{$a$};
+\draw (10,.2)--(10,-.2) node[below]{$b$};
+\draw[blue, dashed] (a)--(b);
+\draw[red, dashed] plot[domain=4:9](\x,{-0.49*\x+.5});
+\draw[red] (6.2,-2.55) node[vertex](c2){};
+\draw[red] (6.2,.2)--(6.2,-.2) node[below]{$c$};
+\end{tikzpicture}\end{center}
+\flushleft \hyperref [q:2.13.0.4]{A-4:} 
+One possible answer: $f(x) = \left\{\begin{array}{lr}
+0&x \neq 10\\
+10&x=10
+\end{array}\right.$
+
+Another answer:
+$f(x) = \left\{\begin{array}{lr}
+10&x \neq 0\\
+0&x=0
+\end{array}\right.$
+
+
+Yet another answer:
+$f(x) = \left\{\begin{array}{ll}
+5&x \neq 0,~10\\
+10&x= 10\\
+0&x=0
+\end{array}\right.$
+\flushleft \hyperref [q:2.13.0.5]{A-5:} 
+(a) No such function is possible: Rolle's Theorem guarantees $f'(c)=0$ for at least one point $c \in (1,2)$.
+
+For the other functions, examples are below, but many answers are possible.
+
+\begin{center}
+\begin{tikzpicture}
+\YEaaxis{1}{3}{1}{2}
+\draw (.5,0) node[vertex, label=below:1]{};
+\draw (2.5,0) node[vertex, label=below:2]{};
+\draw[thick] plot[domain=.5:2.5](\x,{-.5*(4*\x*\x-12*\x+5)});
+\draw (-1,3) node{(b)};
+\end{tikzpicture}
+\hfill%
+\begin{tikzpicture}
+\YEaaxis{1}{4}{1}{2}
+\draw (.62,0) node[vertex, label=below:1]{};
+\draw (3.76,0) node[vertex, label=below:2]{};
+\draw[thick] plot[domain=.62:3.76, samples=100](\x,{-sin(\x*5 r)});
+\draw (-1,3) node{(c)};
+\end{tikzpicture}
+\hfill%
+\begin{tikzpicture}
+\YEaaxis{1}{3}{1}{2}
+\draw (.5,0) node[vertex, label=below:1]{};
+\draw (2.5,0) node[vertex, label=below:2]{};
+\draw[ultra thick] (.5,0)--(2.5,0);
+\draw (-1,3) node{(d)};
+\end{tikzpicture}
+\end{center}
+\flushleft \hyperref [q:2.13.0.6]{A-6:} 
+The function $f(x)$ is continuous over all real numbers, but it is only differentiable when $x \neq 0$. So, if we want to apply the MVT, our interval must consist of only positive numbers or only negative numbers: the interval $(-4,13)$ is not valid.
+
+It is possible to use the mean value theorem to prove what we want: if $a=1$ and $b=144$, then $f(x)$ is differentiable over the interval $(1,144)$ (since 0 is not contained in that interval), and $f(x)$ is continuous everywhere, so by the mean value theorem there exists some point $c$ where $f'(x)=\dfrac{\sqrt{|144|}-\sqrt{|1|}}{144-1}=\dfrac{11}{143}=\dfrac{1}{13}$.
+
+That being said, an easier way to prove that a point exists is to simply find it--without using the MVT. When $x>0$, $f(x)=\sqrt{x}$, so $f'(x)=\dfrac{1}{2\sqrt {x}}$. Then $f'\left(\dfrac{169}{4}\right)=\dfrac{1}{13}$.
+\flushleft \hyperref [q:2.13.0.7]{A-7:} 
+ We note that $f(0)=f(2\pi)=0$. Then using the Mean Value Theorem (note that the function is differentiable for all real numbers), we conclude that there exists $c$ in $(0,2\pi)$ such that
+$$f'(c)=\frac{f(2\pi)- f(0)}{2\pi - 0} = 0.$$
+\flushleft \hyperref [q:2.13.0.8]{A-8:} 
+We note that $f(0)=f(1)=0$. Then using the Mean Value Theorem (note that the function is differentiable for all real numbers), we get that there exists $c\in (0,1)$ such that
+$$f'(c)=\frac{f(1)- f(0)}{1 - 0} = 0.$$
+\flushleft \hyperref [q:2.13.0.9]{A-9:} 
+We note that $f(0)=f(2\pi)=\sqrt{3} + \pi^2$. Then using the Mean Value Theorem (note that
+the function is differentiable for all real numbers since $3+\sin x>0$), we get that
+there exists $c\in (0,2\pi)$ such that
+$$f'(c)=\frac{f(2\pi)- f(0)}{2\pi - 0} = 0.$$
+\flushleft \hyperref [q:2.13.0.10]{A-10:} 
+We note that $f(0)=0$ and $f(\pi/4)=0$. Then using the Mean Value Theorem (note that the
+function is differentiable for all real numbers), we get that there exists $c\in
+(0,\pi/4)$ such that
+$$f'(c)=\frac{f(\pi/4)- f(0)}{\pi/4 - 0} = 0.$$
+\flushleft \hyperref [q:2.13.0.11]{A-11:} 
+ $1$
+\flushleft \hyperref [q:2.13.0.12]{A-12:} 
+$2$
+\flushleft \hyperref [q:2.13.0.13]{A-13:} 
+$1$
+\flushleft \hyperref [q:2.13.0.14]{A-14:} 
+$1$
+\flushleft \hyperref [q:2.13.0.15]{A-15:} 
+\eqref{s2.131997.1} $$
+f'(x)=15x^4-30x^2+15=15\big(x^4-2x^2+1\big)=15\big(x^2-1\big)^2\ge 0
+$$
+The derivative is nonnegative everywhere. The only values of $x$ for which $f'(x)=0$ are $1$ and $-1$, so $f'(x)>0$ for every $x$ in $(-1,1)$.
+\smallskip
+
+\eqref{s2.131997.2} If $f(x)$ has two roots $a$ and $b$ in $[-1,1]$, then by Rolle's Theorem, $f'(c)=0$ for some $x$ strictly between $a$ and $b$. But since $a$ and $b$ are in $[-1,1]$, and $c$ is between $a$ and $b$, that means $c$ is in $(-1,1)$; however, we know for every $c$ in $(-1,1)$, $f'(c)>0$, so this can't happen. Therefore, $f(x)$ \emph{does not} have two roots $a$ and $b$ in $[-1,1]$. This means $f(x)$ has at most one root in $[-1,1]$.
+
+\flushleft \hyperref [q:2.13.0.16]{A-16:} 
+$\log\left(\dfrac{e^T-1}{T}\right)$
+\flushleft \hyperref [q:2.13.0.17]{A-17:} 
+$C=\frac{\pi}{2}$. See the solution for the justification.
+\flushleft \hyperref [q:2.13.0.18]{A-18:} 
+Since $e^{-f(x)}$ is always positive (regardless of the value of $f(x)$),
+\[f'(x)=\dfrac{1}{1+e^{-f(x)}}<\dfrac{1}{1+0}=1\] for every $x$.
+
+Since  $f'(x)$ exists for every $x$, we see that $f$ is differentiable, so the Mean Value Theorem applies. If $f(100)$ is greater than or equal to 100, then by the Mean Value Theorem,
+ there would have
+to be some $c$ between $0$ and $100$ such that
+$$
+f'(c) = \frac{f(100)-f(0)}{100}\geq\frac{100}{100}= 1
+$$
+
+Since $f'(x) \leq 1$ for every $x$, there is \emph{no} value of $c$ as described.
+Therefore, it is not possible that  $f(100) \geq 100$. So, $f(100)<100$.
+\flushleft \hyperref [q:2.13.0.19]{A-19:} 
+Domain of $f^{-1}(x)$: $(-\infty,\infty)$\\
+Interval where $f$ is one--to--one, and range of $f^{-1}(x)$: $(-\infty,\infty)$
+\flushleft \hyperref [q:2.13.0.20]{A-20:} 
+One--to--one interval, and range of $f^{-1}$: $\left[-\frac{2\pi}{3},\frac{2\pi}{3}\right]$ \\
+Domain of $f^{-1}$: $\left[-\left(\frac{\pi}{3}+\frac{\sqrt{3}}{2}\right),\left(\frac{\pi}{3}+\frac{\sqrt{3}}{2}\right)\right]$
+\flushleft \hyperref [q:2.13.0.21]{A-21:} 
+Define $h(x)=f(x)-g(x)$, and notice $h(a)=f(a)-g(a)<0$ and $h(b)=f(b)-g(b)>0$. Since $h$ is the difference of two functions that are continuous over $[a,b]$ and differentiable over $(a,b)$, also $h$ is continuous over $[a,b]$ and differentiable over $(a,b)$. So, by the Mean Value Theorem, there exists some $c \in (a,b)$ with
+\[h'(c)=\frac{h(b)-h(a)}{b-a}\]
+Since $(a,b)$ is an interval, $b>a$, so the denominator of the above expression is positive; since $h(b)>0>h(a)$, also the numerator of the above expression is positive. So, $h'(c)>0$ for some $c \in (a,b)$. Since $h'(c)=f'(c)-g'(c)$, we conclude $f'(c)>g'(c)$ for some $c \in (a,b)$.
+\flushleft \hyperref [q:2.13.0.22]{A-22:} 
+$3$
+\flushleft \hyperref [q:2.13.0.23]{A-23:} 
+ $2$
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s2.14}}}\phantomsection \label {a ex:s2.14} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s2.14} \hspace {2ex} \nameref *{ex:s2.14}}
+\flushleft \hyperref [q:2.14.0.1]{A-1:} 
+ $e^x$
+\flushleft \hyperref [q:2.14.0.2]{A-2:} 
+\eqref{s2.14''ii}, \eqref{s2.14''iv}
+\flushleft \hyperref [q:2.14.0.3]{A-3:} 
+$\dfrac{3}{15!}$
+\flushleft \hyperref [q:2.14.0.4]{A-4:} 
+The derivative $\ds\diff{y}{x}$ is $\dfrac{11}{4}$ only at the point $(1,3)$: it is not \emph{constantly} $\dfrac{11}{4}$, so it is wrong to differentiate the constant $\dfrac{11}{4}$ to find $\ds\ddiff{2}{y}{x}$. Below is a correct solution.
+\begin{align*}
+-28x+2y+2xy'+2yy'&=0
+\intertext{Plugging in $x=1$, $y=3$:}
+-28+6+2y'+6y'&=0\\
+y'&=\frac{11}{4} \quad\mbox{\textcolor{red}{ at the point $(1,3)$}}
+\intertext{Differentiating \textcolor{red}{the equation $-28x+2y+2xy'+2yy'=0$}:}
+-28+2y'+2y'+2xy''+2y'y'+2yy''&=0\\
+4y'+2(y')^2+2xy''+2yy''&=28
+\intertext{At the point $(1,3)$, $y'=\dfrac{11}{4}$. Plugging in:}
+4\left(\frac{11}{4}\right)+2\left(\frac{11}{4}\right)^2+2(1)y''+2(3)y''&=28\\
+y''&=\frac{15}{64}
+\end{align*}
+\flushleft \hyperref [q:2.14.0.5]{A-5:} 
+$f''(x)=\dfrac{1}{x}$
+\flushleft \hyperref [q:2.14.0.6]{A-6:} 
+$\ds\ddiff{2}{}{x}\{\arctan x\}=\frac{-2x}{(1+x^2)^2}$
+\flushleft \hyperref [q:2.14.0.7]{A-7:} 
+$\ds\ddiff{2}{y}{x}=\dfrac{-1}{y^3}$
+\flushleft \hyperref [q:2.14.0.8]{A-8:} 
+$0$
+\flushleft \hyperref [q:2.14.0.9]{A-9:} 
+$\ds\ddiff{3}{}{x}\{\log(5x^2-12)\}=\frac{100x(5x^2+36)}{(5x^2-12)^3}$
+\flushleft \hyperref [q:2.14.0.10]{A-10:} 
+speeding up
+\flushleft \hyperref [q:2.14.0.11]{A-11:} 
+slower
+\flushleft \hyperref [q:2.14.0.12]{A-12:} 
+$-4$
+\flushleft \hyperref [q:2.14.0.13]{A-13:} 
+(a) true \qquad (b) true \qquad (c) false
+\flushleft \hyperref [q:2.14.0.14]{A-14:} 
+ (ii)
+\flushleft \hyperref [q:2.14.0.15]{A-15:} 
+$f^{(n)}=2^x(\log 2)^n$
+\flushleft \hyperref [q:2.14.0.16]{A-16:} 
+ $n=4$
+\flushleft \hyperref [q:2.14.0.17]{A-17:} 
+\eqref{s2.14ineq1} $f'(x)=(1+2x)e^{x+x^2}$ \quad $f''(x)=(4x^2+4x+3)e^{x+x^2}$\quad
+ $h'(x)=1+3x$ \quad $h''(x)=3$\\
+\eqref{s2.14ineq2} $f(0)=h(0)=1$; \quad $f'(0)=h'(0)=1$; \quad $f''(0)=h''(0)=3$\\
+\eqref{s2.14ineq3} $f$ and $h$ ``start at the same place," since $f(0)=h(0)$. Also $f'(0)=h'(0)$, and $f''(x)=(4x^2+4x+3)e^{x+x^2} > 3e^{x+x^2}>3=h''(x)$ when $x>0$. Since $f'(0)=h'(0)$, and since $f'$ grows faster than $h'$ for positive $x$, we conclude $f'(x)>h'(x)$ for all positive $x$. Now we can conclude that (since $f(0)=h(0)$ and $f$ grows faster than $h$ when $x>0$) also $f(x)>h(x)$ for all positive $x$.
+\flushleft \hyperref [q:2.14.0.18]{A-18:} 
+\begin{enumerate}[(a)]
+\item $y'(1)=\dfrac{4}{13}$
+\item ~
+\begin{center}
+\includegraphics{graphE3}
+\end{center}
+\end{enumerate}
+\flushleft \hyperref [q:2.14.0.19]{A-19:} 
+\eqref{s2.14expprod1} $g''(x)=[f(x)+2f'(x)+f''(x)]e^x$\\
+\eqref{s2.14expprod2}  $g'''(x)=[f(x)+3f'(x)+3f''(x)+f'''(x)]e^x$\\
+\eqref{s2.14expprod3} $g^{(4)}(x)=[f(x)+4f'(x)+6f''(x)+4f'''(x)+f^{(4)}(x)]e^x$
+\flushleft \hyperref [q:2.14.0.20]{A-20:} 
+$m+n$
+\flushleft \hyperref [q:2.14.0.21]{A-21:} 
+$2$
+\flushleft \hyperref [q:2.14.0.22]{A-22:} 
+\eqref{s2.14_2007_1}
+In order to make $f(x)$ a little more tractable, let's change the format. Since
+$|x|=\left\{\begin{array}{rl}
+x&x \geq 0\\
+-x&x<0
+\end{array}\right.$, then:
+\[f(x)=\left\{\begin{array}{rl}
+-x^2&x<0\\
+x^2&x\ge 0.\end{array}
+\right. \]
+
+Now, we turn to the definition of the derivative to figure out whether $f'(0)$ exists.
+\begin{align*}
+f'(0)&=\lim_{h \to 0} \frac{f(0+h)-f(0)}{h}=\lim_{h \to 0}\frac{f(h)-0}{h} =\lim_{h \to 0}\frac{f(h)}{h}\qquad\mbox{if it exists.}
+\intertext{Since $f$ looks different to the left and right of 0, in order to evaluate this limit, we look at the corresponding one-sided limits. Note that when $h$ approaches 0 from the right, $h>0$ so $f(h)=h^2$.
+By contrast, when $h$ approaches 0 from the left, $h<0$ so $f(h)=-h^2$.}
+&~\lim_{h \to 0^+} \frac{f(h)}{h}=\lim_{h \to 0^+}\frac{h^2}{h}=\lim_{h \to 0^+}h=0\\
+&~\lim_{h \to 0^-} \frac{f(h)}{h}=\lim_{h \to 0^-}\frac{-h^2}{h}=\lim_{h \to 0^-}-h=0
+\intertext{Since both one-sided limits exist and are equal to 0,}
+&~\lim_{h \to 0} \frac{f(0+h)-f(0)}{h}=0
+\end{align*}
+and so $f$ is differentiable at $x=0$ and $f'(0)=0$.
+
+\eqref{s2.14_2007_2}
+From \eqref{s2.14_2007_1}, $f'(0)=0$ and
+\[f(x)=\left\{\begin{array}{rl}
+-x^2&x<0\\
+x^2&x\ge 0.\end{array}
+\right. \]
+So,
+\[f'(x)=\left\{\begin{array}{rl}
+-2x&x<0\\
+2x&x\ge 0.\end{array}
+\right. \]
+
+Then, we know the second derivative of $f$ everywhere except at $x=0$:
+\[f''(x)=\left\{\begin{array}{cc}
+-2&x<0\\
+??&x=0\\
+2&x> 0.\end{array}
+\right. \]
+
+So, whenever $x \neq 0$, $f''(x)$ exists. To investigate the differentiability of $f'(x)$ when $x=0$, again we turn to the definition of a derivative. If
+\begin{align*}
+&\lim_{h \to 0}\frac{f'(0+h)-f'(0)}{h}
+\intertext{exists, then $f''(0)$ exists.}
+\lim_{h \to 0}\frac{f'(0+h)-f'(0)}{h}&=\lim_{h \to 0} \frac{f'(h)-0}{h}=\lim_{h \to 0}\frac{f'(h)}{h}
+\intertext{Since $f(h)$ behaves differently when $h$ is greater than or less than zero, we look at the one-sided limits.}
+\lim_{h \to 0^+}\frac{f'(h)}{h}&=\lim_{h \to 0^+}\frac{2h}{h}=2\\
+\lim_{h \to 0^-}\frac{f'(h)}{h}&=\lim_{h \to 0^-}\frac{-2h}{h}=-2
+\intertext{Since the one-sided limits do not agree,}
+\lim_{h \to 0}\frac{f'(0+h)-f'(0)}{h}&=DNE
+\end{align*}
+So, $f''(0)$ does not exist. Now we have a complete picture of $f''(x)$:
+\[
+f''(x)=\left\{\begin{array}{ll}
+-2&x<0\\
+DNE&x=0\\
+2&x>0.
+\end{array}\right.
+\]
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.1}}}\phantomsection \label {a ex:s3.1} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.1} \hspace {2ex} \nameref *{ex:s3.1}}
+\flushleft \hyperref [q:3.1.0.1]{A-1:} 
+False (but its \emph{velocity} is zero)
+\flushleft \hyperref [q:3.1.0.2]{A-2:} 
+It takes 10 seconds to accelerate
+from $2~\frac{\mathrm{m}}{\mathrm{s}}$   to $3~\frac{\mathrm{m}}{\mathrm{s}}$, and $100$ seconds to accelerate from $3~\frac{\mathrm{m}}{\mathrm{s}}$ to $13~\frac{\mathrm{m}}{\mathrm{s}}$.
+\flushleft \hyperref [q:3.1.0.3]{A-3:} 
+In general, false.
+\flushleft \hyperref [q:3.1.0.4]{A-4:} 
+True
+\flushleft \hyperref [q:3.1.0.5]{A-5:} 
+The pot is falling at 14 metres per second, just as it hits the ground.
+\flushleft \hyperref [q:3.1.0.6]{A-6:} 
+(a) $4.9x^2$ metres \qquad (b) $4.9x^2+x$ metres
+\flushleft \hyperref [q:3.1.0.7]{A-7:} 
+$8-4\sqrt{3}\approx 1$ sec
+\flushleft \hyperref [q:3.1.0.8]{A-8:} 
+$7.2$ sec
+\flushleft \hyperref [q:3.1.0.9]{A-9:} 
+72 000 kph per hour
+\flushleft \hyperref [q:3.1.0.10]{A-10:} 
+$\dfrac{100}{7}\approx 14$ kph
+\flushleft \hyperref [q:3.1.0.11]{A-11:} 
+about 1240 miles
+\flushleft \hyperref [q:3.1.0.12]{A-12:} 
+$49$ metres per second
+\flushleft \hyperref [q:3.1.0.13]{A-13:} 
+About 416 metres
+\flushleft \hyperref [q:3.1.0.14]{A-14:} 
+$v_0=\sqrt{1960}\approx 44$ metres per second
+\flushleft \hyperref [q:3.1.0.15]{A-15:} 
+$\approx 74.2$ kph
+\flushleft \hyperref [q:3.1.0.16]{A-16:} 
+Time elapsed: $\dfrac{1}{4.9}+\dfrac{1}{9.8}\approx 0.3$ seconds
+\flushleft \hyperref [q:3.1.0.17]{A-17:} 
+The acceleration is given by $2^tv_0\log 2$, where $v_0$ is the velocity of the object at time $t=0$.
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.2}}}\phantomsection \label {a ex:s3.2} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.2} \hspace {2ex} \nameref *{ex:s3.2}}
+\flushleft \hyperref [q:3.2.0.1]{A-1:} 
+ii and iv
+\flushleft \hyperref [q:3.2.0.2]{A-2:} 
+$-\dfrac{3}{2}$
+\flushleft \hyperref [q:3.2.0.3]{A-3:} 
+ $6\%$
+\flushleft \hyperref [q:3.2.0.4]{A-4:} 
+\eqref{s3.2FPQ1} 0\qquad
+\eqref{s3.2FPQ2} $100\dfrac{F'}{F}=15\%$, or $F'=0.15F$
+\flushleft \hyperref [q:3.2.0.5]{A-5:} 
+$-\dfrac{17}{5}$ units per second
+\flushleft \hyperref [q:3.2.0.6]{A-6:} 
+ $\dfrac{4}{5}$ units per second
+\flushleft \hyperref [q:3.2.0.7]{A-7:} 
+ increasing at $7$ mph
+\flushleft \hyperref [q:3.2.0.8]{A-8:} 
+$8$ cm per minute
+\flushleft \hyperref [q:3.2.0.9]{A-9:} 
+$-\dfrac{13}{6}$ metres per second
+\flushleft \hyperref [q:3.2.0.10]{A-10:} 
+ The height of the water is decreasing at
+$\dfrac{3}{16}=0.1875~\frac{\mathrm{cm}}{\mathrm{min}}$.
+\flushleft \hyperref [q:3.2.0.11]{A-11:} 
+$\dfrac{1}{29200}$ metres per second (or about 1 centimetre every five minutes)
+\flushleft \hyperref [q:3.2.0.12]{A-12:} 
+$\left(\dfrac{2}{\left(\frac{1235}{72}\right)^2+4}\right)\left(\dfrac{6175}{3}\right)\approx
+13.8~\frac{\mathrm{rad}}{\mathrm{hour}} \approx 0.0038~\frac{\mathrm{rad}}{\mathrm{sec}}$
+\flushleft \hyperref [q:3.2.0.13]{A-13:} 
+\eqref{s3.2train1} $\dfrac{24}{13}\approx 1.85$ km/min \qquad
+\eqref{s3.2train2} about $.592$ radians/min
+\flushleft \hyperref [q:3.2.0.14]{A-14:} 
+$\dfrac{55\sqrt{21}\pi}{42}\approx 19$ centimetres per hour.
+\flushleft \hyperref [q:3.2.0.15]{A-15:} 
+$\ds\diff{A}{t}=-2\pi~\dfrac{\mathrm{cm}^2}{\mathrm{s}}$
+\flushleft \hyperref [q:3.2.0.16]{A-16:} 
+$288 \pi$ cubic units per unit time
+\flushleft \hyperref [q:3.2.0.17]{A-17:} 
+0 square centimetres per minute
+\flushleft \hyperref [q:3.2.0.18]{A-18:} 
+$-\dfrac{7\pi}{12}\approx -1.8~\dfrac{\mathrm{cm}^3}{\mathrm{sec}^2}$
+\flushleft \hyperref [q:3.2.0.19]{A-19:} 
+The flow is decreasing at a rate of $\dfrac{\sqrt{7}}{1000}~\dfrac{\mathrm{m}^3}{\mathrm{sec}^2}$.
+\flushleft \hyperref [q:3.2.0.20]{A-20:} 
+$\dfrac{-15}{49\pi}\approx -0.097$  cm per minute
+\flushleft \hyperref [q:3.2.0.21]{A-21:} 
+(a) $\ds\diff{D}{t}=\dfrac{1}{2\sqrt{2}}$ metres per hour\\
+(b) The river is higher than 2 metres.\\
+(c) The river's flow has reversed direction. (This can happen near an ocean at high tide.)
+\flushleft \hyperref [q:3.2.0.22]{A-22:} 
+(a) 2 units per second
+(b)
+Its $y$-coordinate is decreasing at $\dfrac{1}{2}$ unit per second.\\
+The point is moving at $\dfrac{\sqrt{5}}{2}$ units per second.
+\flushleft \hyperref [q:3.2.0.23]{A-23:} 
+(a)  $10\pi=\pi\left[3(a+b)-\sqrt{(a+3b)(3a+b)}\right]$ or equivalently,
+$10=3(a+b)-\sqrt{(a+3b)(3a+b)}
+$\\
+(b) $20\pi a b$\\
+(c) The water is spilling out at about 375.4 cubic centimetres per second. The exact amount is
+$-\dfrac{200\pi}{9-\sqrt{35}}\left(1-2\left(\dfrac{3\sqrt{35}-11}{3\sqrt{35}-13}\right)\right)~\dfrac{\mathrm{cm}^3}{\mathrm{sec}}$.
+\flushleft \hyperref [q:3.2.0.24]{A-24:} 
+% $B(10)=\dfrac{1}{2}$
+$B(10)=0$
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.3.1}}}\phantomsection \label {a ex:s3.3.1} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.3.1} \hspace {2ex} \nameref *{ex:s3.3.1}}
+\flushleft \hyperref [q:3.3.1.1]{A-1:} 
+ (a), (b)
+\flushleft \hyperref [q:3.3.1.2]{A-2:} 
+ (a), (d)
+\flushleft \hyperref [q:3.3.1.3]{A-3:} 
+If $C=0$, then there was none to start out with, and $Q(t)=0$ for all values of $t$.\\
+If $C \neq 0$, then $Q(t)$ will never be 0 (but as $t$ gets bigger and bigger, $Q(t)$ gets closer and closer to 0).
+\flushleft \hyperref [q:3.3.1.4]{A-4:} 
+  $A=5$, $k = \dfrac{1}{7} \cdot \log\left(\pi/5\right)$
+\flushleft \hyperref [q:3.3.1.5]{A-5:} 
+$y(t)=2e^{-3(t-1)}$, or equivalently, $y(t)=2e^3e^{-3t}$
+\flushleft \hyperref [q:3.3.1.6]{A-6:} 
+$5\cdot 2^{-\tfrac{10000}{5730}}\approx 1.5~\mu g$
+\flushleft \hyperref [q:3.3.1.7]{A-7:} 
+Radium-226 has a half life of about 1600 years.
+\flushleft \hyperref [q:3.3.1.8]{A-8:} 
+ $\dfrac{\log 2}{\log 6}=\log_6(2)$ years, which is about 139 days
+\flushleft \hyperref [q:3.3.1.9]{A-9:} 
+$120\cdot\dfrac{\log 10}{\log 2}$ seconds, or about six and a half minutes.
+\flushleft \hyperref [q:3.3.1.10]{A-10:} 
+About $0.5$\% of the sample decays in a day. The exact amount is
+$\left[100\left(1-2^{-\tfrac{1}{138}}\right)\right]$\%.
+\flushleft \hyperref [q:3.3.1.11]{A-11:} 
+After ten years, the sample contains between 6.2 and 6.8 $\mu$g of Uranium-232.
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.3.2}}}\phantomsection \label {a ex:s3.3.2} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.3.2} \hspace {2ex} \nameref *{ex:s3.3.2}}
+\flushleft \hyperref [q:3.3.2.1]{A-1:} 
+ (a), (c), (d)
+\flushleft \hyperref [q:3.3.2.2]{A-2:} 
+The temperature of the room is -10 degrees, and the room is colder than the object.
+\flushleft \hyperref [q:3.3.2.3]{A-3:} 
+ $K$ is a negative number. It cannot be positive or zero.
+\flushleft \hyperref [q:3.3.2.4]{A-4:} 
+If the object has a different initial temperature than its surroundings, then $T(t)$ is \emph{never} equal to $A$. (But as time goes on, it gets closer and closer.)\\
+If the object starts out with the same temperature as its surrounding, then $T(t)=A$ for all values of $t$.
+\flushleft \hyperref [q:3.3.2.5]{A-5:} 
+$\dfrac{-10\log(750)}{\log\left(\tfrac{2}{15}\right)}\approx 32.9$ seconds
+\flushleft \hyperref [q:3.3.2.6]{A-6:} 
+$10\dfrac{\log(10)}{\log(5)}\approx 14.3$ minutes
+\flushleft \hyperref [q:3.3.2.7]{A-7:} 
+If Newton adds his cream just before drinking, the coffee
+ends up {cooler by $0.85^\circ$ C}.
+\flushleft \hyperref [q:3.3.2.8]{A-8:} 
+\begin{enumerate}[(a)]
+\item $\ds\diff{T}{t}=\frac{1}{5}\log\left(\frac{4}{5}\right)(T-30)$
+\item $\dfrac{5\log(2/5)}{\log(4/5)}\approx 20.53$ min
+\end{enumerate}
+\flushleft \hyperref [q:3.3.2.9]{A-9:} 
+positive
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.3.3}}}\phantomsection \label {a ex:s3.3.3} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.3.3} \hspace {2ex} \nameref *{ex:s3.3.3}}
+\flushleft \hyperref [q:3.3.3.1]{A-1:} 
+If $P(0)=0$, yes. If $P(0) \neq 0$,
+no: it does not take into account external constraints on population growth.
+\flushleft \hyperref [q:3.3.3.2]{A-2:} 
+The Malthusian model predicts the herd will number 217
+            individuals in 2020.
+            
+\flushleft \hyperref [q:3.3.3.3]{A-3:} 
+$\dfrac{\log(3)}{\log(2)}\approx 1.6$ hours
+\flushleft \hyperref [q:3.3.3.4]{A-4:} 
+1912 or 1913
+\flushleft \hyperref [q:3.3.3.5]{A-5:} 
+$\dfrac{10^6}{5^4-1}\approx 1603$
+\flushleft \hyperref [q:3.3.3.6]{A-6:} 
+(a) At $t=0$, there are 100 units of the radioactive isotope in the sample. $k$ is negative.\\
+(b) At $t=0$, there are 100 individuals in the population. $k$ is positive.\\
+(c) The ambient temperature is 0 degrees. $k$ is negative.
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.3}}}\phantomsection \label {a ex:s3.3} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.3} \hspace {2ex} \nameref *{ex:s3.3}}
+\flushleft \hyperref [q:3.3.4.1]{A-1:} 
+ $f(2)=2e^{2\pi}$
+\flushleft \hyperref [q:3.3.4.2]{A-2:} 
+Solutions to the differential equation have the form
+\[T(t)=\left[T(0)+\frac{9}{7}\right]e^{7t}-\frac{9}{7}\]
+for some constant $T(0)$.
+\flushleft \hyperref [q:3.3.4.3]{A-3:} 
+$\dfrac{8\log(0.4)}{\log(0.8)}\approx 32.85$ days
+\flushleft \hyperref [q:3.3.4.4]{A-4:} 
+25$^\circ$ C
+\flushleft \hyperref [q:3.3.4.5]{A-5:} 
+\begin{enumerate}[(a)]
+\item $A(t)=90,\!000\cdot e^{0.05t}-40,\!000$ \\
+When the graduate is 65, they will have \$625,015.05 in the account.
+\item \$49,437.96
+\end{enumerate}
+\flushleft \hyperref [q:3.3.4.6]{A-6:} 
+\eqref{s3.3investor1} $A(t)=150,\!000-30,\!000\, e^{0.06 t}$
+\hspace{1cm}\eqref{s3.3investor2} after {26.8 yrs}
+\flushleft \hyperref [q:3.3.4.7]{A-7:} 
+ $\dfrac{9\log 2}{\log 3}\approx5.68$ hr
+\flushleft \hyperref [q:3.3.4.8]{A-8:} 
+(a) $v(t)=\left[v_0+\frac{g}{k}\right]e^{-kt}-\frac{g}{k}$\\
+(b) $\lim\limits_{t\rightarrow\infty} v(t)=-\dfrac{g}{k}$
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.4.1}}}\phantomsection \label {a ex:s3.4.1} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.4.1} \hspace {2ex} \nameref *{ex:s3.4.1}}
+\flushleft \hyperref [q:3.4.1.1]{A-1:} 
+Since $f(0)$ is  closer to $g(0)$ than it is to $h(0)$, you would probably want to estimate $f(0) \approx g(0)=1+2\sin (1)$ if you had the means to efficiently figure out what $\sin(1)$ is, and if you were concerned with accuracy. If you had a calculator, you could use this estimation. Also, later in this chapter we will learn methods of approximating $\sin (1)$ that do not require a calculator, but they do require time.
+
+Without a calculator, or without a lot of time, using $f(0)\approx h(0)=0.7$ probably makes the most sense. It isn't as accurate as $f(0) \approx g(0)$, but you get an estimate very quickly, without worrying about figuring out what $\sin(1)$ is.
+\flushleft \hyperref [q:3.4.1.2]{A-2:} 
+$\log(0.93)\approx \log(1)=0$
+ \begin{center}\begin{tikzpicture}
+ \YEaaxis{1.5}{3.5}{1}{2}
+ \draw[thick] plot[domain=0.25:3](\x,{ln \x}) node[right]{$y=f(x)$};
+ \draw[thick, red] (-1,0)--(2,0) node[below right]{$y=0$};
+ \draw[dashed] (.9,-.3)--(.9,.75) node[above]{0.93};
+ \YExcoord{1}{1}
+ \end{tikzpicture}\end{center}
+
+\flushleft \hyperref [q:3.4.1.3]{A-3:} 
+$\arcsin(0.1) \approx 0$
+\flushleft \hyperref [q:3.4.1.4]{A-4:} 
+$\sqrt{3}\tan(1) \approx 3$
+\flushleft \hyperref [q:3.4.1.5]{A-5:} 
+$10.1^3 \approx 10^3=1000$
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.4.2}}}\phantomsection \label {a ex:s3.4.2} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.4.2} \hspace {2ex} \nameref *{ex:s3.4.2}}
+\flushleft \hyperref [q:3.4.2.1]{A-1:} 
+(a) $f(5)=6$\qquad
+(b) $f'(5)=3$\qquad
+(c) not enough information to know
+\flushleft \hyperref [q:3.4.2.2]{A-2:} 
+\begin{center}\begin{tikzpicture}
+\YEaxis{4}{2.5}
+\draw[ultra thick] plot[domain=-3.75:-.1, samples=20](\x,{sqrt(abs(\x))});
+\draw[ultra thick] plot[domain=.1:3.75, samples=20](\x,{sqrt(abs(\x))}) node[right]{$y=f(x)$};
+\draw [ultra thick]plot[domain=-.1:.1, samples=50](\x,{sqrt(abs(\x))});
+\YExcoord{2}{2};
+\draw[thick, red] plot[domain=-3:5] (\x,{sqrt(2)+0.35*(\x-2)});
+\end{tikzpicture}\end{center}
+The linear approximation is shown in red.
+\flushleft \hyperref [q:3.4.2.3]{A-3:} 
+$f(x)=2x+5$
+\flushleft \hyperref [q:3.4.2.4]{A-4:} 
+$\log(0.93) \approx -0.07$
+ \begin{center}\begin{tikzpicture}
+ \YEaaxis{1.5}{3.5}{1}{2}
+ \draw[thick] plot[domain=0.25:3](\x,{ln \x}) node[right]{$y=f(x)$};
+ \draw[thick, red] plot[domain=-.5:3] (\x,{\x-1}) node[ right]{$y=x-1$};
+ \YExcoord{1}{1};
+ \end{tikzpicture}\end{center}
+\flushleft \hyperref [q:3.4.2.5]{A-5:} 
+$\sqrt{5} \approx \dfrac{9}{4}$
+\flushleft \hyperref [q:3.4.2.6]{A-6:} 
+$\sqrt[5]{30}\approx \dfrac{79}{40}$
+\flushleft \hyperref [q:3.4.2.7]{A-7:} 
+$10.1^3 \approx 1030$, $10.1^3 = 1030.301$
+\flushleft \hyperref [q:3.4.2.8]{A-8:} 
+ There are many possible answers. One is $f(x)=\sin x$, $a=0$, and $b=\pi$.
+\flushleft \hyperref [q:3.4.2.9]{A-9:} 
+$a=\sqrt{3}$
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.4.3}}}\phantomsection \label {a ex:s3.4.3} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.4.3} \hspace {2ex} \nameref *{ex:s3.4.3}}
+\flushleft \hyperref [q:3.4.3.1]{A-1:} 
+$f(3)=9$, $f'(3)=0$, $f''(3)=-2$; there is not enough information to know $f'''(3)$.
+\flushleft \hyperref [q:3.4.3.2]{A-2:} 
+ $f(x) \approx 2x+5$
+\flushleft \hyperref [q:3.4.3.3]{A-3:} 
+$\log(0.93) \approx -0.07245$
+\flushleft \hyperref [q:3.4.3.4]{A-4:} 
+$\cos\left(\dfrac{1}{15}\right )\approx \dfrac{449}{450}$
+\flushleft \hyperref [q:3.4.3.5]{A-5:} 
+$e^{2x}\approx 1+2x+2x^2$
+\flushleft \hyperref [q:3.4.3.6]{A-6:} 
+One approximation: $e^{\tfrac{4}{3}}\approx\dfrac{275}{32}$
+\flushleft \hyperref [q:3.4.3.7]{A-7:} 
+ \eqref{s4.3.4sigma1} $26$
+\qquad \eqref{s4.3.4sigma2} $16$
+\qquad \eqref{s4.3.4sigma3} $\dfrac{10}{11}$
+\qquad \eqref{s4.3.4sigma4} $\dfrac{75}{64}$
+\flushleft \hyperref [q:3.4.3.8]{A-8:} 
+For each of these, there are many solutions. We provide some below.
+\begin{enumerate}[(a)]
+\item $1+2+3+4+5 = \ds\sum_{n=1}^5n$
+\item $2+4+6+8=\ds\sum_{n=1}^42n$
+\item $3+5+7+9+11=\ds\sum_{n=1}^{5}(2n+1)$
+\item $9+16+25+36+49=\ds\sum_{n=3}^7 n^2$
+\item $9+4+16+5+25+6+36+7+49+8=\ds\sum_{n=3}^7 (n^2+n+1)$
+\item $8+15+24+35+48= \ds\sum_{n=3}^7 (n^2-1)$
+\item $3-6+9-12+15-18=\ds\sum_{n=1}^6 (-1)^{n+1}3n$
+\end{enumerate}
+\flushleft \hyperref [q:3.4.3.9]{A-9:} 
+$f(1) \approx 2$, $f(1)=\pi$
+\flushleft \hyperref [q:3.4.3.10]{A-10:} 
+$e\approx 2.5$
+\flushleft \hyperref [q:3.4.3.11]{A-11:} 
+\textcolor{blue}{$\{\eqref{s3.4.3equiv1},\eqref{s3.4.3equiv2},
+\eqref{s3.4.3equiv3}\}$},
+\textcolor{red}{$\{\eqref{s3.4.3equiv5},\eqref{s3.4.3equiv6}\}$},
+\textcolor{green}{$\{\eqref{s3.4.3equiv7},\eqref{s3.4.3equiv10}\}$}
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.4.4}}}\phantomsection \label {a ex:s3.4.4} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.4.4} \hspace {2ex} \nameref *{ex:s3.4.4}}
+\flushleft \hyperref [q:3.4.4.1]{A-1:} 
+$f''(1)=-4$
+\flushleft \hyperref [q:3.4.4.2]{A-2:} 
+$f^{(10)}(5)=10!$
+\flushleft \hyperref [q:3.4.4.3]{A-3:} 
+$T_3(x)=-x^3+x^2-x+1$
+\flushleft \hyperref [q:3.4.4.4]{A-4:} 
+$T_3(x)=-7+7(x-1)+9(x-1)^2+5(x-1)^3$, or equivalently,
+$T_3(x)=5x^3-6x^2+4x-10$
+\flushleft \hyperref [q:3.4.4.5]{A-5:} 
+$f^{(10)}(5)=\dfrac{11\cdot 10!}{6}$
+\flushleft \hyperref [q:3.4.4.6]{A-6:} 
+$a=\sqrt{e}$
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.4.5}}}\phantomsection \label {a ex:s3.4.5} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.4.5} \hspace {2ex} \nameref *{ex:s3.4.5}}
+\flushleft \hyperref [q:3.4.5.1]{A-1:} 
+\begin{align*}
+T_{16}(x)&=1\textcolor{blue}{+}x
+\textcolor{red}{-}\frac{1}{2}x^2
+\textcolor{red}{-}\frac{1}{3!}x^3
+\textcolor{blue}{+}\frac{1}{4!}x^4
+\textcolor{blue}{+}\frac{1}{5!}x^5
+\textcolor{red}{-}\frac{1}{6!}x^6
+\textcolor{red}{-}\frac{1}{7!}x^7
+\textcolor{blue}{+}\frac{1}{8!}x^8
+\textcolor{blue}{+}\frac{1}{9!}x^9
+\textcolor{red}{-}\frac{1}{10!}x^{10}
+\textcolor{red}{-}\frac{1}{11!}x^{11}\\
+&\qquad\textcolor{blue}{+}\frac{1}{12!}x^{12}
+\textcolor{blue}{+}\frac{1}{13!}x^{13}
+\textcolor{red}{-}\frac{1}{14!}x^{14}
+\textcolor{red}{-}\frac{1}{15!}x^{15}
+\textcolor{blue}{+}\frac{1}{16!}x^{16}
+\end{align*}
+\flushleft \hyperref [q:3.4.5.2]{A-2:} 
+$T_{100}(t)=127.5+48(t-5)+4.9(t-5)^2=4.9t^2-t+10$
+\flushleft \hyperref [q:3.4.5.3]{A-3:} 
+$T_n(x)=\ds\sum_{k=0}^n \frac{2(\log 2)^k}{k!}(x-1)^k$
+\flushleft \hyperref [q:3.4.5.4]{A-4:} 
+$T_6(x)=7+5(x-1)+\frac{7}{2}(x-1)^2+\frac{1}{3}(x-1)^3-\frac{1}{12}(x-1)^4+\frac{1}{30}(x-1)^5-\frac{1}{60}(x-1)^6
+$
+\flushleft \hyperref [q:3.4.5.5]{A-5:} 
+$T_n(x)=\ds\sum_{k=0}^n x^k$
+\flushleft \hyperref [q:3.4.5.6]{A-6:} 
+$T_3(x)=1+(x-1)+(x-1)^2+\frac{1}{2}(x-1)^3$
+\flushleft \hyperref [q:3.4.5.7]{A-7:} 
+$\pi=6\arctan\left(\dfrac{1}{\sqrt3}\right)\approx\dfrac{82}{45}\sqrt{3}\approx3.156$
+\flushleft \hyperref [q:3.4.5.8]{A-8:} 
+$T_{100}(x)=-1+\ds\sum_{k=2}^{100}\frac{(-1)^k}{k(k-1)}(x-1)^k$
+\flushleft \hyperref [q:3.4.5.9]{A-9:} 
+$T_{2n}(x)=\sum_{\ell=0}^{n}\frac{(-1)^\ell}{(2\ell)!\sqrt{2}}\left(x-\frac{\pi}{4}\right)^{2\ell}
++\sum_{\ell=0}^{n-1}\frac{(-1)^\ell}{(2\ell+1)!\sqrt{2}}\left(x-\frac{\pi}{4}\right)^{2\ell+1}$
+\flushleft \hyperref [q:3.4.5.10]{A-10:} 
+\[1+\frac{1}{2}+\frac{1}{3!}+\frac{1}{4!}+\cdots +\frac{1}{157!}\approx e-1\]
+\flushleft \hyperref [q:3.4.5.11]{A-11:} 
+We estimate that the sum is close to $-\dfrac{1}{\sqrt{2}}$.
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.4.6}}}\phantomsection \label {a ex:s3.4.6} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.4.6} \hspace {2ex} \nameref *{ex:s3.4.6}}
+\flushleft \hyperref [q:3.4.6.1]{A-1:} 
+\begin{center}\begin{tikzpicture}
+\YEaaxis{1}{5}{1}{4}
+\draw[thick] plot [domain=-.25:4](\x,{\x+ 2*sin(\x r)}) node[right]{$y=f(x)$};
+\YExcoord{.5}{x}
+\YExcoord{2}{x+\Delta x}
+\draw (.5,1.46) node[vertex]{};
+\draw (2,3.82) node[vertex]{};
+\draw[dashed] (.5,.2)|-(.2,1.46);
+\draw[dashed] (2,.2)|-(.2,3.82);
+\color{red}
+\YEycoord{1.46}{f(x)}
+\YEycoord{3.82}{f\left(x+\Delta x\right)}
+\draw[decorate, decoration={brace, mirror, amplitude=8pt}] (.5,1.3) --(2,1.3) node[midway, yshift=-.5cm]{$\Delta x$};
+\draw[decorate, decoration={brace, amplitude=8pt}] (.5,1.46) --(.5,3.82) node[midway, xshift=-.75cm]{$\Delta y$};
+\end{tikzpicture}\end{center}
+\flushleft \hyperref [q:3.4.6.2]{A-2:} 
+Let $f(x)$ be the number of problems finished after $x$ minutes of work.
+The question tells us that $5\Delta y \approx \Delta x$. So, if $\Delta x = 15$, $\Delta y \approx 3$. That is, in 15 minutes more, you will finish about 3 more problems.
+\flushleft \hyperref [q:3.4.6.3]{A-3:} 
+ (a) $\Delta y \approx \dfrac{1}{260}\approx 0.003846$\qquad
+(b) $\Delta  y \approx \dfrac{51}{13520}\approx 0.003772$
+\flushleft \hyperref [q:3.4.6.4]{A-4:} 
+(a) $\Delta y \approx 1.1$ metres per second\\
+(b) The increase from the first to the second jump is bigger.
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.4.7}}}\phantomsection \label {a ex:s3.4.7} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.4.7} \hspace {2ex} \nameref *{ex:s3.4.7}}
+\flushleft \hyperref [q:3.4.7.1]{A-1:} 
+ False.
+\flushleft \hyperref [q:3.4.7.2]{A-2:} 
+Absolute error: 0.17; percentage error: 2.92\%
+\flushleft \hyperref [q:3.4.7.3]{A-3:} 
+The linear approximates estimates the error in $f(x)$ to be about 60, while
+the quadratic approximates estimates the error in $f(x)$ to be about 63.
+\flushleft \hyperref [q:3.4.7.4]{A-4:} 
+1\%
+\flushleft \hyperref [q:3.4.7.5]{A-5:} 
+(a) $\dfrac{9}{2}\theta$\qquad
+(b) $\theta = 2\arcsin\left(\dfrac{d}{6}\right)$\qquad
+(c) $\dfrac{9}{\sqrt{36-0.68^2}}\cdot0.02\approx 0.03$
+\flushleft \hyperref [q:3.4.7.6]{A-6:} 
+We estimate that the volume decreased by about $0.00245$ cubic metres, or about
+2450 cubic centimetres.
+\flushleft \hyperref [q:3.4.7.7]{A-7:} 
+ Correct to within about 10.4 years (or about 53\%)
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.4.8}}}\phantomsection \label {a ex:s3.4.8} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.4.8} \hspace {2ex} \nameref *{ex:s3.4.8}}
+\flushleft \hyperref [q:3.4.8.1]{A-1:} 
+ (a) False \qquad
+(b) True \qquad
+(c) True \qquad
+(d) True
+\flushleft \hyperref [q:3.4.8.2]{A-2:} 
+Equation~\ref*{eq:taylorErrorN} gives us the bound $|f(2)-T_3(2)|<6$. A calculator tells us actually $|f(2)-T_3(2)|\approx 1.056$.
+\flushleft \hyperref [q:3.4.8.3]{A-3:} 
+$|f(37)-T(37)|=0$
+\flushleft \hyperref [q:3.4.8.4]{A-4:} 
+You do, you clever goose!
+\flushleft \hyperref [q:3.4.8.5]{A-5:} 
+$|f(11.5)-T_5(11.5)|<\dfrac{9}{7\cdot 2^6}<0.02$
+\flushleft \hyperref [q:3.4.8.6]{A-6:} 
+$\left|f(0.1)-T_2(0.1)\right| < \dfrac{1}{1125}$
+\flushleft \hyperref [q:3.4.8.7]{A-7:} 
+$\left|f\left(-\dfrac{1}{4}\right)-T_5\left(-\dfrac{1}{4}\right)\right| < \dfrac{1}{6\cdot 4^6}<0.00004$
+\flushleft \hyperref [q:3.4.8.8]{A-8:} 
+Your answer may vary. One reasonable answer is\\
+$\left|f(30)-T_3(30)\right|<\dfrac{14}{5^7\cdot9\cdot15}<0.000002$. Another reasonable answer is\\
+$\left|f(30)-T_3(30)\right|<\dfrac{14}{5^7\cdot9}<0.00002$.
+\flushleft \hyperref [q:3.4.8.9]{A-9:} 
+Equation~\ref*{eq:taylorErrorN}  gives the bound
+$|f(0.01)-T_n(0.01)| \leq 100^2\left(\frac{100}{\pi}-1\right)^2$.
+
+A more reasonable bound on the error is that it is less than 5.
+\flushleft \hyperref [q:3.4.8.10]{A-10:} 
+Using Equation~\ref*{eq:taylorErrorN},
+\begin{align*}
+\left|f\left(\frac{1}{2}\right)-T_2\left(\frac{1}{2}\right)\right|&<\frac{1}{10}.
+\intertext{The actual error is}
+\left|f\left(\frac{1}{2}\right)-T_2\left(\frac{1}{2}\right)\right|&= \frac{\pi}{6}-\frac{1}{2}\end{align*}
+which is about 0.02.
+\flushleft \hyperref [q:3.4.8.11]{A-11:} 
+Any $n$ greater than or equal to 3.
+\flushleft \hyperref [q:3.4.8.12]{A-12:} 
+$\sqrt[7]{2200}\approx3+\dfrac{13}{7\cdot 3^6}
+\approx 3.00255$
+\flushleft \hyperref [q:3.4.8.13]{A-13:} 
+If we're going to use  Equation~\ref*{eq:taylorErrorN}, then we'll probably be taking a Taylor polynomial. Using Example~\ref*{eg expand sinx}, %3.4.16
+the 6th-degree Maclaurin polynomial for $\sin x$ is
+\[T_6(x)=T_5(x)=x-\frac{x^3}{3!}+\frac{x^5}{5!}\]
+so let's play with this a bit. Equation~\ref*{eq:taylorErrorN} tells us that the error will depend on the seventh derivative of $f(x)$, which is $-\cos x$:
+\begin{align*}
+f(1)-T_6(1)&=f^{(7)}(c)\frac{1^7}{7!}\\
+\sin(1)-\left(1-\frac{1}{3!}+\frac{1}{5!}\right)&=\frac{-\cos c}{7!}\\
+\sin(1)-\frac{101}{5!}&=\frac{-\cos c}{7!}\\
+\sin(1)&=\frac{4242-\cos c}{7!}
+\intertext{for some $c$ between 0 and 1. Since $-1 \leq \cos c \leq 1$,}
+\frac{4242-1}{7!}\leq \sin(1)&\leq \frac{4242+1}{7!}\\
+\frac{4241}{7!}\leq \sin(1)&\leq \frac{4243}{7!}\\
+\frac{4241}{5040}\leq \sin(1)&\leq \frac{4243}{5040}\\
+\end{align*}
+
+Remark: there are lots of ways to play with this idea to get better estimates. One way is to take a higher-degree Maclaurin polynomial. Another is to note that, since $0<c<1<\dfrac{\pi}{3}$, then $\dfrac{1}{2}<\cos c < 1$, so
+\begin{align*}
+\dfrac{4242-1}{7!}<\sin(1)<\dfrac{4242-\frac{1}{2}}{7!}\\
+\dfrac{4241}{5040}<\sin(1)<\dfrac{8483}{10080}<\frac{4243}{5040}
+\end{align*}
+If you got tighter bounds than asked for in the problem, congratulations!
+\flushleft \hyperref [q:3.4.8.14]{A-14:} 
+(a) $T_4(x)=\sum_{n=0}^4\frac{x^n}{n!}$\qquad
+(b) $T_4(1)=\frac{65}{24}$\qquad
+(c) See the solution.
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.4}}}\phantomsection \label {a ex:s3.4} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.4} \hspace {2ex} \nameref *{ex:s3.4}}
+\flushleft \hyperref [q:3.4.9.1]{A-1:} 
+ $f'(0)=0$ and $f''(0)=6$.
+\flushleft \hyperref [q:3.4.9.2]{A-2:} 
+$4$
+\flushleft \hyperref [q:3.4.9.3]{A-3:} 
+$h'(2)=\dfrac{1}{2}$,
+$h''(2)=0$
+\flushleft \hyperref [q:3.4.9.4]{A-4:} 
+(a) $1.92$\qquad
+(b) $1.918$
+\flushleft \hyperref [q:3.4.9.5]{A-5:} 
+$10^{1/3}\approx\dfrac{13}{6}$; this approximation is too big.
+\flushleft \hyperref [q:3.4.9.6]{A-6:} 
+ $\sqrt{2}\approx \dfrac{3}{2}$
+\flushleft \hyperref [q:3.4.9.7]{A-7:} 
+  $ \sqrt[3]{26}\approx \dfrac{80}{27}$
+\flushleft \hyperref [q:3.4.9.8]{A-8:} 
+$(10.1)^5 \approx 105,000$
+\flushleft \hyperref [q:3.4.9.9]{A-9:} 
+$\sin\left(\dfrac{101\pi}{100}\right) \approx -\dfrac{\pi}{100}$
+\flushleft \hyperref [q:3.4.9.10]{A-10:} 
+$\arctan(1.1)\approx\left(\dfrac{\pi}{4}+\dfrac{1}{20}\right)$
+\flushleft \hyperref [q:3.4.9.11]{A-11:} 
+ $\dfrac{8012}{1000}$
+\flushleft \hyperref [q:3.4.9.12]{A-12:} 
+$(8.06)^{2/3}\approx\dfrac{402}{100}=\dfrac{201}{50}$
+\flushleft \hyperref [q:3.4.9.13]{A-13:} 
+$1 + x +2x^2+\dfrac{14}{3}x^3$
+\flushleft \hyperref [q:3.4.9.14]{A-14:} 
+\begin{itemize}
+ \item By  Equation~\ref*{eq:taylorErrorN}, the absolute value of the error is
+\[\left|\frac{f'''(c)}{3!}\cdot (2-1)^3\right|
+= \left|\frac{c}{6(22-c^2)}\right|\]
+for some $c \in (1,2)$.
+\item When $1\leq c\leq2$, we know that $18 \leq 22-c^2 \leq 21$, and that numerator and denominator are non-negative, so
+\begin{align*}
+\left|\frac{c}{6(22-c^2)}\right|
+  &=\frac{c}{6(22-c^2)}
+  \leq \frac{2}{6(22-c^2)}  \leq \frac{2}{6\cdot 18} \\
+  & = \frac{1}{54} \leq \frac{1}{50}
+\end{align*}
+as required.
+
+\item Alternatively, notice that $c$ is an increasing function of
+$c$, while $22-c^2$ is a decreasing function of $c$. Hence the fraction is an
+increasing function of $c$ and takes its largest value at $c=2$. Hence
+\begin{align*}
+\left|\frac{c}{6(22-c^2)}\right|
+& \leq \frac{2}{6\times 18} = \frac{1}{54} \leq \frac{1}{50}.
+\end{align*}
+\end{itemize}
+\flushleft \hyperref [q:3.4.9.15]{A-15:} 
+\begin{itemize}
+ \item By Equation~\ref*{eq:taylorErrorN}, there is $c\in(0,0.5)$ such
+that the error is
+\begin{align*}
+  R_4 &= \frac{f^{(4)}(c)}{4!} (0.5-0)^4 \\
+      &= \frac{1}{24\cdot 16} \cdot \frac{\cos(c^2)}{3-c}
+\end{align*}
+
+\item For any $c$ we have $|\cos(c^2)| \leq 1$, and for $c<0.5$ we have
+$3-c>2.5$,
+so that $$\left|\frac{\cos(c^2)}{3-c}\right| \leq \frac{1}{2.5}\,.$$
+
+\item We conclude that
+$$ \left| R_4 \right| \leq \frac{1}{2.5\cdot 24\cdot 16} = \frac{1}{60\cdot 16}<\frac{1}{60\cdot 10}=\frac{1}{600}<\frac{1}{500}$$
+\end{itemize}
+\flushleft \hyperref [q:3.4.9.16]{A-16:} 
+\begin{itemize}
+\item By Equation~\ref*{eq:taylorErrorN}, there is $c\in(0,1)$ such
+that the error is
+\begin{align*}
+\left|\frac{f'''(c)}{3!}\cdot (1-0)^3\right|
+&=  \left|\frac{e^{-c}}{6(8+c^2)}\right|.
+\end{align*}
+
+\item When $0< c<1$, we know that $1> e^{-c} > e^{-1}$ and
+$8 \leq 8+c^2 < 9$, so
+\begin{align*}
+\left|\frac{e^{-c}}{6(8+c^2)}\right|
+  &=\frac{e^{-c}}{6(8+c^2)} \\
+  & < \frac{1}{6 |8+c^2|} \\
+  & < \frac{1}{6\times 8} = \frac{1}{48} < \frac{1}{40}
+\end{align*}
+as required.
+\end{itemize}
+\flushleft \hyperref [q:3.4.9.17]{A-17:} 
+\eqref{s3.4twoestimates1} $2.9259$ \qquad
+\eqref{s3.4twoestimates2} $2.9241$ \qquad
+\eqref{s3.4twoestimates3} $\frac{4}{9}25^{-5/3}$
+\flushleft \hyperref [q:3.4.9.18]{A-18:} 
+$T_3(x)=5x^2-9$
+\flushleft \hyperref [q:3.4.9.19]{A-19:} 
+(a) 1.05\qquad
+(b) 1.0483\\
+\eqref{s3.4sketch} \begin{center}
+\includegraphics{graph18}
+\end{center}
+\flushleft \hyperref [q:3.4.9.20]{A-20:} 
+\eqref{s3.4tan1} 0.9\qquad
+\eqref{s3.4tan2} {0.8867}\qquad
+\eqref{s3.4tan3}
+\begin{center}
+\includegraphics{graphE3b}
+\end{center}
+\flushleft \hyperref [q:3.4.9.21]{A-21:} 
+$\log 10.3 \approx 2.33259$\\
+The error is between
+$-0.00045$ and $-0.00042$.
+\flushleft \hyperref [q:3.4.9.22]{A-22:} 
+(a) $L(x)=e+ex$ \qquad (b) $Q(x)=e+ex+ex^2$\\
+(c) Since $ex^2 >0$ for all $x>0$, $L(x)<Q(x)$ for all $x>0$.
+
+From the error formula, we know that
+\begin{align*}
+f(x)&=f(0)+f'(0)x+\half f''(0)x^2
++\dfrac{1}{3!}f'''(c)x^{3}\\
+&=Q(x)+\frac{1}{6}\left(e^c+3e^{2c}+e^{3c}\right)e^{e^c}x^3
+\end{align*}
+for some $c$ between $0$ and $x$.
+Since $\frac{1}{6}\left(e^c+3e^{2c}+e^{3c}\right)e^{e^c}$ is positive for any $c$, for
+all $x>0$,
+$\frac{1}{6}\left(e^c+3e^{2c}+e^{3c}\right)e^{e^c}x^3>0$, so
+$Q(x)<f(x)$.
+
+(d) $1.105<e^{0.1}<1.115$
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.5.1}}}\phantomsection \label {a ex:s3.5.1} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.5.1} \hspace {2ex} \nameref *{ex:s3.5.1}}
+\flushleft \hyperref [q:3.5.1.1]{A-1:} 
+\begin{center}\begin{tikzpicture}
+\YEaaxis{4}{4}{1}{4}
+\draw[thick] plot[domain=-2.5:2](\x,{\x*\x*\x/4+2});
+\draw[thick] plot[domain=2:2.5](\x,{3*(\x-3)*(\x-3)+1});
+\draw[thick] plot[domain=2.5:3.1](\x,{exp(-4*(\x-2.43))+1}) node[ right]{$y=f(x)$};
+\draw[red] (2,4) node[vertex]{};
+\draw[blue] (0,2) node[vertex]{};
+\draw[thick, blue ] (0,.2)--(0,-.2);
+\draw[thick, red ] (2,.2)--(2,-.2);
+\end{tikzpicture}\end{center}
+There is a critical point at $x=0$. The $x$-value of the red dot is a singular point, and a local maximum occurs there.
+\flushleft \hyperref [q:3.5.1.2]{A-2:} 
+\begin{center}\begin{tikzpicture}[scale=0.8]
+\YEaaxis{5}{5}{3}{8}
+\draw[thick] plot[domain=-5:1](\x,{-(\x*1.1+5)*(\x-2)*(\x-2)/8+4});
+\draw (-5,7) node[vertex]{};
+\draw (1,3.25) node[opendot]{};
+\draw[thick] plot[domain=1:5](\x,{-\x/4+2}) node[ above right]{$y=f(x)$};
+\draw (1,1.75) node[vertex]{};
+\draw (5,.75) node[vertex]{};
+\color{blue}
+\draw (-2.36,-1.7) node[vertex]{};
+\draw[thick] (-2.36,.2)--(-2.36,-.2) node[below]{$a$};
+\color{red}
+\draw[thick] (1,.2)--(1,-.2) node[below]{$b$};
+\end{tikzpicture}\end{center}
+The $x$-coordinate corresponding to the blue dot (let's call it $a$) is a critical point, and $f(x)$ has a local and global minimum at $x=a$. The $x$-coordinate corresponding to the discontinuity (let's call it $b$) is a singular point, but there is not a global or local extremum at $x=b$.
+\flushleft \hyperref [q:3.5.1.3]{A-3:} 
+One possible answer is shown below.
+\begin{center}
+\begin{tikzpicture}
+\YEaaxis{1.5}{3}{3}{3}
+\draw[thick] plot[domain=-1:2.5](\x,{-\x*\x*(\x-2)});
+\YExcoord{1.3}{2}
+\end{tikzpicture}
+\end{center}
+\flushleft \hyperref [q:3.5.1.4]{A-4:} 
+The critical points are $x=3$ and $x=-1$.
+These two points are the only places where local extrema might exist.
+There are no singular points.
+\flushleft \hyperref [q:3.5.1.5]{A-5:} 
+\begin{center}
+\begin{tikzpicture}
+\YEaaxis{.5}{2}{.5}{2};
+\YExcoord{1}{2}
+\draw[thick] plot[domain=-.5:1](\x,\x);
+\draw[thick] plot[domain=1:2](\x,-\x+3);
+\draw (1,1) node[opendot]{};
+\draw (1,2) node[vertex]{};
+\draw (1,-1.5) node{local max};
+\end{tikzpicture}
+\hfill
+\begin{tikzpicture}
+\YEaaxis{.5}{2}{.5}{2};
+\YExcoord{1}{2}
+\draw[thick] plot[domain=-.5:1](\x,\x);
+\draw[thick] plot[domain=1:2](\x,-\x+3);
+\draw (1,2) node[opendot]{};
+\draw (1,1) node[vertex]{};
+\draw (1,-1.5) node{neither};
+\end{tikzpicture}
+\hfill
+\begin{tikzpicture}
+\YEaaxis{.5}{2}{.5}{2};
+\YExcoord{1}{2}
+\draw[thick] plot[domain=-.5:1](\x,\x/2);
+\draw[thick] plot[domain=1:2](\x,\x/2+1);
+\draw (1,.5) node[opendot]{};
+\draw (1,1.5) node[vertex]{};
+\draw (1,-1.5) node{neither};
+\end{tikzpicture}
+\hfill
+\begin{tikzpicture}
+\YEaaxis{.5}{2}{.5}{2};
+\YExcoord{1}{2}
+\draw[thick] plot[domain=-.5:1](\x,-\x/2+1);
+\draw[thick] plot[domain=1:2](\x,\x/2);
+\draw (1,.5) node[opendot]{};
+\draw (1,1) node[vertex]{};
+\draw (1,-1.5) node{local max};
+\end{tikzpicture}
+\end{center}
+\flushleft \hyperref [q:3.5.1.6]{A-6:} 
+There are many possible answers. Every answer must have $x=2$ as a singular point strictly inside the domain of $f(x)$. Two possibilities are shown below.
+\begin{center}
+\begin{tikzpicture}
+\YEaxis{2}{2}
+\YExcoord{1}{2}
+\draw [thick] (-2,1)--(2,1);
+\draw  (1,1) node[opendot]{};
+\draw (1,1.5) node[vertex]{};
+\end{tikzpicture}
+\hspace{2cm}
+\begin{tikzpicture}
+\YEaxis{2}{2}
+\YExcoord{1}{2}
+\draw [thick] plot[domain=-1.5:1](\x,{\x*\x/1.5+.33});
+\draw [thick] plot[domain=1:2](\x,{-\x+2});
+\end{tikzpicture}
+\end{center}
+\flushleft \hyperref [q:3.5.1.7]{A-7:} 
+$x=-7$, $x=-1$, and $x=5$
+\flushleft \hyperref [q:3.5.1.8]{A-8:} 
+Every real number $c$ is a critical point of $f(x)$, and $f(x)$ has a local and global maximum and minimum at $x=c$. There are no singular points.
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.5.2}}}\phantomsection \label {a ex:s3.5.2} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.5.2} \hspace {2ex} \nameref *{ex:s3.5.2}}
+\flushleft \hyperref [q:3.5.2.1]{A-1:} 
+Two examples are given below, but many are possible.
+\begin{center}
+\begin{tikzpicture}
+\YEaaxis{2}{2}{4}{1}
+\draw plot[domain=-1.75:1.75](\x,{-\x*\x}) node[right]{$y=f(x)$};
+\end{tikzpicture}
+\hspace{2cm}
+\begin{tikzpicture}
+\YEaaxis{3}{3}{1}{2}
+\draw plot[domain=-2.75:-.1, samples=100](\x,{-sqrt(abs(\x))}) ;
+\draw plot[domain=.1:2.75, samples=100](\x,{-sqrt(abs(\x))}) node[right]{$y=f(x)$};
+\draw plot[domain=-.1:.1, samples=100](\x,{-sqrt(abs(\x))}) ;
+\end{tikzpicture}
+\end{center}
+\flushleft \hyperref [q:3.5.2.2]{A-2:} 
+Two examples are given below, but many are possible.
+\begin{center}
+\begin{tikzpicture}
+\YEaaxis{2}{2}{1}{4}
+\draw plot[domain=-1.75:2](\x,{exp(\x)/2}) node[right]{$y=e^x$};
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\YEaaxis{6}{6}{1}{4}
+\draw plot[domain=-1.4:1.4]({tan(\x r)},\x+2) node[right]{$y=\arctan x+2$};
+\end{tikzpicture}
+\end{center}
+\flushleft \hyperref [q:3.5.2.3]{A-3:} 
+One possible answer:
+\begin{center}
+\begin{tikzpicture}
+\YEaaxis{4}{4}{2}{5}
+\draw plot[domain=-3.5:3.5, samples=100](\x,{(\x*\x-9)*(\x*\x+9)*\x*\x/200}) node[right]{$y=f(x)$};
+\YExcoord{-2.3}{-5}
+\YExcoord{2.3}{5}
+\end{tikzpicture}
+\end{center}
+\flushleft \hyperref [q:3.5.2.4]{A-4:} 
+The global maximum is 45 at $x=5$ and the global minimum is $-19$ at $x=-3$.
+\flushleft \hyperref [q:3.5.2.5]{A-5:} 
+The global maximum over the interval is $61$ at $x=-3$, and the global minimum is $7$ at $x=0$.
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.5.3}}}\phantomsection \label {a ex:s3.5.3} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.5.3} \hspace {2ex} \nameref *{ex:s3.5.3}}
+\flushleft \hyperref [q:3.5.3.1]{A-1:} 
+The global maximum is $f(-1) = 6$, the global minimum is $f(-2) = -20$.
+\flushleft \hyperref [q:3.5.3.2]{A-2:} 
+ Global maximum is $f(2) = 12$, global minimum is $f(1) = -14$.
+\flushleft \hyperref [q:3.5.3.3]{A-3:} 
+Global maximum is $f(4) = 30$, global minimum is $f(2) = -10$.
+\flushleft \hyperref [q:3.5.3.4]{A-4:} 
+ Local max at $(-2,20)$, local min at $(2,-12)$.
+\flushleft \hyperref [q:3.5.3.5]{A-5:} 
+$(-2,33)$ max, and $(2,-31)$ min
+\flushleft \hyperref [q:3.5.3.6]{A-6:} 
+ $Q$ should be $4\sqrt{3}$ kilometres from $A$
+\flushleft \hyperref [q:3.5.3.7]{A-7:} 
+$10\times 30 \times 15$
+\flushleft \hyperref [q:3.5.3.8]{A-8:} 
+$2\times 2\times 6$
+\flushleft \hyperref [q:3.5.3.9]{A-9:} 
+$X=Y=\sqrt{2}$
+\flushleft \hyperref [q:3.5.3.10]{A-10:} 
+The largest possible perimeter is $2\sqrt{5}R$ and
+the smallest possible perimeter is $2R$.
+\flushleft \hyperref [q:3.5.3.11]{A-11:} 
+$\dfrac{A^{3/2}}{3\sqrt{6\pi}}$
+\flushleft \hyperref [q:3.5.3.12]{A-12:} 
+$\dfrac{P^2}{2(\pi+4)}$
+\flushleft \hyperref [q:3.5.3.13]{A-13:} 
+(a)
+$x=\sqrt{\dfrac{A}{3p}}$,
+$y=\sqrt{\dfrac{Ap}{3}}$, and
+$z=\dfrac{\sqrt{Ap}}{\sqrt{3}(1+p)}$
+
+(b) $p=1$
+
+(The dimensions of the resulting baking pan are
+      $x=y=\sqrt{ \dfrac{A}{3} }$ and $z=\dfrac{1}{2}\sqrt{ \dfrac{A}{3} }$.)
+\flushleft \hyperref [q:3.5.3.14]{A-14:} 
+\eqref{s2.10xx1} $x^x(1+\log x)$
+\qquad \eqref{s2.10xx2} $x=\dfrac{1}{e}$
+\qquad \eqref{s2.10xx3} local minimum
+\flushleft \hyperref [q:3.5.3.15]{A-15:} 
+Maximum area: do not cut, make a circle and no square.\\ Minimum area: make a square out of a piece that is $\dfrac{4}{4+\pi}$ of the total length of the wire.
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.6.1}}}\phantomsection \label {a ex:s3.6.1} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.6.1} \hspace {2ex} \nameref *{ex:s3.6.1}}
+\flushleft \hyperref [q:3.6.1.1]{A-1:} 
+In general, false.
+\flushleft \hyperref [q:3.6.1.2]{A-2:} 
+\textcolor{orange}{$f(x)=A(x)$}
+\qquad
+\textcolor{blue}{$g(x)=C(x)$}
+\qquad
+\textcolor{red}{$h(x)=B(x)$}
+\qquad
+\textcolor{green!90!black}{$k(x)=D(x)$}
+\flushleft \hyperref [q:3.6.1.3]{A-3:} 
+(a) $p=e^2$ \qquad (b) $b=-e^2$ \qquad $1-e^2$
+\flushleft \hyperref [q:3.6.1.4]{A-4:} 
+ vertical asymptote at $x=3$; horizontal asymptotes $\ds\lim_{x \to \pm \infty}f(x)=\dfrac{2}{3}$
+\flushleft \hyperref [q:3.6.1.5]{A-5:} 
+horizontal asymptote $y=0$ as $x \to -\infty$; no other asymptotes
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.6.2}}}\phantomsection \label {a ex:s3.6.2} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.6.2} \hspace {2ex} \nameref *{ex:s3.6.2}}
+\flushleft \hyperref [q:3.6.2.1]{A-1:} 
+$\textcolor{green}{A'(x)=l(x)} \qquad \textcolor{blue}{B'(x)=p(x)}
+\qquad
+\textcolor{red}{C'(x)=n(x)}
+\qquad
+\textcolor{orange}{D'(x)=o(x)}\qquad \textcolor{purple}{E'(x)=m(x)}$
+\flushleft \hyperref [q:3.6.2.2]{A-2:} 
+$(-2,\infty)$
+\flushleft \hyperref [q:3.6.2.3]{A-3:} 
+$(1,4)$
+\flushleft \hyperref [q:3.6.2.4]{A-4:} 
+ $(-\infty,1)$
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.6.3}}}\phantomsection \label {a ex:s3.6.3} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.6.3} \hspace {2ex} \nameref *{ex:s3.6.3}}
+\flushleft \hyperref [q:3.6.3.1]{A-1:} 
+\begin{center}
+\begin{tikzpicture}
+\YEaxis{6}{4}
+\draw[thick, red] plot[domain=-6:-2](\x,{exp(\x+2)+1});
+\draw[thick, blue] plot[domain=-2:2](\x,{cos(\x*.785 r)+2});
+\draw[thick, red] plot[domain=2:4](\x,{cos(\x*.785 r)+2});
+\draw[thick, blue] plot[domain=0:2](\x+4,{3*cos(\x*.785 r)-2});
+\draw[thick, red, decorate, decoration={brace, amplitude=10pt, mirror}]
+(-6,0)--(-2,0);
+\draw[red] (-4,-1) node{concave up};
+\draw[thick, blue, decorate, decoration={brace, amplitude=10pt, mirror}]
+(-2,0)--(2,0);
+\draw[blue] (0,-1) node{concave down};
+\draw[thick, red, decorate, decoration={brace, amplitude=10pt, mirror}]
+(2,0)--(4,0);
+\draw[red] (3,-1) node{concave up};
+\draw[thick, blue, decorate, decoration={brace, amplitude=10pt}]
+(4,2)--(6,2);
+\draw[blue] (5,2.75) node{concave down};
+\end{tikzpicture}
+\end{center}
+\flushleft \hyperref [q:3.6.3.2]{A-2:} 
+\begin{center}
+\begin{tikzpicture}
+\YEaaxis{6}{6}{1}{4}
+\draw[thick] plot[domain=-3:0] (\x-3,{exp(\x)});
+\draw[thick] plot[domain=0:3] (\x+3,{exp(-\x)});
+\draw[thick] plot[domain=-3:3] (\x,{cos(\x*0.523 r)/0.523+1});
+\YExcoord{-3}{-5}
+\YExcoord{3}{5}
+\end{tikzpicture}
+\end{center}
+\flushleft \hyperref [q:3.6.3.3]{A-3:} 
+In general, false.
+\flushleft \hyperref [q:3.6.3.4]{A-4:} 
+$x=1,\ y=11$
+\flushleft \hyperref [q:3.6.3.5]{A-5:} 
+Let \[g(x)=f''(x)=x^3+5x-20.\] Then $g'(x)=3x^2+5$, which is always positive. That means $g(x)$ is strictly increasing for all $x$. So, $g(x)$ can change signs once, from negative to positive, but it can never change back to negative. An inflection point of $f(x)$ occurs when $g(x)$ changes signs. So, $f(x)$ has \emph{at most one} inflection point.
+
+Since $g(x)$ is continuous, we can apply the Intermediate Value Theorem to it. Notice
+$g(3)>0$ while $g(0)<0$. By the IVT, $g(x)=0$ for at least one $x \in (0,3)$. Since $g(x)$ is strictly increasing, at the point where $g(x)=0$, $g(x)$ changes from negative to positive. So, the concavity of $f(x)$ changes. Therefore, $f(x)$ has \emph{at least one} inflection point.
+
+Now that we've shown that $f(x)$ has at most one inflection point, and at least one inflection point, we conclude it has exactly one inflection point.
+\flushleft \hyperref [q:3.6.3.6]{A-6:} 
+\eqref{s3.6interval1}
+Let
+\[g(x)=f'(x)\]
+Then $f''(x)$ is the derivative of $g(x)$. Since $f''(x)>0$ for all $x$, $g(x)=f'(x)$ is strictly increasing
+for all $x$.
+In other words, if $y>x$ then $g(y)>g(x)$.
+
+Suppose $g(x)=0$. Then for every $y$ that is larger than $x$, $g(y)>g(x)$, so $g(y) \neq 0$. Similarly, for every $y$ that is smaller than $x$, $g(y)<g(x)$, so $g(y) \neq 0$. Therefore, $g(x)$ can only be zero for at most one value of $x$. Since $g(x)=f'(x)$, that means $f(x)$ can have at most one critical point.
+
+Suppose $f'(c)=0$. Since
+$f'(x)$ is a strictly increasing function, $f'(x)<0$ for all $x<c$ and $f'(x)>0$ for all $x>c$.
+\begin{center}\begin{tikzpicture}
+\draw[ultra thick, <->] (-4,0)--(4,0);
+\YExcoord{0}{c}
+\draw[blue, decorate, decoration={brace, mirror, amplitude=10pt}] (-4.1,-.75)--(0,-.75);
+\draw[blue] (-2,-1.5) node{$x<c$, so};
+\draw[blue] (-2,-2) node{$f'(x)<f'(c)=0$};
+\draw[red, decorate, decoration={brace, amplitude=10pt}] (4.1,-.75)--(0,-.75);
+\draw[red] (2,-1.5) node{$x>c$, so};
+\draw[red] (2,-2) node{$f'(x)>f'(c)=0$};
+\end{tikzpicture}\end{center}
+
+Then $f(x)$ is decreasing for $x<c$ and increasing for $x>c$.
+So $f(x)>f(c)$ for all $x\neq c$.
+
+\begin{center}\begin{tikzpicture}
+\draw[ultra thick, <->] (-4,0)--(4,0);
+\YExcoord{0}{c}
+\draw[blue, decorate, decoration={brace, mirror, amplitude=10pt}] (-4.1,-.75)--(0,-.75);
+\draw[blue] (-2,-1.5) node{$f(x)$ decreasing, so};
+\draw[blue] (-2,-2) node{$f(x)>f(c)$};
+\draw[red, decorate, decoration={brace, amplitude=10pt}] (4.1,-.75)--(0,-.75);
+\draw[red] (2,-1.5) node{$f(x)$ increasing, so};
+\draw[red] (2,-2) node{$f(x)>f(c)$};
+\draw[thick, dashed] (-4,3)--(0,1)--(4,3) node[right]{$y=f(x)$};
+\draw[blue] (-2,2) node[vertex]{};
+\draw (0,1) node[vertex]{};
+\draw[red] (2,2) node[vertex]{};
+\color{blue}\YExcoord{-2}{x<c}
+\color{red}\YExcoord{2}{x>c}
+\end{tikzpicture}\end{center}
+ Since $f(x)>f(c)$ for
+all $x\ne c$, so $c$ is an absolute minimum for $f(x)$.
+
+\eqref{s3.6interval2}
+We know that the maximum over an interval occurs at an endpoint,
+a critical point, or a singular point.
+\begin{itemize}
+\item  Since $f'(x)$ exists everywhere, there are no singular points.
+\item If the maximum were achieved at a critical point, that critical point would
+have to provide both the absolute maximum and the absolute minimum (by part (a)).
+So, the function would have to be a constant and consequently could not have
+a nonzero second derivative. So the maximum is not at a critical point.
+\end{itemize}
+That leaves only the endpoints of the interval.
+\flushleft \hyperref [q:3.6.3.7]{A-7:} 
+If $x=3$ is an inflection point, then the concavity of $f(x)$ changes at $x=3$. That is, there is some interval strictly containing 3, with endpoints $a$ and $b$, such that
+\begin{itemize}
+\item \textcolor{blue}{$f''(a)<0$ and $f''(x)<0$ for every $x$ between $a$ and 3,} and
+\item \textcolor{red}{$f''(b)>0$ and $f''(x)>0$ for every $x$ between $b$ and 3.}
+\end{itemize}
+
+Since $f''(a)<0$ and $f''(b)>0$, and since $f''(x)$ is continuous, the Intermediate Value Theorem tells us that there exists some $x$ strictly between $a$ and $b$ with $f''(x)=0$. So, we know $f''(x)=0$ somewhere between $a$ and $b$. The question is, where exactly could that be?
+
+\begin{itemize}
+\item $f''(x)<0$ (and hence $f''(x) \neq 0$) for all $x$ between $a$ and 3
+\item $f''(x)>0$ (and hence $f''(x) \neq 0$)  for all $x$ between $b$ and 3
+\item So, any number between $a$ and $b$ that is not 3 has $f''(x)\neq 0$.
+\end{itemize}
+So, $x=3$ is the only possible place between $a$ and $b$ where $f''(x)$ could be zero. Therefore, $f''(3)=0$.
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.6.4}}}\phantomsection \label {a ex:s3.6.4} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.6.4} \hspace {2ex} \nameref *{ex:s3.6.4}}
+\flushleft \hyperref [q:3.6.4.1]{A-1:} 
+even
+\flushleft \hyperref [q:3.6.4.2]{A-2:} 
+ odd, periodic
+ 
+\flushleft \hyperref [q:3.6.4.3]{A-3:} 
+\begin{center}\begin{tikzpicture}
+\YEaxis{6}{4}
+\draw plot[domain=0:6, samples=100](\x,{cos(\x r)+\x^2/12-1});
+\draw plot[domain=0:6, samples=100](-\x,{cos(\x r)+\x^2/12-1});
+\end{tikzpicture}\end{center}
+\flushleft \hyperref [q:3.6.4.4]{A-4:} 
+\begin{center}\begin{tikzpicture}
+\YEaxis{6}{4}
+\draw plot[domain=0:6, samples=100](\x,{cos(\x r)+\x^2/12-1});
+\draw plot[domain=0:6, samples=100](-\x,{-cos(\x r)-\x^2/12+1});
+\end{tikzpicture}\end{center}
+\flushleft \hyperref [q:3.6.4.5]{A-5:} 
+A function is even if $f(-x)=f(x)$.
+\begin{align*}
+f(-x)&=\frac{(-x)^4-(-x)^6}{e^{(-x)^2}}\\
+&=\frac{x^4-x^6}{e^{x^2}}\\
+&=f(x)
+\end{align*}
+So, $f(x)$ is even.
+\flushleft \hyperref [q:3.6.4.6]{A-6:} 
+For any real number $x$, we will show that $f(x)=f(x+4\pi)$.
+\begin{align*}
+f(x+4\pi)&=\sin(x+4\pi)+\cos\left(\frac{x+4\pi}{2}\right)\\
+&=\sin(x+4\pi)+\cos\left(\frac{x}{2}+2\pi\right)\\
+&=\sin(x)+\cos\left(\frac{x}{2}\right)\\
+&=f(x)
+\end{align*}
+So, $f(x)$ is periodic.
+\flushleft \hyperref [q:3.6.4.7]{A-7:} 
+even
+\flushleft \hyperref [q:3.6.4.8]{A-8:} 
+none
+\flushleft \hyperref [q:3.6.4.9]{A-9:} 
+1
+\flushleft \hyperref [q:3.6.4.10]{A-10:} 
+$\pi$
+ \par \nicerule \\[2ex]{\large \textbf {No exercises for Section\nobreakspace {}\ref {ex:s3.6.5}}.}\phantomsection \label {a ex:s3.6.5} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.6.5} \hspace {2ex} \nameref *{ex:s3.6.5}}
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.6.6}}}\phantomsection \label {a ex:s3.6.6} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.6.6} \hspace {2ex} \nameref *{ex:s3.6.6}}
+\flushleft \hyperref [q:3.6.6.1]{A-1:} 
+\eqref{s3.62007_1} $(-\infty,3]$
+\\
+\eqref{s3.62007_2} $f(x)$ in increasing on $(-\infty,2)$ and decreasing on $(2,3)$. There is a local maximum at $x=2$ and a local minimum at the endpoint $x=3$.
+\\
+\eqref{s3.62007_3} $f(x)$ is always concave down and has no inflection points.
+\\
+\eqref{s3.62007_4} $(3,0)$
+\\
+\eqref{s3.62007_6}
+\begin{center}\begin{tikzpicture}
+\YEaaxis{3}{6.4}{3}{3}
+\draw plot[domain=-1.5:3, samples=100](2*\x,{\x*sqrt(3-\x)});
+\draw (6,0) node[vertex, label=below:{$(3,0)$}]{};
+\draw (4,2) node[vertex, label=above:{$(2.2)$}]{};
+\end{tikzpicture}
+\end{center}
+
+\flushleft \hyperref [q:3.6.6.2]{A-2:} 
+The open dot is the inflection point, and the closed dot is the local and global maximum.
+\begin{center}
+%\includegraphics{graphE10b}
+\begin{tikzpicture}
+\YEaaxis{5}{5}{4}{1}
+\draw[thick, red] plot[domain=-5:-1.15](\x,{2*(\x*\x*\x-2)/(\x*\x*\x*\x)});
+\draw[thick, red] plot[domain=.9:5](\x,{2*(\x*\x*\x-2)/(\x*\x*\x*\x)});
+\draw (2.7,0.65) node[opendot]{};
+\draw (2,.75) node[vertex, label=above:{$\left(2,\frac{3}{8}\right)$}]{};
+\YExcoord{2}{2}
+\YExcoord{2.7}{\sqrt[3]{20}}
+\YExcoord{1.3}{\sqrt[3]{2}}
+\end{tikzpicture}
+\end{center}
+\flushleft \hyperref [q:3.6.6.3]{A-3:} 
+The open dot marks the inflection point.
+\begin{center}\begin{tikzpicture}
+\YEaxis{6}{4}
+\draw plot[domain=-3:-1.1, samples=50](2*\x,{\x*\x*\x*\x/(1+\x*\x*\x)});
+\draw plot[domain=-0.93:3, samples=100](2*\x,{\x*\x*\x*\x/(1+\x*\x*\x)});
+\draw[dashed](-2,-4)--(-2,-.75) (-2,.5)--(-2,4);
+\YExcoord{-2}{-1}
+\YExcoord{-3.2}{-\sqrt[3]{4}}
+\YExcoord{2.52}{\sqrt[3]{2}}
+\draw (2.53,0.84) node[opendot]{};
+\draw (0,0) node[vertex]{};
+\draw (-3.2,-2.12) node[vertex]{};
+\end{tikzpicture}\end{center}
+\flushleft \hyperref [q:3.6.6.4]{A-4:} 
+\begin{center}
+%\includegraphics{graphE5}
+\begin{tikzpicture}
+\YEaxis{6}{4}
+\draw plot[domain=-3:-1.08, samples=50](2*\x,{\x*\x*\x/(1-\x*\x)/2});
+\draw plot[domain=-.945:.945, samples=50](2*\x,{\x*\x*\x/(1-\x*\x)/2});
+\draw plot[domain=1.08:3, samples=50](2*\x,{\x*\x*\x/(1-\x*\x)/2});
+\YExcoord{-2}{-1}
+\YExcoord{2}{1}
+\YExcoord{-3.46}{-\sqrt{3}}
+\YExcoord{3.46}{\sqrt{3}}
+\YEycoord{1.3}{\frac{3\sqrt{3}}{2}}
+\YEycoord{-1.3}{-\frac{3\sqrt{3}}{2}}
+\draw[dashed] (-2,-4)--(-2,-1) (-2,.5)--(-2,4);
+\draw[dashed] (2,-4)--(2,-1) (2,.5)--(2,4);
+\draw(-3.46,1.3) node[vertex]{};
+\draw(3.46,-1.3) node[vertex]{};
+\draw(0,0) node[opendot]{};
+\end{tikzpicture}
+\end{center}
+\flushleft \hyperref [q:3.6.6.5]{A-5:} 
+\eqref{s3.6_2006_a}
+One branch of the function,
+the exponential function $e^x$, is continuous everywhere. So $f(x)$ is continuous for $x<0$. When $x \geq 0$, $f(x)=\dfrac{x^2+3}{3(x+1)}$, which is continuous whenever $x \neq -1$ (so it's continuous for all $x >0$). So, $f(x)$ is continuous for $x>0$. To see that $f(x)$ is continuous at $x=0$, we see:
+\begin{align*}
+\lim_{x\rightarrow0-}f(x)=\lim_{x\rightarrow0-}e^x&=1\\
+\lim_{x\rightarrow0+}f(x)=\lim_{x\rightarrow0+}\frac{x^2+3}{3(x+1)}&=1\\
+\mbox{So, }~\lim_{x \rightarrow 0}f(x)&=1=f(0)
+\end{align*}
+Hence $f(x)$ is continuous at $x=0$, so $f(x)$ is continuous everywhere.\\
+\eqref{s3.6_2006_b}
+i.\\  $f(x)$ is increasing for $x<0$ and $x>1$, decreasing for $0<x<1$,
+            has a local max at $(0,1)$, and has a local min at $\left(1,\frac{2}{3}\right)$.\\
+ii.\\ $f(x)$ is concave upwards for all $x\ne 0$.\\
+iii.\\ The $x$--axis is a horizontal asymptote as $x\rightarrow-\infty$.
+
+\eqref{s3.6_2006_c}
+%\centerline{\figput{OE06D_3}}
+\begin{center}\begin{tikzpicture}
+\YEaaxis{3}{3}{.5}{2}
+\draw[thick] plot[domain=-3:0](\x,{exp(\x)});
+\draw (0,1) node[vertex, label=above left:{$(0,1)$}]{};
+\draw[thick] plot[domain=0:3](\x,{(\x*\x+3)/(3*\x+3)});
+\draw (1,2/3) node[vertex, label=above:{$(1,\frac{2}{3})$}]{};
+\end{tikzpicture}\end{center}
+\flushleft \hyperref [q:3.6.6.6]{A-6:} 
+\begin{center}\includegraphics{graphE12}\end{center}
+\flushleft \hyperref [q:3.6.6.7]{A-7:} 
+\eqref{s3.62009_2}
+Increasing: $(-1,1)$\qquad decreasing: $(-\infty,-1)\cup (1,\infty)$\\
+concave up: $(-\sqrt{3},0) \cup (\sqrt{3},\infty)$\qquad concave down: $(-\infty,-\sqrt{3}) \cup (0 ,\sqrt{3})$\\
+inflection points: $x=\pm\sqrt{3}, 0$
+
+\eqref{s3.62009_3}
+The local and global minimum of $f(x)$ is at $(-1,\frac{-1}{\sqrt{e}})$, and the local and global maximum of $f(x)$ is at $(1,\frac{1}{\sqrt{e}})$.
+
+\eqref{s3.62009_4}
+In the graph below, open dots are inflection points, and
+solid dots are extrema.
+\begin{center}\begin{tikzpicture}
+\YEaxis{6.5}{3};
+\draw[thick] plot[domain=-3:3, scale=2, samples=100](\x,{2*\x*exp(-\x*\x/2)});
+\draw (3.5,1.54) node[opendot]{};
+\draw (-3.5,-1.53) node[opendot]{};
+\YExcoord{-2}{-1}
+\YExcoord{2}{1}
+\draw (-3.5,.2) -- (-3.5,-.05) node[below]{$-\sqrt{3}$};
+\YExcoord{3.5}{\sqrt{3}}
+\YEycoord{-2.4}{\dfrac{-1}{\sqrt e}}
+\YEycoord{2.4}{\dfrac{1}{\sqrt e}}
+\draw (2,2.4) node[vertex]{};
+\draw (-2,-2.4) node[vertex]{};
+\end{tikzpicture}\end{center}
+\flushleft \hyperref [q:3.6.6.8]{A-8:} 
+Local maxima occur at $x=\frac{2\pi}{3}+2\pi n$ for all integers $n$, and local minima occur at $x=-\frac{2\pi}{3}+2\pi n$ for all integers $n$. Inflection points occur at
+every integer multiple of $\pi$.
+\begin{center}
+\begin{tikzpicture}
+\YEaxis{5.5}{5.5};
+\draw[thick] plot[domain=-15:15, samples=100](\x/3,{(\x+2*sin(\x r))/3});
+\foreach \x in {2,4,8,10,14}
+{\YExcoord{\x*3.14/9}{\frac{\x \pi}{3}}
+\YExcoord{-\x*3.14/9}{\frac{-\x \pi}{3}}
+}
+\end{tikzpicture}
+\end{center}
+\flushleft \hyperref [q:3.6.6.9]{A-9:} 
+Below is the graph $y=f(x)$ over the interval $[-\pi,\pi]$. The sketch of the curve over a larger domain is simply a repetition of this figure.
+
+\begin{center}\begin{tikzpicture}
+\YEaaxis{4}{4}{3.5}{6.5}
+\draw plot[domain=-3.14:3.14, samples=100](\x,{4*sin (\x r)-2*cos(2*\x r)});
+\draw (3.14,.2)--(3.14,-.2) node[below]{$\pi$};
+\draw (-3.14,.2)--(-3.14,-.2) node[below]{$-\pi$};
+\draw (1.57,.2)--(1.57,-.2) node[below]{$\frac{\pi}{2}$};
+\draw (-1.57,.2)--(-1.57,-.2) node[below]{$-\frac{\pi}{2}$};
+\draw (-.52,.2)--(-.52,-.5) node[below]{$-\frac{\pi}{6}$};
+\draw (-2.62,.2)--(-2.62,-.5) node[below]{$-\frac{5\pi}{6}$};
+\draw[blue] (.635,-.1)--(.635,.5) node[above]{$a$};
+\draw[blue] (-1.003,-.1)--(-1.003,.5) node[above]{$b$};
+\draw[blue] (2.5,-.1)--(2.5,.5) node[above]{$\pi-a$};
+\draw[blue] (-2.14,-.1)--(-2.14,.5) node[above]{$-\pi-b$};
+\draw (-.2,6)--(.2,6) node[right]{$6$};
+\draw (-.2,-3)--(.2,-3) node[right]{$-3$};
+\draw (-.2,-2)--(.2,-2) node[right]{$-2$};
+\draw[blue] (.635,1.78) node[opendot]{};%a
+\draw[blue] (-1,-2.53) node[opendot]{};%b
+\draw[blue] (2.5,1.78) node[opendot]{};%-a+pi;
+\draw[blue] (-2.14,-2.53) node[opendot]{};%-b-pi
+\end{tikzpicture}\end{center}
+On the interval $[0,\pi]$, the maximum value of $f(x)$ is $6$ and the minimum value is $-2$.
+
+Let \textcolor{blue}{$a=\sin^{-1}\left(\dfrac{-1+\sqrt{33}}{8}\right)\approx 0.635\approx0.2\pi$} and
+\textcolor{blue}{$b=\sin^{-1}\left(\dfrac{-1-\sqrt{33}}{8}\right)\approx -1.003\approx -0.3\pi$}. The points \textcolor{blue}{$-\pi-b$}, \textcolor{blue}{$b$}, \textcolor{blue}{$a$}, and $\textcolor{blue}{\pi-a}$ are inflection points.
+
+\flushleft \hyperref [q:3.6.6.10]{A-10:} 
+The closed dot is the local minimum, and the open dots are inflection points at $x=-1$ and $x=-2\pm\sqrt{1.5}$. The graph has horizontal asymptotes $y=0$ as $x$ goes to $\pm \infty$.
+\begin{center}\begin{tikzpicture}
+\clip (-8.25,-2.75) rectangle(6.5,5.5);
+\YEaaxis{8}{6}{2.5}{5}
+\color{red}
+\draw[thick, red] plot[domain=0.3:3, samples=100](2*\x,{2*((\x+1)/(\x*\x))^(1/3)});
+\draw[thick, red] plot[domain=-4:-1.001, samples=100](2*\x,{-2*((-1-\x)/(\x*\x))^(1/3)});
+\draw[thick, red] plot[domain=-.9999:-0.23, samples=100](2*\x,{2*((1+\x)/(\x*\x))^(1/3)});
+\draw(-4,-1.26) node[vertex]{};
+\draw(-6.22,-1.2) node[opendot]{};
+\draw(-1.55,1.44) node[opendot]{};
+\color{black}
+\foreach \x in {-1,-2}{\YExcoord{2*\x}{\x}}
+\foreach \y in {-1,1}{\YEycoord{2*\y}{\y}}
+\draw[red](-2,0) node[opendot]{};
+\end{tikzpicture}\end{center}
+\flushleft \hyperref [q:3.6.6.11]{A-11:} 
+\eqref{s3.6K1} decreasing for $x<0$ and $x>2$, increasing for $0 < x < 2$, minimum at $(0,0)$, maximum at $(2,2)$.\\
+\eqref{s3.6K2} concave up for $x<2-\sqrt{2}$ and $x>2+\sqrt{2}$, concave down for $2-\sqrt 2 < x < 2+\sqrt 2$, inflection points at $x = 2\pm \sqrt{2}$.
+\\ \eqref{s3.6K3}$\infty$
+
+\eqref{s3.6K4}
+%\begin{center}
+%\includegraphics{graphE11}
+%\end{center}
+Open dots indicate inflection points, and closed dots indicate local extrema.
+\begin{center}\begin{tikzpicture}[scale=1.2]
+\YEaaxis{1}{6.2}{.25}{4}
+\draw[thick] plot[domain=-.72:6, samples=100](\x,{3.7*\x*\x*exp(-\x)});
+\draw (0,0) node[vertex]{};
+\draw (2,2) node[vertex]{};
+\draw (0.59,0.7) node[opendot]{};
+\draw (3.4,1.4) node[opendot]{};
+\YExcoord{2}{2}
+\YExcoord{0.59}{2-\sqrt 2}
+\YExcoord{3.4}{2+\sqrt 2}
+\end{tikzpicture}\end{center}
+\flushleft \hyperref [q:3.6.6.12]{A-12:} 
+\eqref{s3.62010exp1}
+\begin{center}\begin{tikzpicture}
+\YEaaxis{2}{6}{1}{6}
+\draw[thick] plot[domain=0:5.5, samples=100](\x,{exp(-\x)}) node[above]{$y=f(x)$};
+\YEycoord{1}{1};
+\YExcoord{1}{1};
+\draw (0,1) node[vertex]{};
+\end{tikzpicture}\end{center}
+There are no inflection points or extrema, except the endpoint $(0,1)$.
+
+\eqref{s3.62010exp4}
+
+\begin{center}\begin{tikzpicture}
+\YEaaxis{2}{6}{2}{6}
+\draw[thick, blue] plot[domain=0:5.5, samples=100]({exp(-\x)},\x) ;
+\draw[blue] (1,1)node[right]{$y=g(x)$};
+\YEycoord{1}{1};
+\YExcoord{1}{1};
+\draw[blue](1,0) node[vertex]{};
+\end{tikzpicture}\end{center}
+There are no inflection points or extrema, except the endpoint $(1,0)$.
+
+\eqref{s3.62010exp2}
+The domain of $g$ is  $(0,1]$.
+The range of $g$ is $[0,\infty)$.
+
+\eqref{s3.62010exp3}
+$g'(\half)=-2$
+\flushleft \hyperref [q:3.6.6.13]{A-13:} 
+(a)
+\begin{center}\begin{tikzpicture}
+\YEaxis{4}{4}
+\draw[thick] plot[domain=-1.3:1.3, yscale=1.5, xscale=3, samples=100](\x,{\x*\x*\x*\x*\x-\x});
+\draw (-2,.2) --(-2,-.2)node[below]{$\frac{-1}{\sqrt[4]{5}}$};
+\draw (2,-.2) --(2,.2)node[above]{$\frac{1}{\sqrt[4]{5}}$};
+\draw (.2,.78)--(-.2,.78) node[left]{$\frac{4}{5\sqrt[4]{5}}$};
+\draw (.2,-.78)--(-.2,-.78) node[left]{$\frac{-4}{5\sqrt[4]{5}}$};
+\end{tikzpicture}\end{center}
+Local  maximum at $x=-\frac{1}{\sqrt[4]{5}}$;
+local  minimum at $x=\frac{1}{\sqrt[4]{5}}$;
+inflection point at the origin;
+concave down for $x<0$ ; concave up for $x>0$.
+
+(b) The number of distinct real roots of $x^5-x+k$ is:
+\begin{itemize}
+\item 1 when $|k|>\dfrac{4}{5\root{4}\of{5}}$
+\item 2 when $|k|=\dfrac{4}{5\root{4}\of{5}}$
+\item 3 when $|k|<\dfrac{4}{5\root{4}\of{5}}$
+\end{itemize}
+\flushleft \hyperref [q:3.6.6.14]{A-14:} 
+(a)
+\begin{center}
+\begin{tikzpicture}
+\YEaxis{3}{3}
+\draw plot[domain=-3:3, scale=0.3](\x,{sinh(\x)});
+\draw (2,3) node[right]{$y=\sinh x$};
+\end{tikzpicture}
+\begin{tikzpicture}
+\YEaaxis{3}{3}{.5}{3}
+\draw plot[domain=-3:3, scale=0.3](\x,{cosh(\x)});
+\draw (2,3) node[right]{$y=\cosh x$};
+\draw (.2,.3)--(-.4,.3) node[left]{1};
+\draw (0,-3) node{};
+\end{tikzpicture}\end{center}
+
+(b)
+For any real $x$, define $\sinh^{-1}(x)$ to be
+the unique solution of $\sinh(y)=x$. For every $x\in[1,\infty)$, define $\cosh^{-1}(x)$ to be the
+unique $y\in[0,\infty)$ that obeys $\cosh(y)=x$.
+
+\begin{center}
+\begin{tikzpicture}
+\YEaxis{3}{2}
+\draw[blue, very thick] plot[domain=-3:3, scale=0.3]({sinh(\x)},\x);
+\draw[blue] (1.5,1.25) node[right]{$y=\sinh^{-1} x$};
+\end{tikzpicture}\hfill
+\begin{tikzpicture}
+\YEaaxis{3}{3}{.5}{2}
+\draw[blue, very thick] plot[domain=0:3, scale=0.3]({cosh(\x)},\x);
+\draw[blue] (1.5,1.25) node[right]{$y=\cosh^{-1} x$};
+\draw (0,-2) node{};
+\end{tikzpicture}
+\end{center}
+
+(c) $\ds\diff{}{x}\{\cosh^{-1}(x)\}=\dfrac{1}{\sqrt{x^2-1}}$
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s3.7}}}\phantomsection \label {a ex:s3.7} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s3.7} \hspace {2ex} \nameref *{ex:s3.7}}
+\flushleft \hyperref [q:3.7.0.1]{A-1:} 
+ There are many possible answers. Here is one: $f(x)=5x$, $g(x)=2x$.
+\flushleft \hyperref [q:3.7.0.2]{A-2:} 
+ There are many possible answers. Here is one: $f(x)=x$, $g(x)=x^2$.
+\flushleft \hyperref [q:3.7.0.3]{A-3:} 
+ There are many possible answers. Here is one: $f(x)=1+\frac{1}{x}$, $g(x)=x\log 5$ (recall we use $\log$ to mean logarithm base $e$).
+\flushleft \hyperref [q:3.7.0.4]{A-4:} 
+  $-\dfrac{2}{\pi}$
+\flushleft \hyperref [q:3.7.0.5]{A-5:} 
+ $-\infty$
+\flushleft \hyperref [q:3.7.0.6]{A-6:} 
+0
+\flushleft \hyperref [q:3.7.0.7]{A-7:} 
+ 0
+\flushleft \hyperref [q:3.7.0.8]{A-8:} 
+ 3
+\flushleft \hyperref [q:3.7.0.9]{A-9:} 
+$2$
+\flushleft \hyperref [q:3.7.0.10]{A-10:} 
+ 0
+\flushleft \hyperref [q:3.7.0.11]{A-11:} 
+ $\frac{1}{2}$
+\flushleft \hyperref [q:3.7.0.12]{A-12:} 
+ 0
+\flushleft \hyperref [q:3.7.0.13]{A-13:} 
+$5$
+\flushleft \hyperref [q:3.7.0.14]{A-14:} 
+ $\infty$
+\flushleft \hyperref [q:3.7.0.15]{A-15:} 
+ 3
+\flushleft \hyperref [q:3.7.0.16]{A-16:} 
+ $\frac{3}{2}$
+\flushleft \hyperref [q:3.7.0.17]{A-17:} 
+ 0
+\flushleft \hyperref [q:3.7.0.18]{A-18:} 
+ $\frac{1}{3}$
+\flushleft \hyperref [q:3.7.0.19]{A-19:} 
+ 0
+\flushleft \hyperref [q:3.7.0.20]{A-20:} 
+ $\frac{1}{\sqrt{e}}$
+\flushleft \hyperref [q:3.7.0.21]{A-21:} 
+ 1
+\flushleft \hyperref [q:3.7.0.22]{A-22:} 
+ 1
+\flushleft \hyperref [q:3.7.0.23]{A-23:} 
+ $c=0$
+\flushleft \hyperref [q:3.7.0.24]{A-24:} 
+$\lim\limits_{x\rightarrow 0}\dfrac{e^{k\sin(x^2)}-(1+2x^2)}{x^4}=\left\{\begin{array}{rl}
+-\infty&k<2\\
+2&k=2\\
+\infty&k>2
+\end{array}\right.$
+\flushleft \hyperref [q:3.7.0.25]{A-25:} 
+\begin{itemize}
+\item We want to find the limit as $n$ goes to infinity of the percentage error,
+$\ds\lim_{n \rightarrow \infty} 100\frac{|S(n)-A(n)|}{|S(n)|}$. Since $A(n)$ is a nicer function than $S(n)$, let's simplify: $\ds\lim_{n \rightarrow \infty} 100\frac{|S(n)-A(n)|}{|S(n)|} = 100\left|1-\ds\lim_{n \to \infty}\frac{A(n)}{S(n)}\right|$.
+
+We  figure out this limit the natural way:
+\begin{align*}
+100\left|1-\ds\lim_{n \to \infty}\frac{A(n)}{S(n)}\right|&=
+100\left|1-\ds\lim_{n \rightarrow \infty}\underbrace{\frac{5n^4}{5n^4-13n^3-4n+\log (n)}}_{\atp
+{\mathrm{num}\to\infty}
+{\mathrm{den}\to\infty}}\right|\\
+&=
+100\left|1-\ds\lim_{n \rightarrow \infty}\frac{20n^3}{20n^3-39n^2-4+\frac{1}{n}}\right|\\
+&=
+100\left|1-\ds\lim_{n \rightarrow \infty}\frac{n^3}{n^3}\cdot\frac{20}{20-\frac{39}{n}-\frac{4}{n^3}+\frac{1}{n^4}}\right|\\
+&=100|1-1|=0
+\end{align*}
+So, as $n$ gets larger and larger, the relative error in the approximation gets closer and closer to 0.
+
+\item Now, let's look at the absolute error.
+\begin{align*}
+\lim_{n \rightarrow \infty} \left| S(n)-A(n)\right|&=\lim_{n \rightarrow \infty} |-13n^3-4n+\log n|=\infty
+\end{align*}
+So although the error gets small \emph{relative to the giant numbers we're talking about}, the absolute error grows without bound.
+\end{itemize}
+ \par \nicerule \\[2ex]{\large \textbf {Answers to Exercises\nobreakspace {}\ref {ex:s4.1}}}\phantomsection \label {a ex:s4.1} --- Jump to \hyperlink {toc}{\textsc {table of contents}} \addcontentsline {toc}{section}{\ref*{ex:s4.1} \hspace {2ex} \nameref *{ex:s4.1}}
+\flushleft \hyperref [q:4.1.0.1]{A-1:} 
+$F(x)=f(x)+C$
+\flushleft \hyperref [q:4.1.0.2]{A-2:} 
+\textcolor{red}{$C(x)$}
+\flushleft \hyperref [q:4.1.0.3]{A-3:} 
+$F(x)=x^3+x^5+5x^2-9x+C$
+\flushleft \hyperref [q:4.1.0.4]{A-4:} 
+$F(x)=\dfrac{3}{40}x^8-\dfrac{18}{5}x^5+\dfrac{1}{2}x^2+C$
+\flushleft \hyperref [q:4.1.0.5]{A-5:} 
+$F(x)=3x^{\tfrac{4}{3}}+\dfrac{45}{17x^{1.7}}+C$
+\flushleft \hyperref [q:4.1.0.6]{A-6:} 
+$F(x)=\dfrac{2}{7}\sqrt{x}+C$
+\flushleft \hyperref [q:4.1.0.7]{A-7:} 
+$F(x)=\dfrac{1}{5}e^{5x+11}+C$
+\flushleft \hyperref [q:4.1.0.8]{A-8:} 
+$F(x)=-\dfrac{3}{5}\cos(5x)+\dfrac{7}{13}\sin(13x)+C$
+\flushleft \hyperref [q:4.1.0.9]{A-9:} 
+$F(x)=\tan(x+1)+C$
+\flushleft \hyperref [q:4.1.0.10]{A-10:} 
+$F(x)=\log|x+2|+C$
+\flushleft \hyperref [q:4.1.0.11]{A-11:} 
+$F(x)=\dfrac{7}{\sqrt{3}}\arcsin(x)+C$
+\flushleft \hyperref [q:4.1.0.12]{A-12:} 
+$F(x)=\dfrac{1}{5}\arctan(5x)+C$
+\flushleft \hyperref [q:4.1.0.13]{A-13:} 
+$f(x)=x^3-\dfrac{9}{2}x^2+4x+\dfrac{19}{2}$
+\flushleft \hyperref [q:4.1.0.14]{A-14:} 
+$f(x)=\dfrac{1}{2}\sin(2x)+\pi$
+\flushleft \hyperref [q:4.1.0.15]{A-15:} 
+$f(x)=\log|x|$
+\flushleft \hyperref [q:4.1.0.16]{A-16:} 
+$f(x)=\arcsin x+x - \pi-1$
+\flushleft \hyperref [q:4.1.0.17]{A-17:} 
+It takes $\frac{1}{2}\log 7$ hours (about 58 minutes) for the initial colony to increase by 300 individuals.
+\flushleft \hyperref [q:4.1.0.18]{A-18:} 
+At time $t$, the amount of money in your bank account is $75000e^{\tfrac{t}{50}}+C$ dollars, for some constant $C$.
+\flushleft \hyperref [q:4.1.0.19]{A-19:} 
+$\dfrac{24}{\pi}+6\approx13.6$ kWh
+\flushleft \hyperref [q:4.1.0.20]{A-20:} 
+$f'(x)=g'(x)=\dfrac{1}{\sqrt{x-x^2}}$; $f$ and $g$ differ only by a constant.
+\flushleft \hyperref [q:4.1.0.21]{A-21:} 
+$F(x)=\sin(2x)\cos(3x)+C$
+\flushleft \hyperref [q:4.1.0.22]{A-22:} 
+$F(x)=\dfrac{e^x}{x^2+1}+C$
+\flushleft \hyperref [q:4.1.0.23]{A-23:} 
+$F(x)=e^{x^3}+C$
+\flushleft \hyperref [q:4.1.0.24]{A-24:} 
+$F(x)=-\dfrac{5}{2}\cos(x^2)+C$
+\flushleft \hyperref [q:4.1.0.25]{A-25:} 
+$F(x)=\dfrac{1}{2}x^2+C$.
+\flushleft \hyperref [q:4.1.0.26]{A-26:} 
+$F(x)=7\arcsin\left(\dfrac{x}{\sqrt{3}}\right)+C$
+\flushleft \hyperref [q:4.1.0.27]{A-27:} 
+$V(H)=2\pi\left(\dfrac{1}{5}H^5+\dfrac{2}{3}H^3+H\right)$
